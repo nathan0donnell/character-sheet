@@ -27,7 +27,7 @@ def get_character_name(file_path):
         character_name = character['entities'][character_id]['labels']['en']['value']
         return character_name
     except:
-        return "Error Finding Name"
+        return "N/A"
 
 # the character description, in english, is found in the file and is returned as a string
 def get_character_desc(file_path):
@@ -37,7 +37,7 @@ def get_character_desc(file_path):
         character_desc = character['entities'][character_id]['descriptions']['en']['value']
         return character_desc
     except:
-        return "Error Finding Description"
+        return "N/A"
 
 # a list of aliases the character has, in english, is found in the file and is returned as a list of strings
 def get_character_aliases(file_path):
@@ -54,4 +54,4 @@ def get_character_aliases(file_path):
                character['entities'][character_id]['aliases']['en'][i]['value'])
         return character_aliases
     except:
-        return "Error Finding Aliases"
+        return "N/A"

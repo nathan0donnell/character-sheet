@@ -1,0 +1,305 @@
+{
+  "entities": {
+    "Q56300111": {
+      "pageid": 56238683,
+      "ns": 0,
+      "title": "Q56300111",
+      "lastrevid": 1311762571,
+      "modified": "2020-11-23T12:22:23Z",
+      "type": "item",
+      "id": "Q56300111",
+      "labels": {
+        "fr": { "language": "fr", "value": "Amy Santiago" },
+        "en": { "language": "en", "value": "Amy Santiago" },
+        "de": { "language": "de", "value": "Amy Santiago" },
+        "sq": { "language": "sq", "value": "Amy Santiago" }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "fictional character from the television series Brooklyn Nine-Nine"
+        },
+        "de": {
+          "language": "de",
+          "value": "fiktive Figur aus der Fernsehserie Brooklyn Nine-Nine"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f963dc19bd5650f5822ec55162163e4a826d8cf0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15632617,
+                  "id": "Q15632617"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$56CAE239-D80E-4EAC-8485-9BA1CF847F9F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "29d6e6de9e4e48dd1692512778e3f46581c6b976",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15773317,
+                  "id": "Q15773317"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$AC946D5B-EFDD-4E67-9DBD-DBC5B3035E2F",
+            "rank": "normal"
+          }
+        ],
+        "P27": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P27",
+              "hash": "52d0408c7915122e0519a22577f0cbdcb28f749b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$C231BC88-6C0C-4B56-AC95-2250549BDC80",
+            "rank": "normal"
+          }
+        ],
+        "P1412": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1412",
+              "hash": "7056615ebf0fbde82a3ca3bb9b2c481669a46eb1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$8DC11202-AD67-4170-AFA8-6CF3F12B9E14",
+            "rank": "normal"
+          }
+        ],
+        "P106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P106",
+              "hash": "83d97ea1bcb63877fd51656e8b75bb792f774683",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 76451271,
+                  "id": "Q76451271"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$DD2BE9CD-D0B5-4D42-94AD-5E2E898C4E04",
+            "rank": "normal"
+          }
+        ],
+        "P108": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P108",
+              "hash": "0658bda83d1cdd20b49927f02fe500808e536d52",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 328473,
+                  "id": "Q328473"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$74F7364B-8862-4EA3-A9FC-8C10B9BB1A47",
+            "rank": "normal"
+          }
+        ],
+        "P21": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P21",
+              "hash": "5760796ff6ebc63aae12cdcbf509b07ebf0bd201",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6581072,
+                  "id": "Q6581072"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$a7542ce5-472c-176f-75e1-3d894b16deec",
+            "rank": "normal"
+          }
+        ],
+        "P735": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P735",
+              "hash": "be90c7d122a1b79c44c7af2f70fb484285b79058",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 481809,
+                  "id": "Q481809"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$0d7026c3-4236-6187-2e5f-18cf77af5102",
+            "rank": "normal"
+          }
+        ],
+        "P734": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P734",
+              "hash": "34b458450649eee487f3e181f50f4a6ada4edf45",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16882643,
+                  "id": "Q16882643"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$93fcf2b6-439a-75df-39dc-e6618e085ddb",
+            "rank": "normal"
+          }
+        ],
+        "P1441": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1441",
+              "hash": "b84b86d6c1b3a1152557981fe9ca710b3a71db7d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13417244,
+                  "id": "Q13417244"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P175": [
+                {
+                  "snaktype": "value",
+                  "property": "P175",
+                  "hash": "7e0d892b3b801377c0c05383ab228e9dfa6defc2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6812701,
+                      "id": "Q6812701"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P175"],
+            "id": "Q56300111$138dae49-4369-ebd4-678e-445d0db2394f",
+            "rank": "normal"
+          }
+        ],
+        "P175": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P175",
+              "hash": "7e0d892b3b801377c0c05383ab228e9dfa6defc2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6812701,
+                  "id": "Q6812701"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$d25a329a-4339-87c5-badd-618049c6b7ed",
+            "rank": "normal"
+          }
+        ],
+        "P26": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P26",
+              "hash": "57563119700c47f4d68dbbeb291b4391f6e31594",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26257931,
+                  "id": "Q26257931"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q56300111$968bce29-43de-597b-44a7-937771b9ccec",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "frwiki": { "site": "frwiki", "title": "Amy Santiago", "badges": [] }
+      }
+    }
+  },
+  "success": 1
+}
