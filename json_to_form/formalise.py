@@ -1,131 +1,200 @@
 import json
+from flask import request
 
-# converting dictionary to form method
-def json_to_form(jtext, iprev):
-    i = iprev  # keeping track of index
-    text = ""
-    newI = 0  # keeps track of index over recursive steps
-    is_label = True
+# js = JSON file in dictionary format
+# Every name/value pair is dictionary with another key called type
+# Path is where you are currently at in the dictionary
+# file_path is the path to the file which we write to
 
-    # iterating through every character in jtext
-    while i < len(jtext):
-        # white space check
-        if jtext[i] == " ":
-            i += 1
 
-        # Quotation marks check - using both " and ' - used for values
-        elif jtext[i] == '"' or jtext[i] == "'":
-            i += 1
-            name = ""
-            while jtext[i] != '"' and jtext[i] != "'":
-                name += jtext[i]
-                if i < len(jtext):
-                    i += 1
-                else:
-                    break
-            if is_label:  # if its on the left side of the : sign
-                text += (
-                    '\n<br><label for="'
-                    + name
-                    + '" style="margin-right:30px; text-align:right">'
-                    + name.capitalize()
-                    + ":</label>"
-                )
-            elif len(name) > 15:  # if its on the right side of the : sign
-                text += (
-                    '\n<textarea name="'
-                    + name
-                    + 'desc" rows = "3" cols = "40" name = "desc">'
-                    + name
-                    + "</textarea><br>"
-                )
-            else:
-                text += (
-                    '\n<input type="text" id="name" name="'
-                    + name
-                    + 'name" value="'
-                    + name
-                    + '"/><br>'
-                )
-            is_label = True
-            i += 1
+def json_to_elements(js, char_form, path, label):
+    if isinstance(js, dict):
+        return dict_to_element(js, char_form, path, label)
+    elif isinstance(js, list):
+        return list_to_element(js, char_form, path, label)
+    elif isinstance(js, str):
+        return str_to_element(js, char_form, path, label)
+    elif isinstance(js, int):
+        return int_to_element(js, char_form, path, label)
+    else:
+        return -1
 
-        # Digit check - used for values such as IDs
-        elif jtext[i].isdigit():
-            num = ""
-            while jtext[i].isdigit():
-                num += jtext[i]
-                i += 1
-            text += (
-                '\n<input type="text" id="name" name="'
-                + num
-                + '" value="'
-                + num
-                + '"/>'
-            )
-            is_label = True
 
-        # colon check - indicates equality
-        elif jtext[i] == ":":
-            is_label = False
-            i += 1
+'''
+        elif isinstance(js, float):
+                return float_to_element(js, file_path, path)
+        elif isinstance(js, bool):
+                return bool_to_element(js, file_path, path)
+        '''
 
-        # open curly brackets check - indicates a new dictionary
-        elif jtext[i] == "{":
-            arr = json_to_form(jtext, i + 1)
-            subsection_text = arr[0]
-            i = arr[1]
-            # subsection_text = subsection_text.replace("\n<br>", "\n<br>") #
-            text+="<div style=\"padding: 20px;\">"
-            text += subsection_text
+# continue on in same fashion as above int_to_form, string_to_form and implement them as suitable.
 
-        # close curly brackets check - indicates a dictionary closing
-        elif jtext[i] == "}":
-            i += 1
-            newI = i
-            text+="</div>"
-            return [text, newI]
+# path_to_id method escapes the path converting it to an appropriate element name
+# By using paths like urls we should be able to take submitted form data and fully reconstruct the original json just from the form ids and the paths
 
-        # open hard brackets check - indicates a new array
-        elif jtext[i] == "[":
-            # text += "[\n<br>"
-            i += 1
-        # close hard brackets check - indicates an array closing
-        elif jtext[i] == "]":
-            # text += "]"
-            i += 1
 
-        # comma check - indcates an attributes ending
-        elif jtext[i] == ",":
-            text += "\n<br>"
-            is_label = True
-            i += 1
+def path_to_id(path):
+    # special characters list
+    special_characters = ['!', '"', '#', '$', '%', '&', '\'',
+                          '(', ')', '*', '+', ',', '-', '.', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~']
 
-        # catching all other characters - error handling
-        else:
-            text += ""
-            i += 1
+    # converting special characters to unicode value
+    for i in special_characters:
+        path = path.replace(i, ("--"+str(ord(i))+"-"))
 
-    return [text, newI]
+    # Converts _ to __
+    path = path.replace('_', '__')
 
+    # Converts / to _
+    path = path.replace('/', '_')
+    return path
+
+
+def id_to_path(eID):
+    # Converts _ to /
+    eID = eID.replace('_', '/')
+
+    # Converts // to /
+    eID = eID.replace('/', '/')
+
+    # converting unicode value to special characters
+    while '--' in eID:
+        index = eID.index("--")  # find the special character indicator
+        number = ""
+        index += 2  # skip to the number part
+        while eID[index].isdigit():
+            number += eID[index]  # finding the unicode value
+            index += 1
+        specialCh = "--"+number+"-"
+        # replacing unicode value with character
+        eID = eID.replace(specialCh, chr(int(number)))
+        # have to account for replacing "_-"+number+"_" with one character, decrease index by appropriate amount
+        index -= len(number)+2
+    return eID
+
+
+def dict_to_element(js, char_form, path, label):
+    # need to open char_form or else it will not be defined
+    char_form.write("\n<ul><li><div id='" +
+                    path_to_id(path)+"'><h3>"+label+"</h3>")
+    for key in js:
+        json_to_elements(js[key], char_form, path+"/"+str(key), str(key))
+    char_form.write("\n</div></li></ul>")
+
+
+def list_to_element(js, char_form, path, label):
+    # placeholder code
+    char_form.write("\n<div id='"+path_to_id(path)+"'><h3>"+label+"</h3>")
+    for key, val in enumerate(js):
+        json_to_elements(val, char_form, path+"/"+str(key),
+                         str(key))  # needs to be cast or wont work
+    char_form.write("\n</div></li></ul>")
+
+
+def str_to_element(js, char_form, path, label):
+    elementId = path_to_id(path)
+
+    # adding html code
+    char_form.write("\n<div id='"+elementId+"'>")
+    char_form.write('\n<br><label for="' + elementId +
+                    '">' + label.capitalize() + ":</label>")
+    if len(js) > 15:
+        char_form.write('\n<textarea id="' + elementId +
+                        '" name=' + elementId +
+                        '" rows = "3" cols = "40">' + js + "</textarea><br>")
+    else:
+        char_form.write('\n<input type="text" id="' + elementId +
+                        '" name=' + elementId +
+                        '" value="' + js + '"/><br>')
+    char_form.write("\n</div>")
+
+
+def int_to_element(js, char_form, path, label):
+    elementId = path_to_id(path)
+
+    # adding html code
+    char_form.write("\n<div id='"+elementId+"'>")
+    char_form.write('\n<br><label for="' + elementId +
+                    '" name=' + elementId +
+                    '" >' + label.capitalize() +
+                    ":</label>")
+    if len(str(js)) > 15:
+        char_form.write('\n<textarea id="' + elementId +
+                        '" name=' + elementId +
+                        '" rows = "3" cols = "40">' +
+                        str(js) + "</textarea><br>")
+    else:
+        char_form.write('\n<input type="text" id="' +
+                        elementId+'" value="' + str(js) + '"/><br>')
+    char_form.write("\n</div>")
 
 # create form method with the file path to the JSON file
+
+
 def create_form(jpath):
+
+    # loading the JSON
     with open(jpath, "r") as read_file:
-        jfile = json.load(read_file)  # loading the JSON
+        jfile = json.load(read_file)
+
+    # writes a new file that can be written to
     char_form = open(
         "character_form.txt", "w", encoding="utf-8"
-    )  # writes a new file that can be written to
+    )
+
+    # beginning of HTML Code
     char_form.write(
-        '<h2>Character Form</h2>\n<form action="submitted.php" method="post">'
-    )  # beginning of HTML Code
-    arr = json_to_form(str(jfile), 0)
-    char_form.write(arr[0])  # adding converted jfile to HTML code
+
+        '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '  <title>JSON Editor</title>\n' +
+        '  <meta charset="utf-8">\n' +
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+        '  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">\n' +
+        '  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>\n' +
+        '  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>\n' +
+        '</head>\n' +
+        '<body>\n' +
+
+        '<h2>Character Form</h2>\n<form action="" method="POST">'
+    )
+    # adding converted jfile to HTML code
+    json_to_elements(jfile, char_form, "", "")
+
+    # end HTML code
     char_form.write(
-        '\n<input type="submit" value="Update Changes">\n</form>'
-    )  # end HTML code
+        '\n<input type="submit" value="Update Changes">\n</form>\n' +
+        '</body>\n' +
+        '</html>\n'
+
+    )
     char_form.close()
-    return char_form
 
 
-create_form("characters\\bart_simpson.json")
+# parse form method with the feedback
+def parse_form(feedback):
+    jsonDict = {}
+    for key in feedback:
+        value = feedback[key]
+
+        # parse the key to work out the structure that made it
+        # "/entities/Q65924637/type" = "date"
+        # "/entities/Q65924637" = "25th November 1987"
+
+        path = id_to_path(key)
+        pathParts = path.split('/')
+        parent = jsonDict
+        for ind, val in enumerate(pathParts):
+            if(ind == 0):
+                continue
+            elif(ind == (len(pathParts)-1)):
+                parent[pathParts[ind]] = value
+            elif(pathParts[ind] in parent):
+                parent = parent[pathParts[ind]]
+            else:
+                parent[pathParts[ind]] = {}
+                parent = parent[pathParts[ind]]
+    # opening a new JSON file and writing the dictionary to it
+    jfile = open('feedback.json', "w")
+    json.dump(jsonDict, jfile)
