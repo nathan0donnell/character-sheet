@@ -1,5 +1,4 @@
 import json
-from flask import request
 
 # js = JSON file in dictionary format
 # Every name/value pair is dictionary with another key called type
@@ -36,7 +35,7 @@ def json_to_elements(js, char_form, path, label):
 def path_to_id(path):
     # special characters list
     special_characters = ['!', '"', '#', '$', '%', '&', '\'',
-                          '(', ')', '*', '+', ',', '-', '.', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~']
+                          '(', ')', '*', '+', ',', '.', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~']
 
     # converting special characters to unicode value
     for i in special_characters:
@@ -87,7 +86,7 @@ def list_to_element(js, char_form, path, label):
     char_form.write("\n<div id='"+path_to_id(path)+"'><h3>"+label+"</h3>")
     for key, val in enumerate(js):
         json_to_elements(val, char_form, path+"/"+str(key),
-                         str(key))  # needs to be cast or wont work
+                         str(key)) 
     char_form.write("\n</div></li></ul>")
 
 
@@ -97,35 +96,36 @@ def str_to_element(js, char_form, path, label):
     # adding html code
     char_form.write("\n<div id='"+elementId+"'>")
     char_form.write('\n<br><label for="' + elementId +
-                    '">' + label.capitalize() + ":</label>")
+                    '" name=' + elementId +
+                    '>' + label.capitalize() + ":</label>")
     if len(js) > 15:
         char_form.write('\n<textarea id="' + elementId +
-                        '" name=' + elementId +
+                        '" name="' + elementId +
                         '" rows = "3" cols = "40">' + js + "</textarea><br>")
     else:
         char_form.write('\n<input type="text" id="' + elementId +
-                        '" name=' + elementId +
-                        '" value="' + js + '"/><br>')
+                        '" name="' + elementId +
+                        '" value="' + js + '"><br>')
     char_form.write("\n</div>")
 
 
 def int_to_element(js, char_form, path, label):
     elementId = path_to_id(path)
 
-    # adding html code
+   # adding html code
     char_form.write("\n<div id='"+elementId+"'>")
     char_form.write('\n<br><label for="' + elementId +
                     '" name=' + elementId +
-                    '" >' + label.capitalize() +
-                    ":</label>")
+                    '>' + label.capitalize() + ":</label>")
     if len(str(js)) > 15:
         char_form.write('\n<textarea id="' + elementId +
-                        '" name=' + elementId +
+                        '" name="' + elementId +
                         '" rows = "3" cols = "40">' +
                         str(js) + "</textarea><br>")
     else:
-        char_form.write('\n<input type="text" id="' +
-                        elementId+'" value="' + str(js) + '"/><br>')
+        char_form.write('\n<input type="text" id="' + elementId +
+                        '" name="' + elementId +
+                        '" value="' + str(js) + '"><br>')
     char_form.write("\n</div>")
 
 # create form method with the file path to the JSON file
@@ -174,6 +174,8 @@ def create_form(jpath):
 
 # parse form method with the feedback
 def parse_form(feedback):
+    # f = open('rawdata.txt', "w")
+    f.write(str(feedback))
     jsonDict = {}
     for key in feedback:
         value = feedback[key]
@@ -195,6 +197,7 @@ def parse_form(feedback):
             else:
                 parent[pathParts[ind]] = {}
                 parent = parent[pathParts[ind]]
+                
     # opening a new JSON file and writing the dictionary to it
     jfile = open('feedback.json', "w")
     json.dump(jsonDict, jfile)

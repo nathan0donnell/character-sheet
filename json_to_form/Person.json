@@ -1,0 +1,30 @@
+{
+    "visible":{
+        "race":"",
+        "age":"",
+        "gender":"",
+        "hair":{
+            "colour":"",
+            "style":""      
+        },
+        "eye-colour":""        
+    },
+    "invisible":{
+        "personality":{
+            "confident":0,
+            "decisive":0,
+            "kind":0,
+            "sarcastic":0
+        },
+        "religion":"",
+        "career":{
+            "current-job":"",
+            "industry":"",
+            "net-worth":""
+        },
+        "romantic-life":{
+            "sexual-orientation":"",
+            "number-of-partners":0
+        }
+    }
+}
