@@ -1,6 +1,5 @@
 {
     "visible":{
-        "race":"",
         "age":"",
         "gender":"",
         "hair":{
@@ -16,15 +15,16 @@
             "kind":0,
             "sarcastic":0
         },
-        "religion":"",
         "career":{
             "current-job":"",
             "industry":"",
             "net-worth":""
         },
         "romantic-life":{
-            "sexual-orientation":"",
-            "number-of-partners":0
+            "is_in_a_relationship":true
+        }
+        "family-life":{
+            "has_children":true
         }
     }
 }
