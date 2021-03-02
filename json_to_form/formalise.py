@@ -73,7 +73,6 @@ def id_to_path(eID):
 
 
 def dict_to_element(js, char_form, path, label):
-    # need to open char_form or else it will not be defined
     char_form.write("\n<ul><li><div id='" +
                     path_to_id(path)+"'><h3>"+label+"</h3>")
     for key in js:
@@ -82,7 +81,6 @@ def dict_to_element(js, char_form, path, label):
 
 
 def list_to_element(js, char_form, path, label):
-    # placeholder code
     char_form.write("\n<div id='"+path_to_id(path)+"'><h3>"+label+"</h3>")
     for key, val in enumerate(js):
         json_to_elements(val, char_form, path+"/"+str(key),
