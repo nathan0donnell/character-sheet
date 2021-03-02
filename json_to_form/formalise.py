@@ -173,7 +173,7 @@ def create_form(jpath):
 # parse form method with the feedback
 def parse_form(feedback):
     # f = open('rawdata.txt', "w")
-    f.write(str(feedback))
+    # f.write(str(feedback))
     jsonDict = {}
     for key in feedback:
         value = feedback[key]
