@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>How-To Guide</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1 style = "font-size: 28px; padding-left: 50px;"><a href="index.html">A How-To Guide on Building a JSON File - Web Form Converter</a></h1>
+          <h2 style = "padding-left: 50px;">by Nathan O'Donnell</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li ><a href="index.html">Welcome</a></li>
+          <li><a href="intro.html">Intro to JSON</a></li>
+          <li><a href="json_and_python.html">JSON & Python</a></li>
+          <li><a href="form_creation.html">Form Conversion</a></li>
+          <li class="selected"><a href="getting_feedback.html">Form Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <h3>
+            Flask Request Object
+        </h3>
+        <p>
+            Once we have the form up and running, we can view it and edit it how we like. To submit any changes, we need
+            to need to use the “request” object. To do this we import request and add “methods=[‘GET’,’POST’]” to the app
+            route part of the flask program:
+        </p>
+        <img style="padding-left: 260px;padding-bottom: 20px;" src="style/get_post.png" alt="GET and POST Methods">
+
+        <p>
+            Then, we insert code checking if “request.method” is ‘POST’ and if it is then we pass “request.form” to our form
+            parsing method which we will create now.
+        </p>
+        <h3>
+            Form Parser Method
+        </h3>
+        <p>
+            Now that we’ve passed the request.form object as a parameter, we can start to make sense of it. You’ll find that
+            it is a dict and that helps us majorly. We create a new empty dict and iterate through each key in the request.form
+            dict. As we used the path for our ID names, mentioned in the naming conventions part of the previous page, we can now
+            reverse this to get the path from the ID. We do this, then split the path into path parts by using the .split(‘/’) method:
+        </p>
+        <img style="padding-left: 300px;padding-bottom: 20px;" src="style/pathParts.png" alt="Splitting the path parts">
+        <p>
+            Here is where it gets more complicated so I will do my best to explain in as much detail as possible. 
+            As you can see in the code below, we create a parent variable and set it to our empty dict. This parent
+            variable will be the direct parent of each element we deal with. As we iterate through each “part” in “pathParts”,
+            we first check if the part is the first part. If it is, we just continue, as this is the base dictionary. We then check if
+            it is the last part and if it is, we set the value of that part to "value" (a.k.a. feedback[key]). If the current part is
+            in the parent dictionary already, then we change the parent dictionary to this part. For every other case, we set the part
+            equal to an empty dictionary and set the parent to this part.
+        </p>
+        <img style="padding-left: 270px;padding-bottom: 20px;" src="style/parsing_parts.png" alt="Setting path parts to values">        
+        <p>
+            Now all that is left to do is save our new JSON file. We do this by using the json.dump() method:
+        </p>
+        <img style="padding-left: 220px;padding-bottom: 20px;" src="style/saving_json.png" alt="Saving our JSON">                
+        <h3>
+            Adding Type Information
+        </h3>
+        <p style = "padding-bottom:20px">
+            Something I have not included in this tutorial is type information. Neither the parser nor the form creator
+            accounts for this yet. This can be an issue and is a possible improvement you can make to your version of
+            this JSON editor. If you do this, make sure and add type information along with your values so that any readers
+            know what type of value you are referencing, e.g.:
+        </p>
+        <img style="padding-left: 320px;padding-bottom: 20px;" src="style/type_information.png" alt="Type Information">
+        <p>
+            For further issues, you can visit StackOverflow:
+            <a style="color:DodgerBlue;" href="https://stackoverflow.com/">https://stackoverflow.com/</a>
+        </p>
+        
+        <p>
+            or Contact Me:
+            <ul>
+              <li>
+                <a style="color:DodgerBlue;" href="https://twitter.com/nathan0donnell">Twitter</a>
+              </li>
+              <li>
+                <a style="color:DodgerBlue;" href="https://github.com/nathan0donnell">GitHub</a>
+              </li>
+            </ul>
+        </p>
+
+        
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; black_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
+    </div>
+  </div>
+</body>
+</html>

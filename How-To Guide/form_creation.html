@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>How-To Guide</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1 style = "font-size: 28px; padding-left: 50px;"><a href="index.html">A How-To Guide on Building a JSON File - Web Form Converter</a></h1>
+          <h2 style = "padding-left: 50px;">by Nathan O'Donnell</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li ><a href="index.html">Welcome</a></li>
+          <li><a href="intro.html">Intro to JSON</a></li>
+          <li><a href="json_and_python.html">JSON & Python</a></li>
+          <li class="selected"><a href="form_creation.html">Form Conversion</a></li>
+          <li><a href="getting_feedback.html">Form Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+      <h3>
+          Parsing to Python
+      </h3>
+      <p>
+          To begin conversion to a HTML form, we need to parse the JSON file into Python equivalents, such as dictionary, strings, lists etc.
+          To do this, we create a method which takes the file path to the JSON file as a parameter. In this method, we will first load the JSON
+          file using the file path parameter and the json.load() method, as shown below.
+      </p>
+      <img style="padding-left: 270px" src="style/open_jpath.png" alt="Opening JSON as a dict">
+      <h3>
+          Writing the Form
+      </h3>
+      <p>
+           From here, we create a text file:<br>
+          <center> form = open("form.txt", "w", encoding="utf-8")</center><br>
+          This is what we will write our HTML code in. To start, we need to:<br>
+          <ul>
+          <li>State the doctype</li>
+          <li>Write a header</li>
+          <li>Open the body tag</li>
+          <li>Have a header for the page</li>
+          <li>Open the form tag</li>
+          </ul>
+          Here is some sample code you can use as an example:<br>
+          <img style="padding-left: 80px;padding-top: 20px;" src="style/sample_html.png" alt="Sample HTML code">
+      </p>
+      <h3>
+          Naming Conventions of Elements
+      </h3>
+      <p>
+          As you may be working with large file sizes, it is important that all your
+          form elements have unique file names, so you don’t have any issues during
+          conversion.
+      </p>
+      <p>
+          A good way to do this is to use the address, how you navigate to the value
+          in the dictionary e.g., fruits[0][“name”], as the name of the form element.
+          There are many advantages to this such as:
+      </p>
+      <ul>
+        <li>It can be used universally for any JSON file</li>
+        <li>It is very descriptive and shows the address of the value</li>
+        <li>It will help when you are converting the form back into JSON syntax</li>
+      </ul>
+      <p>
+          There are other ways such as finding specific IDs, but these wouldn’t be as
+          useful to other users.
+      </p>
+      <p>
+          You will also need to escape special characters so that no errors occur in the HTML code. To do this I
+          used ord() and chr() to replace the special characters with their unicode value. This has worked well
+          so far for me, so I expect it will work for you too.
+      </p>
+      <h3>
+          Extracting Information
+      </h3>
+      <p>
+          To extract information, I used a recursive method which has parameters:
+          <ul>
+          <li>js = a JSON dict or an element of the dict</li>
+          <li>char_form = the file we are writing the HTML code to</li>
+          <li>path = the dict path to the element we are currently at</li>
+          <li>label = the name of the element we are currently at</li>
+          </ul>
+          In this method, we find the instance of the element “js” and depending on the instance we pass the parameters again to the appropriate method.
+          In my example, I currently have four of these methods for converting dict, list, str, and int but more advanced methods can be created like converting dates, money, or
+          images. This code is shown below:
+      </p>
+      <img style="padding-left: 210px;padding-top: 0px;" src="style/json_to_elements.png" alt="JSON to Element Code">
+      <h3>
+          Converting Dict and List to Elements
+      </h3>
+      <p>
+          The conversion of dict and list is very similar, for both we open a new div tag to separate it from the
+          previous section, then we iterate through each element of the dict/list passing the element as a parameter
+          to our instance checker and passing it to the correct method for conversion.<br>
+          Example:
+      </p>
+      <img style="padding-left: 175px;padding-top: 0px;" src="style/dict_to_element.png" alt="Dict to Element Code">
+      <h3>
+          Converting Str and Int to Elements
+      </h3>
+      <p>
+          Like before, the conversion of str and int is very similar. The only difference being that we need to cast
+          the int value to str to write it to the text file. Once we have passed the str/int element to the appropriate
+          method, we create a label for the input type using the parameter “label” as the label value. From here, we get
+          the length of the “js” value and according to this length, we either create a text box, for a smaller value, or
+          a text area, for a larger value. In this text box/area, we use “js” as the value. For both the label and text
+          box/area, we need to make sure we have “name” and “id” attributes. The values of both being the path to the
+          element we discussed earlier.<br>
+          Example:
+      </p>
+      <img style="padding-left: 175px;padding-top: 0px;" src="style/str_to_element.png" alt="Str to Element Code">
+      <h3>
+          Finishing Writing
+      </h3>
+      <p>
+          Once we have converted all elements of the JSON dict into HTML form code, we need to finish the HTML code.
+          To do this, we add a “submit” input for submitting the form, then we close the form, body, and html tags.
+          Now we have a full page of HTML code ready to display.
+      </p>
+      <img style="padding-left: 200px;padding-top: 0px;" src="style/html_finish.png" alt="HTML End Code">
+      <h3>
+          Flask
+      </h3>
+      <p>
+          To display our HTML code, we use Flask, a micro web framework written in Python. It’s easy to download.
+          Go to the terminal of your computer, into the environment you’re working in (check vs code) and type:
+          <center>pip install Flask</center><br>
+          Now, we need to create a program which will run the Flask web server. Here is an
+          <a style="color:DodgerBlue;" href=”https://github.com/nathan0donnell/character-sheet/blob/main/json_to_form/webserver3.py”>example</a>.
+          All you will need to do is download the example, replace “formalise” with the module your converter is in and
+          replace the file path with the path to your JSON file. Once it is up and running, you should be able to view your form.
+          In the next section we will see how we parse the feedback.
+      </p>
+     
+
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; black_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
+    </div>
+  </div>
+</body>
+</html>

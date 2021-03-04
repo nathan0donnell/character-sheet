@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>How-To Guide</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1 style = "font-size: 28px; padding-left: 50px;"><a href="index.html">A How-To Guide on Building a JSON File - Web Form Converter</a></h1>
+          <h2 style = "padding-left: 50px;">by Nathan O'Donnell</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li ><a href="index.html">Welcome</a></li>
+          <li><a href="intro.html">Intro to JSON</a></li>
+          <li class="selected"><a href="json_and_python.html">JSON & Python</a></li>
+          <li><a href="form_creation.html">Form Conversion</a></li>
+          <li><a href="getting_feedback.html">Form Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <h3>
+            JSON elements in Python
+        </h3>
+        <p>
+            All JSON elements have a Python equivalent as shown below:
+         <table style="width:100%">
+          <tr>
+            <th><center>Python</center></th>
+            <th><center>JSON</center></th>
+          </tr>
+          <tr>
+            <td><center>dict</center></td>
+            <td><center>Object</center></td>
+          </tr>
+          <tr>
+            <td><center>list</center></td>
+            <td><center>Array</center></td>
+          </tr>
+          <tr>
+            <td><center>tuple</center></td>
+            <td><center>Array</center></td>
+          </tr>
+          <tr>
+            <td><center>str</center></td>
+            <td><center>String</center></td>
+          </tr>
+          <tr>
+            <td><center>int</center></td>
+            <td><center>Number</center></td>
+          </tr>
+          <tr>
+            <td><center>float</center></td>
+            <td><center>Number</center></td>
+          </tr>
+          <tr>
+            <td><center>True</center></td>
+            <td><center>true</center></td>
+          </tr>
+          <tr>
+            <td><center>False</center></td>
+            <td><center>false</center></td>
+          </tr>
+          <tr>
+            <td><center>None</center></td>
+            <td><center>null</center></td>
+          </tr>
+        </table> 
+        </p>
+        <p>
+            This makes manipulation of JSON data in Python simple and allows us to
+            access elements and convert them to Python code easily.
+        </p>
+        <h3>
+            Converting to Python
+        </h3>
+        <p style = "padding-bottom:50px">
+            To do anything useful with JSON files in Python, you first must import the
+            json library. To do this, add “import json” to the beginning of your Python
+            file:
+        </p>
+        <img style="float:right; margin:-40px 350px 0px 0px;" src="style/importjson.png" alt="'import json' Statement">
+        <p style = "padding-bottom:100px">
+            To open your JSON file in read mode, use the following format:
+        </p>
+        <img style="float:right; margin:-80px 210px 0px 0px;" src="style/open_ins.png" alt="Opening a JSON file ">
+        <p style = "padding-bottom:100px">
+            Once your file is loaded you can access elements and values by typing your
+            variable name and the “address” of the element like below:
+        </p>
+        <img style="float:right; margin:-90px 210px 0px 0px;" src="style/printing_element.png" alt="Printing an Element">
+        <p >
+             <br><br> The console will then return the name of the second element in
+            “fruit.json”. For larger JSON files, which take on a tree structure, you
+            can access each child of a parent element by using this format: <br>
+            <b><center>file_name[parent][child][grand_child][and_so_on]</center></b>
+        </p>
+       <ul>
+       <li>For name/value pairs, to get the value, you use [“name"].</li>
+       <li> For list values, it is like array indexing [0], [1], [2] etc.<li>       
+       </ul>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; black_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
+    </div>
+  </div>
+</body>
+</html>
