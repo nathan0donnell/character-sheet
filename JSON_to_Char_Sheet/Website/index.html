@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JSON Editor</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src = "scripts/script.js"></script>
+</head>
+<body onLoad="tabLoad  ()">
+<div id="wrapper">
+<div id = "sidebar-wrapper" class="tab w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:180px; ">
+<button class="tablinks" onclick="openTab(event,'_visible')">visible</button>
+<button class="tablinks" onclick="openTab(event,'_visible_age')">age</button>
+<button class="tablinks" onclick="openTab(event,'_visible_hair')">hair</button>
+<button class="tablinks" onclick="openTab(event,'_visible_clothing')">clothing</button>
+<button class="tablinks" onclick="openTab(event,'_visible_clothing_example-outfit')">example-outfit</button>
+<button class="tablinks" onclick="openTab(event,'_visible_clothing_example-outfit_accessories')">accessories</button>
+<button class="tablinks" onclick="openTab(event,'_visible_clothing_example-outfit_accessories_jewellery')">jewellery</button>
+<button class="tablinks" onclick="openTab(event,'_invisible')">invisible</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_career')">career</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_romantic-life')">romantic-life</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_family-life')">family-life</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality')">personality</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience')">openness-to-experience</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience_curious')">curious</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience_imaginative')">imaginative</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience_artistic')">artistic</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience_excitable')">excitable</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_openness-to-experience_unconventional')">unconventional</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness')">conscientiousness</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness_competent')">competent</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness_organised')">organised</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness_dutiful')">dutiful</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness_hard-working')">hard-working</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_conscientiousness_self-disciplined')">self-disciplined</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion')">extraversion</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion_assertive')">assertive</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion_active')">active</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion_enthusiastic')">enthusiastic</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion_warm')">warm</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_extraversion_outgoing')">outgoing</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness')">agreeableness</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness_trusting')">trusting</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness_straightforward')">straightforward</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness_altruistic')">altruistic</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness_modest')">modest</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_agreeableness_sympathetic')">sympathetic</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism')">neuroticism</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism_anxious')">anxious</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism_hostile')">hostile</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism_self-conscious')">self-conscious</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism_impulsive')">impulsive</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_personality_neuroticism_insecure')">insecure</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests')">interests</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests_sports')">sports</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests_food')">food</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests_art')">art</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests_music')">music</button>
+<button class="tablinks" onclick="openTab(event,'_invisible_interests_other')">other</button>
+</div>
+<div class="w3-container" style="margin-left:180px; width:800px;" id="page-content-wrapper">
+<form action="#" method="POST">
+<div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible'>
+<h3>visible</h3>
+<ul style="list-style: none">
+<li class = _visible>
+<div id='_visible_face-image_div'>
+<img style = "margin-left:15px;padding:10px; border: 1px solid  #ccc;" src="http://cdn.onlinewebfonts.com/svg/img_258083.png" alt="Image of Person" width="200" height="200"> <br>
+<input type="hidden" id="_visible_face-image_value_alt" name="_visible_face-image_value_alt" value="Image of Person">
+<input type="hidden" id="_visible_face-image_value_src" name="_visible_face-image_value_src" value="http://cdn.onlinewebfonts.com/svg/img_258083.png">
+<input type="hidden" id="_visible_face-image_type" name="_visible_face-image_type" value="Image">
+</div></li>
+<li class = _visible>
+<div id='_visible_name_div'>
+<br><label for="_visible_name">Name:</label>
+<input style="margin-left:15px;" type="text" id="_visible_name" name="_visible_name" value=""><br>
+</div></li>
+<li class = _visible>
+<div id='_visible_age_div'>
+<br><label for="_visible_age_value" >Age:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_visible_age_value" name="_visible_age_value" value="0" min="0" max="150"><br>
+<input type="hidden" id="_visible_age_type" name="_visible_age_type" value="Number">
+</div></li>
+<li class = _visible>
+<div id='_visible_gender_div'>
+<br><label for="_visible_gender">Gender:</label>
+<input style="margin-left:15px;" type="text" id="_visible_gender" name="_visible_gender" value=""><br>
+</div></li>
+<li class = _visible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible_hair'>
+<h3>hair</h3>
+<ul style="list-style: none">
+<li class = _visible_hair>
+<div id='_visible_hair_colour_div'>
+<br><label for="_visible_hair_colour">Colour:</label>
+<input style="margin-left:15px;" type="text" id="_visible_hair_colour" name="_visible_hair_colour" value=""><br>
+</div></li>
+<li class = _visible_hair>
+<div id='_visible_hair_style_div'>
+<br><label for="_visible_hair_style">Style:</label>
+<input style="margin-left:15px;" type="text" id="_visible_hair_style" name="_visible_hair_style" value=""><br>
+</div></li>
+<li class = _visible_hair>
+<div id='_visible_hair_length_div'>
+<br><label for="_visible_hair_length">Length:</label>
+<input style="margin-left:15px;" type="text" id="_visible_hair_length" name="_visible_hair_length" value=""><br>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _visible>
+<div id='_visible_eye-colour_div'>
+<br><label for="_visible_eye-colour">Eye-colour:</label>
+<input style="margin-left:15px;" type="text" id="_visible_eye-colour" name="_visible_eye-colour" value=""><br>
+</div></li>
+<li class = _visible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible_clothing'>
+<h3>clothing</h3>
+<ul style="list-style: none">
+<li class = _visible_clothing><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible_clothing_example-outfit'>
+<h3>example-outfit</h3>
+<ul style="list-style: none">
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_shirt_div'>
+<br><label for="_visible_clothing_example-outfit_shirt">Shirt:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_shirt" name="_visible_clothing_example-outfit_shirt" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_coat_div'>
+<br><label for="_visible_clothing_example-outfit_coat">Coat:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_coat" name="_visible_clothing_example-outfit_coat" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_trousers_div'>
+<br><label for="_visible_clothing_example-outfit_trousers">Trousers:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_trousers" name="_visible_clothing_example-outfit_trousers" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_skirt_div'>
+<br><label for="_visible_clothing_example-outfit_skirt">Skirt:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_skirt" name="_visible_clothing_example-outfit_skirt" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_shoes_div'>
+<br><label for="_visible_clothing_example-outfit_shoes">Shoes:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_shoes" name="_visible_clothing_example-outfit_shoes" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit>
+<div id='_visible_clothing_example-outfit_socks_div'>
+<br><label for="_visible_clothing_example-outfit_socks">Socks:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_socks" name="_visible_clothing_example-outfit_socks" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible_clothing_example-outfit_accessories'>
+<h3>accessories</h3>
+<ul style="list-style: none">
+<li class = _visible_clothing_example-outfit_accessories>
+<div id='_visible_clothing_example-outfit_accessories_glasses_div'>
+<br><label for="_visible_clothing_example-outfit_accessories_glasses">Glasses:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_accessories_glasses" name="_visible_clothing_example-outfit_accessories_glasses" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit_accessories><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_visible_clothing_example-outfit_accessories_jewellery'>
+<h3>jewellery</h3>
+<ul style="list-style: none">
+<li class = _visible_clothing_example-outfit_accessories_jewellery>
+<div id='_visible_clothing_example-outfit_accessories_jewellery_earrings_div'>
+<br><label for="_visible_clothing_example-outfit_accessories_jewellery_earrings">Earrings:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_accessories_jewellery_earrings" name="_visible_clothing_example-outfit_accessories_jewellery_earrings" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit_accessories_jewellery>
+<div id='_visible_clothing_example-outfit_accessories_jewellery_nose-ring_div'>
+<br><label for="_visible_clothing_example-outfit_accessories_jewellery_nose-ring">Nose-ring:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_accessories_jewellery_nose-ring" name="_visible_clothing_example-outfit_accessories_jewellery_nose-ring" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit_accessories_jewellery>
+<div id='_visible_clothing_example-outfit_accessories_jewellery_necklace_div'>
+<br><label for="_visible_clothing_example-outfit_accessories_jewellery_necklace">Necklace:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_accessories_jewellery_necklace" name="_visible_clothing_example-outfit_accessories_jewellery_necklace" value=""><br>
+</div></li>
+<li class = _visible_clothing_example-outfit_accessories_jewellery>
+<div id='_visible_clothing_example-outfit_accessories_jewellery_bracelet_div'>
+<br><label for="_visible_clothing_example-outfit_accessories_jewellery_bracelet">Bracelet:</label>
+<input style="margin-left:15px;" type="text" id="_visible_clothing_example-outfit_accessories_jewellery_bracelet" name="_visible_clothing_example-outfit_accessories_jewellery_bracelet" value=""><br>
+</div></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible'>
+<h3>invisible</h3>
+<ul style="list-style: none">
+<li class = _invisible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_career'>
+<h3>career</h3>
+<ul style="list-style: none">
+<li class = _invisible_career>
+<div id='_invisible_career_OStarNET-SOC-Code_div'>
+<br><label for="_invisible_career_OStarNET-SOC-Code">Ostarnet-soc-code:</label>
+<input style="margin-left:15px;" type="text" id="_invisible_career_OStarNET-SOC-Code" name="_invisible_career_OStarNET-SOC-Code" value=""><br>
+</div></li>
+<li class = _invisible_career>
+<div id='_invisible_career_current-job_div'>
+<br><label for="_invisible_career_current-job">Current-job:</label>
+<input style="margin-left:15px;" type="text" id="_invisible_career_current-job" name="_invisible_career_current-job" value=""><br>
+</div></li>
+<li class = _invisible_career>
+<div id='_invisible_career_industry_div'>
+<br><label for="_invisible_career_industry">Industry:</label>
+<input style="margin-left:15px;" type="text" id="_invisible_career_industry" name="_invisible_career_industry" value=""><br>
+</div></li>
+<li class = _invisible_career>
+<div id='_invisible_career_net-worth_div'>
+<br><label for="_invisible_career_net-worth">Net-worth:</label>
+<input style="margin-left:15px;" type="text" id="_invisible_career_net-worth" name="_invisible_career_net-worth" value=""><br>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_romantic-life'>
+<h3>romantic-life</h3>
+<ul style="list-style: none">
+<li class = _invisible_romantic-life>
+<div id='_invisible_romantic-life_is-in-a-relationship_div'>
+<br><label for = "_invisible_romantic-life_is-in-a-relationship">Is-in-a-relationship:</label><select style="margin-left:15px;" name="_invisible_romantic-life_is-in-a-relationship" id="_invisible_romantic-life_is-in-a-relationship"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_family-life'>
+<h3>family-life</h3>
+<ul style="list-style: none">
+<li class = _invisible_family-life>
+<div id='_invisible_family-life_has-children_div'>
+<br><label for = "_invisible_family-life_has-children">Has-children:</label><select style="margin-left:15px;" name="_invisible_family-life_has-children" id="_invisible_family-life_has-children"><option value="True" selected>True</option><option value="False">False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality'>
+<h3>personality</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality_openness-to-experience'>
+<h3>openness-to-experience</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality_openness-to-experience>
+<div id='_invisible_personality_openness-to-experience_curious_div'>
+<br><label for="_invisible_personality_openness-to-experience_curious_value" >Curious:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_openness-to-experience_curious_value" name="_invisible_personality_openness-to-experience_curious_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_openness-to-experience_curious_type" name="_invisible_personality_openness-to-experience_curious_type" value="Number">
+</div></li>
+<li class = _invisible_personality_openness-to-experience>
+<div id='_invisible_personality_openness-to-experience_imaginative_div'>
+<br><label for="_invisible_personality_openness-to-experience_imaginative_value" >Imaginative:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_openness-to-experience_imaginative_value" name="_invisible_personality_openness-to-experience_imaginative_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_openness-to-experience_imaginative_type" name="_invisible_personality_openness-to-experience_imaginative_type" value="Number">
+</div></li>
+<li class = _invisible_personality_openness-to-experience>
+<div id='_invisible_personality_openness-to-experience_artistic_div'>
+<br><label for="_invisible_personality_openness-to-experience_artistic_value" >Artistic:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_openness-to-experience_artistic_value" name="_invisible_personality_openness-to-experience_artistic_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_openness-to-experience_artistic_type" name="_invisible_personality_openness-to-experience_artistic_type" value="Number">
+</div></li>
+<li class = _invisible_personality_openness-to-experience>
+<div id='_invisible_personality_openness-to-experience_excitable_div'>
+<br><label for="_invisible_personality_openness-to-experience_excitable_value" >Excitable:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_openness-to-experience_excitable_value" name="_invisible_personality_openness-to-experience_excitable_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_openness-to-experience_excitable_type" name="_invisible_personality_openness-to-experience_excitable_type" value="Number">
+</div></li>
+<li class = _invisible_personality_openness-to-experience>
+<div id='_invisible_personality_openness-to-experience_unconventional_div'>
+<br><label for="_invisible_personality_openness-to-experience_unconventional_value" >Unconventional:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_openness-to-experience_unconventional_value" name="_invisible_personality_openness-to-experience_unconventional_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_openness-to-experience_unconventional_type" name="_invisible_personality_openness-to-experience_unconventional_type" value="Number">
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_personality><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality_conscientiousness'>
+<h3>conscientiousness</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality_conscientiousness>
+<div id='_invisible_personality_conscientiousness_competent_div'>
+<br><label for="_invisible_personality_conscientiousness_competent_value" >Competent:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_conscientiousness_competent_value" name="_invisible_personality_conscientiousness_competent_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_conscientiousness_competent_type" name="_invisible_personality_conscientiousness_competent_type" value="Number">
+</div></li>
+<li class = _invisible_personality_conscientiousness>
+<div id='_invisible_personality_conscientiousness_organised_div'>
+<br><label for="_invisible_personality_conscientiousness_organised_value" >Organised:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_conscientiousness_organised_value" name="_invisible_personality_conscientiousness_organised_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_conscientiousness_organised_type" name="_invisible_personality_conscientiousness_organised_type" value="Number">
+</div></li>
+<li class = _invisible_personality_conscientiousness>
+<div id='_invisible_personality_conscientiousness_dutiful_div'>
+<br><label for="_invisible_personality_conscientiousness_dutiful_value" >Dutiful:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_conscientiousness_dutiful_value" name="_invisible_personality_conscientiousness_dutiful_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_conscientiousness_dutiful_type" name="_invisible_personality_conscientiousness_dutiful_type" value="Number">
+</div></li>
+<li class = _invisible_personality_conscientiousness>
+<div id='_invisible_personality_conscientiousness_hard-working_div'>
+<br><label for="_invisible_personality_conscientiousness_hard-working_value" >Hard-working:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_conscientiousness_hard-working_value" name="_invisible_personality_conscientiousness_hard-working_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_conscientiousness_hard-working_type" name="_invisible_personality_conscientiousness_hard-working_type" value="Number">
+</div></li>
+<li class = _invisible_personality_conscientiousness>
+<div id='_invisible_personality_conscientiousness_self-disciplined_div'>
+<br><label for="_invisible_personality_conscientiousness_self-disciplined_value" >Self-disciplined:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_conscientiousness_self-disciplined_value" name="_invisible_personality_conscientiousness_self-disciplined_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_conscientiousness_self-disciplined_type" name="_invisible_personality_conscientiousness_self-disciplined_type" value="Number">
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_personality><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality_extraversion'>
+<h3>extraversion</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality_extraversion>
+<div id='_invisible_personality_extraversion_assertive_div'>
+<br><label for="_invisible_personality_extraversion_assertive_value" >Assertive:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_extraversion_assertive_value" name="_invisible_personality_extraversion_assertive_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_extraversion_assertive_type" name="_invisible_personality_extraversion_assertive_type" value="Number">
+</div></li>
+<li class = _invisible_personality_extraversion>
+<div id='_invisible_personality_extraversion_active_div'>
+<br><label for="_invisible_personality_extraversion_active_value" >Active:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_extraversion_active_value" name="_invisible_personality_extraversion_active_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_extraversion_active_type" name="_invisible_personality_extraversion_active_type" value="Number">
+</div></li>
+<li class = _invisible_personality_extraversion>
+<div id='_invisible_personality_extraversion_enthusiastic_div'>
+<br><label for="_invisible_personality_extraversion_enthusiastic_value" >Enthusiastic:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_extraversion_enthusiastic_value" name="_invisible_personality_extraversion_enthusiastic_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_extraversion_enthusiastic_type" name="_invisible_personality_extraversion_enthusiastic_type" value="Number">
+</div></li>
+<li class = _invisible_personality_extraversion>
+<div id='_invisible_personality_extraversion_warm_div'>
+<br><label for="_invisible_personality_extraversion_warm_value" >Warm:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_extraversion_warm_value" name="_invisible_personality_extraversion_warm_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_extraversion_warm_type" name="_invisible_personality_extraversion_warm_type" value="Number">
+</div></li>
+<li class = _invisible_personality_extraversion>
+<div id='_invisible_personality_extraversion_outgoing_div'>
+<br><label for="_invisible_personality_extraversion_outgoing_value" >Outgoing:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_extraversion_outgoing_value" name="_invisible_personality_extraversion_outgoing_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_extraversion_outgoing_type" name="_invisible_personality_extraversion_outgoing_type" value="Number">
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_personality><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality_agreeableness'>
+<h3>agreeableness</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality_agreeableness>
+<div id='_invisible_personality_agreeableness_trusting_div'>
+<br><label for="_invisible_personality_agreeableness_trusting_value" >Trusting:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_agreeableness_trusting_value" name="_invisible_personality_agreeableness_trusting_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_agreeableness_trusting_type" name="_invisible_personality_agreeableness_trusting_type" value="Number">
+</div></li>
+<li class = _invisible_personality_agreeableness>
+<div id='_invisible_personality_agreeableness_straightforward_div'>
+<br><label for="_invisible_personality_agreeableness_straightforward_value" >Straightforward:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_agreeableness_straightforward_value" name="_invisible_personality_agreeableness_straightforward_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_agreeableness_straightforward_type" name="_invisible_personality_agreeableness_straightforward_type" value="Number">
+</div></li>
+<li class = _invisible_personality_agreeableness>
+<div id='_invisible_personality_agreeableness_altruistic_div'>
+<br><label for="_invisible_personality_agreeableness_altruistic_value" >Altruistic:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_agreeableness_altruistic_value" name="_invisible_personality_agreeableness_altruistic_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_agreeableness_altruistic_type" name="_invisible_personality_agreeableness_altruistic_type" value="Number">
+</div></li>
+<li class = _invisible_personality_agreeableness>
+<div id='_invisible_personality_agreeableness_modest_div'>
+<br><label for="_invisible_personality_agreeableness_modest_value" >Modest:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_agreeableness_modest_value" name="_invisible_personality_agreeableness_modest_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_agreeableness_modest_type" name="_invisible_personality_agreeableness_modest_type" value="Number">
+</div></li>
+<li class = _invisible_personality_agreeableness>
+<div id='_invisible_personality_agreeableness_sympathetic_div'>
+<br><label for="_invisible_personality_agreeableness_sympathetic_value" >Sympathetic:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_agreeableness_sympathetic_value" name="_invisible_personality_agreeableness_sympathetic_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_agreeableness_sympathetic_type" name="_invisible_personality_agreeableness_sympathetic_type" value="Number">
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_personality><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_personality_neuroticism'>
+<h3>neuroticism</h3>
+<ul style="list-style: none">
+<li class = _invisible_personality_neuroticism>
+<div id='_invisible_personality_neuroticism_anxious_div'>
+<br><label for="_invisible_personality_neuroticism_anxious_value" >Anxious:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_neuroticism_anxious_value" name="_invisible_personality_neuroticism_anxious_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_neuroticism_anxious_type" name="_invisible_personality_neuroticism_anxious_type" value="Number">
+</div></li>
+<li class = _invisible_personality_neuroticism>
+<div id='_invisible_personality_neuroticism_hostile_div'>
+<br><label for="_invisible_personality_neuroticism_hostile_value" >Hostile:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_neuroticism_hostile_value" name="_invisible_personality_neuroticism_hostile_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_neuroticism_hostile_type" name="_invisible_personality_neuroticism_hostile_type" value="Number">
+</div></li>
+<li class = _invisible_personality_neuroticism>
+<div id='_invisible_personality_neuroticism_self-conscious_div'>
+<br><label for="_invisible_personality_neuroticism_self-conscious_value" >Self-conscious:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_neuroticism_self-conscious_value" name="_invisible_personality_neuroticism_self-conscious_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_neuroticism_self-conscious_type" name="_invisible_personality_neuroticism_self-conscious_type" value="Number">
+</div></li>
+<li class = _invisible_personality_neuroticism>
+<div id='_invisible_personality_neuroticism_impulsive_div'>
+<br><label for="_invisible_personality_neuroticism_impulsive_value" >Impulsive:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_neuroticism_impulsive_value" name="_invisible_personality_neuroticism_impulsive_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_neuroticism_impulsive_type" name="_invisible_personality_neuroticism_impulsive_type" value="Number">
+</div></li>
+<li class = _invisible_personality_neuroticism>
+<div id='_invisible_personality_neuroticism_insecure_div'>
+<br><label for="_invisible_personality_neuroticism_insecure_value" >Insecure:</label>
+<input style="margin-left:15px;" type="number" step="any" id="_invisible_personality_neuroticism_insecure_value" name="_invisible_personality_neuroticism_insecure_value" value="0" min="0" max="10"><br>
+<input type="hidden" id="_invisible_personality_neuroticism_insecure_type" name="_invisible_personality_neuroticism_insecure_type" value="Number">
+</div></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class = _invisible><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests'>
+<h3>interests</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests_sports'>
+<h3>sports</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_football_div'>
+<br><label for = "_invisible_interests_sports_football">Football:</label><select style="margin-left:15px;" name="_invisible_interests_sports_football" id="_invisible_interests_sports_football"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_basketball_div'>
+<br><label for = "_invisible_interests_sports_basketball">Basketball:</label><select style="margin-left:15px;" name="_invisible_interests_sports_basketball" id="_invisible_interests_sports_basketball"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_tennis_div'>
+<br><label for = "_invisible_interests_sports_tennis">Tennis:</label><select style="margin-left:15px;" name="_invisible_interests_sports_tennis" id="_invisible_interests_sports_tennis"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_swimming_div'>
+<br><label for = "_invisible_interests_sports_swimming">Swimming:</label><select style="margin-left:15px;" name="_invisible_interests_sports_swimming" id="_invisible_interests_sports_swimming"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_baseball_div'>
+<br><label for = "_invisible_interests_sports_baseball">Baseball:</label><select style="margin-left:15px;" name="_invisible_interests_sports_baseball" id="_invisible_interests_sports_baseball"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_darts_div'>
+<br><label for = "_invisible_interests_sports_darts">Darts:</label><select style="margin-left:15px;" name="_invisible_interests_sports_darts" id="_invisible_interests_sports_darts"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_badminton_div'>
+<br><label for = "_invisible_interests_sports_badminton">Badminton:</label><select style="margin-left:15px;" name="_invisible_interests_sports_badminton" id="_invisible_interests_sports_badminton"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_yoga_div'>
+<br><label for = "_invisible_interests_sports_yoga">Yoga:</label><select style="margin-left:15px;" name="_invisible_interests_sports_yoga" id="_invisible_interests_sports_yoga"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_billiards_div'>
+<br><label for = "_invisible_interests_sports_billiards">Billiards:</label><select style="margin-left:15px;" name="_invisible_interests_sports_billiards" id="_invisible_interests_sports_billiards"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_dancing_div'>
+<br><label for = "_invisible_interests_sports_dancing">Dancing:</label><select style="margin-left:15px;" name="_invisible_interests_sports_dancing" id="_invisible_interests_sports_dancing"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_weightlifting_div'>
+<br><label for = "_invisible_interests_sports_weightlifting">Weightlifting:</label><select style="margin-left:15px;" name="_invisible_interests_sports_weightlifting" id="_invisible_interests_sports_weightlifting"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_sports>
+<div id='_invisible_interests_sports_running_div'>
+<br><label for = "_invisible_interests_sports_running">Running:</label><select style="margin-left:15px;" name="_invisible_interests_sports_running" id="_invisible_interests_sports_running"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_interests><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests_food'>
+<h3>food</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests_food>
+<div id='_invisible_interests_food_cooking_div'>
+<br><label for = "_invisible_interests_food_cooking">Cooking:</label><select style="margin-left:15px;" name="_invisible_interests_food_cooking" id="_invisible_interests_food_cooking"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_food>
+<div id='_invisible_interests_food_baking_div'>
+<br><label for = "_invisible_interests_food_baking">Baking:</label><select style="margin-left:15px;" name="_invisible_interests_food_baking" id="_invisible_interests_food_baking"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_interests><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests_art'>
+<h3>art</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests_art>
+<div id='_invisible_interests_art_painting_div'>
+<br><label for = "_invisible_interests_art_painting">Painting:</label><select style="margin-left:15px;" name="_invisible_interests_art_painting" id="_invisible_interests_art_painting"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_art>
+<div id='_invisible_interests_art_drawing_div'>
+<br><label for = "_invisible_interests_art_drawing">Drawing:</label><select style="margin-left:15px;" name="_invisible_interests_art_drawing" id="_invisible_interests_art_drawing"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_art>
+<div id='_invisible_interests_art_photography_div'>
+<br><label for = "_invisible_interests_art_photography">Photography:</label><select style="margin-left:15px;" name="_invisible_interests_art_photography" id="_invisible_interests_art_photography"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_art>
+<div id='_invisible_interests_art_poetry_div'>
+<br><label for = "_invisible_interests_art_poetry">Poetry:</label><select style="margin-left:15px;" name="_invisible_interests_art_poetry" id="_invisible_interests_art_poetry"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_art>
+<div id='_invisible_interests_art_writing_div'>
+<br><label for = "_invisible_interests_art_writing">Writing:</label><select style="margin-left:15px;" name="_invisible_interests_art_writing" id="_invisible_interests_art_writing"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_interests><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests_music'>
+<h3>music</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests_music>
+<div id='_invisible_interests_music_songwriting_div'>
+<br><label for = "_invisible_interests_music_songwriting">Songwriting:</label><select style="margin-left:15px;" name="_invisible_interests_music_songwriting" id="_invisible_interests_music_songwriting"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_music>
+<div id='_invisible_interests_music_playing-instruments_div'>
+<br><label for = "_invisible_interests_music_playing-instruments">Playing-instruments:</label><select style="margin-left:15px;" name="_invisible_interests_music_playing-instruments" id="_invisible_interests_music_playing-instruments"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_music>
+<div id='_invisible_interests_music_in-a-band_div'>
+<br><label for = "_invisible_interests_music_in-a-band">In-a-band:</label><select style="margin-left:15px;" name="_invisible_interests_music_in-a-band" id="_invisible_interests_music_in-a-band"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+<li class = _invisible_interests><div style="border: 2px solid #ccc;margin:15px; padding-top: 0px; padding-left: 20px;padding-bottom:20px;" id='_invisible_interests_other'>
+<h3>other</h3>
+<ul style="list-style: none">
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_gaming_div'>
+<br><label for = "_invisible_interests_other_gaming">Gaming:</label><select style="margin-left:15px;" name="_invisible_interests_other_gaming" id="_invisible_interests_other_gaming"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_ghost-hunting_div'>
+<br><label for = "_invisible_interests_other_ghost-hunting">Ghost-hunting:</label><select style="margin-left:15px;" name="_invisible_interests_other_ghost-hunting" id="_invisible_interests_other_ghost-hunting"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_shooting_div'>
+<br><label for = "_invisible_interests_other_shooting">Shooting:</label><select style="margin-left:15px;" name="_invisible_interests_other_shooting" id="_invisible_interests_other_shooting"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_bird-watching_div'>
+<br><label for = "_invisible_interests_other_bird-watching">Bird-watching:</label><select style="margin-left:15px;" name="_invisible_interests_other_bird-watching" id="_invisible_interests_other_bird-watching"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_gardening_div'>
+<br><label for = "_invisible_interests_other_gardening">Gardening:</label><select style="margin-left:15px;" name="_invisible_interests_other_gardening" id="_invisible_interests_other_gardening"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+<li class = _invisible_interests_other>
+<div id='_invisible_interests_other_skydiving_div'>
+<br><label for = "_invisible_interests_other_skydiving">Skydiving:</label><select style="margin-left:15px;" name="_invisible_interests_other_skydiving" id="_invisible_interests_other_skydiving"><option value="True">True</option><option value="False" selected>False</option></select>
+</div></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<input type="submit" style="margin-top:15px;margin-left: 20px;margin-bottom:15px;" value="Update Changes">
+</form>
+</div>
+</div>
+</body>
+</html>
