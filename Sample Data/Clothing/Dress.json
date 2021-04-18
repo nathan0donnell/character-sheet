@@ -1,0 +1,118 @@
+{
+  "dress-types": [
+    {
+      "id": 95,
+      "name": "halter (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000097_00"
+    },
+    {
+      "id": 96,
+      "name": "wrap (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000098_00"
+    },
+    {
+      "id": 97,
+      "name": "chemise (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000099_00"
+    },
+    {
+      "id": 98,
+      "name": "slip (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000100_00"
+    },
+    {
+      "id": 99,
+      "name": "cheongsams",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000101_00"
+    },
+    {
+      "id": 100,
+      "name": "jumper (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000102_00"
+    },
+    {
+      "id": 101,
+      "name": "shift (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000103_00"
+    },
+    {
+      "id": 102,
+      "name": "sheath (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000104_00"
+    },
+    {
+      "id": 103,
+      "name": "shirt (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000105_00"
+    },
+    {
+      "id": 104,
+      "name": "sundress",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000106_00"
+    },
+    {
+      "id": 105,
+      "name": "kaftan",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000107_00"
+    },
+    {
+      "id": 106,
+      "name": "bodycon (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000108_00"
+    },
+    {
+      "id": 107,
+      "name": "nightgown",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000109_00"
+    },
+    {
+      "id": 108,
+      "name": "gown",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000110_00"
+    },
+    {
+      "id": 109,
+      "name": "sweater (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000111_00"
+    },
+    {
+      "id": 110,
+      "name": "tea (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000112_00"
+    },
+    {
+      "id": 111,
+      "name": "blouson (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000113_00"
+    },
+    {
+      "id": 112,
+      "name": "tunic (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000114_00"
+    },
+    {
+      "id": 113,
+      "name": "skater (dress)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000115_00"
+    }
+  ]
+}

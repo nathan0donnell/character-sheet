@@ -1,0 +1,106 @@
+{
+    "skirt-types":[
+        {
+          "id": 62,
+          "name": "tutu (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000064_00"
+        },
+        {
+          "id": 63,
+          "name": "kilt",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000065_00"
+        },
+        {
+          "id": 64,
+          "name": "wrap (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000066_00"
+        },
+        {
+          "id": 65,
+          "name": "skater (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000067_00"
+        },
+        {
+          "id": 66,
+          "name": "cargo (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000068_00"
+        },
+        {
+          "id": 67,
+          "name": "hobble (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000069_00"
+        },
+        {
+          "id": 68,
+          "name": "sheath (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000070_00"
+        },
+        {
+          "id": 69,
+          "name": "ball gown (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000071_00"
+        },
+        {
+          "id": 70,
+          "name": "gypsy (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000072_00"
+        },
+        {
+          "id": 71,
+          "name": "rah-rah (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000073_00"
+        },
+        {
+          "id": 72,
+          "name": "prairie (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000074_00"
+        },
+        {
+          "id": 73,
+          "name": "flamenco (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000075_00"
+        },
+        {
+          "id": 74,
+          "name": "accordion (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000076_00"
+        },
+        {
+          "id": 75,
+          "name": "sarong (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000077_00"
+        },
+        {
+          "id": 76,
+          "name": "tulip (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000078_00"
+        },
+        {
+          "id": 77,
+          "name": "dirndl (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000079_00"
+        },
+        {
+          "id": 78,
+          "name": "godet (skirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000080_00"
+        }
+    ]
+}

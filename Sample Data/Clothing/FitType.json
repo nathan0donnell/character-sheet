@@ -1,0 +1,394 @@
+{
+    "fit-types":[
+        {
+          "id": 114,
+          "name": "asymmetrical",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000117_00"
+        },
+        {
+          "id": 115,
+          "name": "symmetrical",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000118_00"
+        },
+        {
+          "id": 116,
+          "name": "peplum",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000119_00"
+        },
+        {
+          "id": 117,
+          "name": "circle",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000120_00"
+        },
+        {
+          "id": 118,
+          "name": "flare",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000121_00"
+        },
+        {
+          "id": 119,
+          "name": "fit and flare",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000122_00"
+        },
+        {
+          "id": 120,
+          "name": "trumpet",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000123_00"
+        },
+        {
+          "id": 121,
+          "name": "mermaid",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000124_00"
+        },
+        {
+          "id": 122,
+          "name": "balloon",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000125_00"
+        },
+        {
+          "id": 123,
+          "name": "bell",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000126_00"
+        },
+        {
+          "id": 124,
+          "name": "bell bottom",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000127_00"
+        },
+        {
+          "id": 125,
+          "name": "bootcut",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000128_00"
+        },
+        {
+          "id": 126,
+          "name": "peg",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000129_00"
+        },
+        {
+          "id": 127,
+          "name": "pencil",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000130_00"
+        },
+        {
+          "id": 128,
+          "name": "straight",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000131_00"
+        },
+        {
+          "id": 129,
+          "name": "a-line",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000132_00"
+        },
+        {
+          "id": 130,
+          "name": "tent",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000133_00"
+        },
+        {
+          "id": 131,
+          "name": "baggy",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000134_00"
+        },
+        {
+          "id": 132,
+          "name": "wide leg",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000135_00"
+        },
+        {
+          "id": 133,
+          "name": "high low",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000136_00"
+        },
+        {
+          "id": 134,
+          "name": "curved (fit)",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000137_00"
+        },
+        {
+          "id": 135,
+          "name": "tight (fit)",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000138_00"
+        },
+        {
+          "id": 136,
+          "name": "regular (fit)",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000139_00"
+        },
+        {
+          "id": 137,
+          "name": "loose (fit)",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000140_00"
+        },
+        {
+          "id": 138,
+          "name": "oversized",
+          "supercategory": "silhouette",
+          "taxonomy_id": "att000141_00"
+        },
+        {
+          "id": 139,
+          "name": "empire waistline",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000143_00"
+        },
+        {
+          "id": 140,
+          "name": "dropped waistline",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000144_00"
+        },
+        {
+          "id": 141,
+          "name": "high waist",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000145_00"
+        },
+        {
+          "id": 142,
+          "name": "normal waist",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000146_00"
+        },
+        {
+          "id": 143,
+          "name": "low waist",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000147_00"
+        },
+        {
+          "id": 144,
+          "name": "basque (wasitline)",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000148_00"
+        },
+        {
+          "id": 145,
+          "name": "no waistline",
+          "supercategory": "waistline",
+          "taxonomy_id": "att000149_00"
+        },
+        {
+          "id": 146,
+          "name": "above-the-hip (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000151_00"
+        },
+        {
+          "id": 147,
+          "name": "hip (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000152_00"
+        },
+        {
+          "id": 148,
+          "name": "micro (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000153_00"
+        },
+        {
+          "id": 149,
+          "name": "mini (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000154_00"
+        },
+        {
+          "id": 150,
+          "name": "above-the-knee (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000155_00"
+        },
+        {
+          "id": 151,
+          "name": "knee (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000156_00"
+        },
+        {
+          "id": 152,
+          "name": "below the knee (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000157_00"
+        },
+        {
+          "id": 153,
+          "name": "midi",
+          "supercategory": "length",
+          "taxonomy_id": "att000158_00"
+        },
+        {
+          "id": 154,
+          "name": "maxi (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000159_00"
+        },
+        {
+          "id": 155,
+          "name": "floor (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000160_00"
+        },
+        {
+          "id": 156,
+          "name": "sleeveless",
+          "supercategory": "length",
+          "taxonomy_id": "att000161_00"
+        },
+        {
+          "id": 157,
+          "name": "short (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000162_00"
+        },
+        {
+          "id": 158,
+          "name": "elbow-length",
+          "supercategory": "length",
+          "taxonomy_id": "att000163_00"
+        },
+        {
+          "id": 159,
+          "name": "three quarter (length)",
+          "supercategory": "length",
+          "taxonomy_id": "att000164_00"
+        },
+        {
+          "id": 160,
+          "name": "wrist-length",
+          "supercategory": "length",
+          "taxonomy_id": "att000165_00"
+        },
+        {
+          "id": 161,
+          "name": "asymmetric (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000166_00"
+        },
+        {
+          "id": 162,
+          "name": "regular (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000167_00"
+        },
+        {
+          "id": 163,
+          "name": "shirt (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000168_00"
+        },
+        {
+          "id": 164,
+          "name": "polo (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000169_00"
+        },
+        {
+          "id": 165,
+          "name": "chelsea (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000170_00"
+        },
+        {
+          "id": 166,
+          "name": "banded (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000171_00"
+        },
+        {
+          "id": 167,
+          "name": "mandarin (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000172_00"
+        },
+        {
+          "id": 168,
+          "name": "peter pan (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000173_00"
+        },
+        {
+          "id": 169,
+          "name": "bow (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000174_00"
+        },
+        {
+          "id": 170,
+          "name": "stand-away (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000175_00"
+        },
+        {
+          "id": 171,
+          "name": "jabot (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000176_00"
+        },
+        {
+          "id": 172,
+          "name": "sailor (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000177_00"
+        },
+        {
+          "id": 173,
+          "name": "oversized (collar)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000178_00"
+        },
+        {
+          "id": 174,
+          "name": "notched (lapel)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000179_00"
+        },
+        {
+          "id": 175,
+          "name": "peak (lapel)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000180_00"
+        },
+        {
+          "id": 176,
+          "name": "shawl (lapel)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000181_00"
+        },
+        {
+          "id": 177,
+          "name": "napoleon (lapel)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000182_00"
+        },
+        {
+          "id": 178,
+          "name": "oversized (lapel)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000183_00"
+        }
+    ]
+}

@@ -1,0 +1,260 @@
+{
+  "visible": {
+    "face-image": {
+      "value": {
+        "src": "https://static.wikia.nocookie.net/community-sitcom/images/8/82/Annie_Season_Five.jpg/revision/latest?cb=20150606151621",
+        "alt": "Image of Person"
+      },
+      "type": "Image"
+    },
+    "name": "Annie Edison",
+    "age": {
+      "value": 19,
+      "type": "Number",
+      "max": 150,
+      "min": 0
+    },
+    "gender": "Female",
+    "hair": {
+      "colour": "Brown",
+      "style": "Tied-Back",
+      "length": "Shoulder-Length"
+    },
+    "eye-colour": "Blue",
+    "clothing": {
+      "example-outfit": {
+        "shirt": "",
+        "coat": "",
+        "trousers": "",
+        "skirt": "",
+        "shoes": "",
+        "socks": "",
+        "accessories": {
+          "glasses": "",
+          "jewellery": {
+            "earrings": "",
+            "nose-ring": "",
+            "necklace": "",
+            "bracelet": ""
+          }
+        }
+      }
+    }
+  },
+  "invisible": {
+    "career": {
+      "OStarNET-SOC-Code": "",
+      "current-job": "Forensic Scientist",
+      "industry": "Research",
+      "net-worth": "N/A"
+    },
+    "romantic-life": {
+      "is-in-a-relationship": false
+    },
+    "family-life": {
+      "has-children": false
+    },
+    "personality": {
+      "openness-to-experience": {
+        "curious": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "imaginative": {
+          "value":7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "artistic": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "excitable": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "unconventional": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "conscientiousness": {
+        "competent": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "organised": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "dutiful": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hard-working": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-disciplined": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "extraversion": {
+        "assertive": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "active": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "enthusiastic": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "warm": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "outgoing": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "agreeableness": {
+        "trusting": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "straightforward": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "altruistic": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "modest": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "sympathetic": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "neuroticism": {
+        "anxious": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hostile": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-conscious": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "impulsive": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "insecure": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      }
+    },
+    "interests": {
+      "sports": {
+        "football": false,
+        "basketball": false,
+        "tennis": false,
+        "swimming": false,
+        "baseball": false,
+        "darts": false,
+        "badminton": false,
+        "yoga": false,
+        "billiards": false,
+        "dancing": false,
+        "weightlifting": false,
+        "running": false
+      },
+      "food": {
+        "cooking": false,
+        "baking": false
+      },
+      "art": {
+        "painting": false,
+        "drawing": false,
+        "photography": true,
+        "poetry": false,
+        "writing": false
+      },
+      "music": {
+        "songwriting": false,
+        "playing-instruments": false,
+        "in-a-band": false
+      },
+      "other": {
+        "gaming": true,
+        "ghost-hunting": false,
+        "shooting": false,
+        "bird-watching": false,
+        "gardening": false,
+        "skydiving": false
+      }
+    }
+  }
+}

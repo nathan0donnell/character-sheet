@@ -1,0 +1,100 @@
+{
+    "shirt-types":[
+        {
+          "id": 0,
+          "name": "classic (t-shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000002_00"
+        },
+        {
+          "id": 1,
+          "name": "polo (shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000003_00"
+        },
+        {
+          "id": 2,
+          "name": "undershirt",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000004_00"
+        },
+        {
+          "id": 3,
+          "name": "henley (shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000005_00"
+        },
+        {
+          "id": 4,
+          "name": "ringer (t-shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000006_00"
+        },
+        {
+          "id": 5,
+          "name": "raglan (t-shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000007_00"
+        },
+        {
+          "id": 6,
+          "name": "rugby (shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000008_00"
+        },
+        {
+          "id": 7,
+          "name": "sailor (shirt)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000009_00"
+        },
+        {
+          "id": 8,
+          "name": "crop (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000010_00"
+        },
+        {
+          "id": 9,
+          "name": "halter (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000011_00"
+        },
+        {
+          "id": 10,
+          "name": "camisole",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000012_00"
+        },
+        {
+          "id": 11,
+          "name": "tank (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000013_00"
+        },
+        {
+          "id": 12,
+          "name": "peasant (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000014_00"
+        },
+        {
+          "id": 13,
+          "name": "tube (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000015_00"
+        },
+        {
+          "id": 14,
+          "name": "tunic (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000016_00"
+        },
+        {
+          "id": 15,
+          "name": "smock (top)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000017_00"
+        }
+    ]
+}

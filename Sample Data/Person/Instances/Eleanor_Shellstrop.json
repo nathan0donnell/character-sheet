@@ -1,0 +1,260 @@
+{
+  "visible": {
+    "face-image": {
+      "value": {
+        "src": "https://static.wikia.nocookie.net/thegoodplace/images/9/9e/4eleanor.jpg/revision/latest?cb=20190914140736",
+        "alt": "Image of Person"
+      },
+      "type": "Image"
+    },
+    "name": "Eleanor Shellstrop",
+    "age": {
+      "value": 38,
+      "type": "Number",
+      "max": 150,
+      "min": 0
+    },
+    "gender": "Female",
+    "hair": {
+      "colour": "Yellow",
+      "style": "Straight",
+      "length": "Neck-Length"
+    },
+    "eye-colour": " Blue",
+    "clothing": {
+      "example-outfit": {
+        "shirt": "",
+        "coat": "",
+        "trousers": "",
+        "skirt": "",
+        "shoes": "",
+        "socks": "",
+        "accessories": {
+          "glasses": "",
+          "jewellery": {
+            "earrings": "",
+            "nose-ring": "",
+            "necklace": "",
+            "bracelet": ""
+          }
+        }
+      }
+    }
+  },
+  "invisible": {
+    "career": {
+      "OStarNET-SOC-Code": "",
+      "current-job": "Sales Rep",
+      "industry": "Sales",
+      "net-worth": "N/A"
+    },
+    "romantic-life": {
+      "is-in-a-relationship": true
+    },
+    "family-life": {
+      "has-children": false
+    },
+    "personality": {
+      "openness-to-experience": {
+        "curious": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "imaginative": {
+          "value":8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "artistic": {
+          "value":5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "excitable": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "unconventional": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "conscientiousness": {
+        "competent": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "organised": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "dutiful": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hard-working": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-disciplined": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "extraversion": {
+        "assertive": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "active": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "enthusiastic": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "warm": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "outgoing": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "agreeableness": {
+        "trusting": {
+          "value": 3,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "straightforward": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "altruistic": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "modest": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "sympathetic": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "neuroticism": {
+        "anxious": {
+          "value":6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hostile": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-conscious": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "impulsive": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "insecure": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      }
+    },
+    "interests": {
+      "sports": {
+        "football": false,
+        "basketball": false,
+        "tennis": false,
+        "swimming": false,
+        "baseball": false,
+        "darts": false,
+        "badminton": false,
+        "yoga": false,
+        "billiards": false,
+        "dancing": false,
+        "weightlifting": false,
+        "running": false
+      },
+      "food": {
+        "cooking": false,
+        "baking": false
+      },
+      "art": {
+        "painting": false,
+        "drawing": false,
+        "photography": false,
+        "poetry": false,
+        "writing": false
+      },
+      "music": {
+        "songwriting": false,
+        "playing-instruments": false,
+        "in-a-band": false
+      },
+      "other": {
+        "gaming": false,
+        "ghost-hunting": false,
+        "shooting": false,
+        "bird-watching": false,
+        "gardening": false,
+        "skydiving": false
+      }
+    }
+  }
+}

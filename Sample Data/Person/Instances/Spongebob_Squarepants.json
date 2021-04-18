@@ -1,0 +1,260 @@
+{
+  "visible": {
+    "face-image": {
+      "value": {
+        "src": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png",
+        "alt": "Image of Person"
+      },
+      "type": "Image"
+    },
+    "name": "Spongebob Squarepants",
+    "age": {
+      "value": 0,
+      "type": "Number",
+      "max": 150,
+      "min": 0
+    },
+    "gender": "Male",
+    "hair": {
+      "colour": "None",
+      "style": "None",
+      "length": "None"
+    },
+    "eye-colour": "Blue",
+    "clothing": {
+      "example-outfit": {
+        "shirt": "",
+        "coat": "",
+        "trousers": "",
+        "skirt": "",
+        "shoes": "",
+        "socks": "",
+        "accessories": {
+          "glasses": "",
+          "jewellery": {
+            "earrings": "",
+            "nose-ring": "",
+            "necklace": "",
+            "bracelet": ""
+          }
+        }
+      }
+    }
+  },
+  "invisible": {
+    "career": {
+      "OStarNET-SOC-Code": "",
+      "current-job": "Fry Cook",
+      "industry": "Food",
+      "net-worth": "N/A"
+    },
+    "romantic-life": {
+      "is-in-a-relationship": false
+    },
+    "family-life": {
+      "has-children": false
+    },
+    "personality": {
+      "openness-to-experience": {
+        "curious": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "imaginative": {
+          "value":10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "artistic": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "excitable": {
+          "value": 10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "unconventional": {
+          "value": 9.5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "conscientiousness": {
+        "competent": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "organised": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "dutiful": {
+          "value": 10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hard-working": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-disciplined": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "extraversion": {
+        "assertive": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "active": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "enthusiastic": {
+          "value": 10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "warm": {
+          "value": 10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "outgoing": {
+          "value": 10,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "agreeableness": {
+        "trusting": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "straightforward": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "altruistic": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "modest": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "sympathetic": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "neuroticism": {
+        "anxious": {
+          "value": 3,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hostile": {
+          "value": 1,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-conscious": {
+          "value": 3,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "impulsive": {
+          "value": 4,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "insecure": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      }
+    },
+    "interests": {
+      "sports": {
+        "football": false,
+        "basketball": false,
+        "tennis": true,
+        "swimming": false,
+        "baseball": false,
+        "darts": false,
+        "badminton": false,
+        "yoga": false,
+        "billiards": false,
+        "dancing": true,
+        "weightlifting": false,
+        "running": true
+      },
+      "food": {
+        "cooking": true,
+        "baking": false
+      },
+      "art": {
+        "painting": false,
+        "drawing": false,
+        "photography": false,
+        "poetry": false,
+        "writing": false
+      },
+      "music": {
+        "songwriting": false,
+        "playing-instruments": false,
+        "in-a-band": true
+      },
+      "other": {
+        "gaming": false,
+        "ghost-hunting": false,
+        "shooting": false,
+        "bird-watching": false,
+        "gardening": false,
+        "skydiving": false
+      }
+    }
+  }
+}

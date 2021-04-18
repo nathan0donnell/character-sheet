@@ -1,0 +1,160 @@
+{
+    "trouser-types":[
+        {
+          "id": 36,
+          "name": "jeans",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000038_00"
+        },
+        {
+          "id": 37,
+          "name": "sweatpants",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000039_00"
+        },
+        {
+          "id": 38,
+          "name": "leggings",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000040_00"
+        },
+        {
+          "id": 39,
+          "name": "hip-huggers (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000041_00"
+        },
+        {
+          "id": 40,
+          "name": "cargo (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000042_00"
+        },
+        {
+          "id": 41,
+          "name": "culottes",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000043_00"
+        },
+        {
+          "id": 42,
+          "name": "capri (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000044_00"
+        },
+        {
+          "id": 43,
+          "name": "harem (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000045_00"
+        },
+        {
+          "id": 44,
+          "name": "sailor (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000046_00"
+        },
+        {
+          "id": 45,
+          "name": "jodhpur",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000047_00"
+        },
+        {
+          "id": 46,
+          "name": "peg (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000048_00"
+        },
+        {
+          "id": 47,
+          "name": "camo (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000049_00"
+        },
+        {
+          "id": 48,
+          "name": "track (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000050_00"
+        },
+        {
+          "id": 49,
+          "name": "crop (pants)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000051_00"
+        },
+        {
+          "id": 50,
+          "name": "short (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000052_00"
+        },
+        {
+          "id": 51,
+          "name": "booty (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000053_00"
+        },
+        {
+          "id": 52,
+          "name": "bermuda (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000054_00"
+        },
+        {
+          "id": 53,
+          "name": "cargo (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000055_00"
+        },
+        {
+          "id": 54,
+          "name": "trunks",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000056_00"
+        },
+        {
+          "id": 55,
+          "name": "boardshorts",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000057_00"
+        },
+        {
+          "id": 56,
+          "name": "skort",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000058_00"
+        },
+        {
+          "id": 57,
+          "name": "roll-up (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000059_00"
+        },
+        {
+          "id": 58,
+          "name": "tie-up (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000060_00"
+        },
+        {
+          "id": 59,
+          "name": "culotte (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000061_00"
+        },
+        {
+          "id": 60,
+          "name": "lounge (shorts)",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000062_00"
+        },
+        {
+          "id": 61,
+          "name": "bloomers",
+          "supercategory": "nickname",
+          "taxonomy_id": "att000063_00"
+        }
+    ]
+}

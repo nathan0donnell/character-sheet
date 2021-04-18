@@ -1,0 +1,220 @@
+{
+  "coat-types": [
+    {
+      "id": 16,
+      "name": "hoodie",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000018_00"
+    },
+    {
+      "id": 17,
+      "name": "blazer",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000019_00"
+    },
+    {
+      "id": 18,
+      "name": "pea (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000020_00"
+    },
+    {
+      "id": 19,
+      "name": "puffer (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000021_00"
+    },
+    {
+      "id": 20,
+      "name": "biker (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000022_00"
+    },
+    {
+      "id": 21,
+      "name": "trucker (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000023_00"
+    },
+    {
+      "id": 22,
+      "name": "bomber (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000024_00"
+    },
+    {
+      "id": 23,
+      "name": "anorak",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000025_00"
+    },
+    {
+      "id": 24,
+      "name": "safari (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000026_00"
+    },
+    {
+      "id": 25,
+      "name": "mao (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000027_00"
+    },
+    {
+      "id": 26,
+      "name": "nehru (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000028_00"
+    },
+    {
+      "id": 27,
+      "name": "norfolk (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000029_00"
+    },
+    {
+      "id": 28,
+      "name": "classic military (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000030_00"
+    },
+    {
+      "id": 29,
+      "name": "track (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000031_00"
+    },
+    {
+      "id": 30,
+      "name": "windbreaker",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000032_00"
+    },
+    {
+      "id": 31,
+      "name": "chanel (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000033_00"
+    },
+    {
+      "id": 32,
+      "name": "bolero",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000034_00"
+    },
+    {
+      "id": 33,
+      "name": "tuxedo (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000035_00"
+    },
+    {
+      "id": 34,
+      "name": "varsity (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000036_00"
+    },
+    {
+      "id": 35,
+      "name": "crop (jacket)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000037_00"
+    },
+    {
+      "id": 79,
+      "name": "blanket (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000081_00"
+    },
+    {
+      "id": 80,
+      "name": "parka",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000082_00"
+    },
+    {
+      "id": 81,
+      "name": "trench (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000083_00"
+    },
+    {
+      "id": 82,
+      "name": "pea (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000084_00"
+    },
+    {
+      "id": 83,
+      "name": "shearling (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000085_00"
+    },
+    {
+      "id": 84,
+      "name": "teddy bear (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000086_00"
+    },
+    {
+      "id": 85,
+      "name": "puffer (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000087_00"
+    },
+    {
+      "id": 86,
+      "name": "duster (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000088_00"
+    },
+    {
+      "id": 87,
+      "name": "raincoat",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000089_00"
+    },
+    {
+      "id": 88,
+      "name": "kimono",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000090_00"
+    },
+    {
+      "id": 89,
+      "name": "robe",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000091_00"
+    },
+    {
+      "id": 90,
+      "name": "dress (coat )",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000092_00"
+    },
+    {
+      "id": 91,
+      "name": "duffle (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000093_00"
+    },
+    {
+      "id": 92,
+      "name": "wrap (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000094_00"
+    },
+    {
+      "id": 93,
+      "name": "military (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000095_00"
+    },
+    {
+      "id": 94,
+      "name": "swing (coat)",
+      "supercategory": "nickname",
+      "taxonomy_id": "att000096_00"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "visible": {
+    "face-image": {
+      "value": {
+        "src": "https://static.wikia.nocookie.net/theoffice/images/b/be/Character_-_MichaelScott.PNG/revision/latest?cb=20200413224550",
+        "alt": "Image of Person"
+      },
+      "type": "Image"
+    },
+    "name": "Michael Scott",
+    "age": {
+      "value": 56,
+      "type": "Number",
+      "max": 150,
+      "min": 0
+    },
+    "gender": "Male",
+    "hair": {
+      "colour": "Black",
+      "style": "",
+      "length": "Short"
+    },
+    "eye-colour": "Green",
+    "clothing": {
+      "example-outfit": {
+        "shirt": "",
+        "coat": "",
+        "trousers": "",
+        "skirt": "",
+        "shoes": "",
+        "socks": "",
+        "accessories": {
+          "glasses": "",
+          "jewellery": {
+            "earrings": "",
+            "nose-ring": "",
+            "necklace": "",
+            "bracelet": ""
+          }
+        }
+      }
+    }
+  },
+  "invisible": {
+    "career": {
+      "OStarNET-SOC-Code": "",
+      "current-job": "Office Manager",
+      "industry": "Paper",
+      "net-worth": "N/A"
+    },
+    "romantic-life": {
+      "is-in-a-relationship": true
+    },
+    "family-life": {
+      "has-children": true
+    },
+    "personality": {
+      "openness-to-experience": {
+        "curious": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "imaginative": {
+          "value":7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "artistic": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "excitable": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "unconventional": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "conscientiousness": {
+        "competent": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "organised": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "dutiful": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hard-working": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-disciplined": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "extraversion": {
+        "assertive": {
+          "value": 5,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "active": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "enthusiastic": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "warm": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "outgoing": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "agreeableness": {
+        "trusting": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "straightforward": {
+          "value": 9,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "altruistic": {
+          "value": 6,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "modest": {
+          "value": 3,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "sympathetic": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      },
+      "neuroticism": {
+        "anxious": {
+          "value": 7,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "hostile": {
+          "value": 2,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "self-conscious": {
+          "value": 3,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "impulsive": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        },
+        "insecure": {
+          "value": 8,
+          "type": "Number",
+          "max": 10,
+          "min": 0
+        }
+      }
+    },
+    "interests": {
+      "sports": {
+        "football": false,
+        "basketball": true,
+        "tennis": false,
+        "swimming": false,
+        "baseball": true,
+        "darts": false,
+        "badminton": false,
+        "yoga": false,
+        "billiards": false,
+        "dancing": false,
+        "weightlifting": false,
+        "running": true
+      },
+      "food": {
+        "cooking": false,
+        "baking": false
+      },
+      "art": {
+        "painting": false,
+        "drawing": false,
+        "photography": false,
+        "poetry": false,
+        "writing": true
+      },
+      "music": {
+        "songwriting": false,
+        "playing-instruments": false,
+        "in-a-band": false
+      },
+      "other": {
+        "gaming": false,
+        "ghost-hunting": false,
+        "shooting": false,
+        "bird-watching": false,
+        "gardening": false,
+        "skydiving": false
+      }
+    }
+  }
+}

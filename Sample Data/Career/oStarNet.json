@@ -1,0 +1,5082 @@
+[
+	{
+		"O*NET-SOC Code": "11-1011.00",
+		"Title": "Chief Executives",
+		"Description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-1011.03",
+		"Title": "Chief Sustainability Officers",
+		"Description": "Communicate and coordinate with management"
+	},
+	{
+		"O*NET-SOC Code": "11-1021.00",
+		"Title": "General and Operations Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-1031.00",
+		"Title": "Legislators",
+		"Description": "Develop"
+	},
+	{
+		"O*NET-SOC Code": "11-2011.00",
+		"Title": "Advertising and Promotions Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-2021.00",
+		"Title": "Marketing Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-2022.00",
+		"Title": "Sales Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-2032.00",
+		"Title": "Public Relations Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-2033.00",
+		"Title": "Fundraising Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3012.00",
+		"Title": "Administrative Services Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3013.00",
+		"Title": "Facilities Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3013.01",
+		"Title": "Security Managers",
+		"Description": "Direct an organization's security functions"
+	},
+	{
+		"O*NET-SOC Code": "11-3021.00",
+		"Title": "Computer and Information Systems Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3031.00",
+		"Title": "Financial Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3031.01",
+		"Title": "Treasurers and Controllers",
+		"Description": "Direct financial activities"
+	},
+	{
+		"O*NET-SOC Code": "11-3031.03",
+		"Title": "Investment Fund Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3051.00",
+		"Title": "Industrial Production Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3051.01",
+		"Title": "Quality Control Systems Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3051.02",
+		"Title": "Geothermal Production Managers",
+		"Description": "Manage operations at geothermal power generation facilities. Maintain and monitor geothermal plant equipment for efficient and safe plant operations."
+	},
+	{
+		"O*NET-SOC Code": "11-3051.03",
+		"Title": "Biofuels Production Managers",
+		"Description": "Manage biofuels production and plant operations. Collect and process information on plant production and performance"
+	},
+	{
+		"O*NET-SOC Code": "11-3051.04",
+		"Title": "Biomass Power Plant Managers",
+		"Description": "Manage operations at biomass power generation facilities. Direct work activities at plant"
+	},
+	{
+		"O*NET-SOC Code": "11-3051.06",
+		"Title": "Hydroelectric Production Managers",
+		"Description": "Manage operations at hydroelectric power generation facilities. Maintain and monitor hydroelectric plant equipment for efficient and safe plant operations."
+	},
+	{
+		"O*NET-SOC Code": "11-3061.00",
+		"Title": "Purchasing Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3071.00",
+		"Title": "Transportation",
+		"Description": " Storage"
+	},
+	{
+		"O*NET-SOC Code": "11-3071.04",
+		"Title": "Supply Chain Managers",
+		"Description": "Direct or coordinate production"
+	},
+	{
+		"O*NET-SOC Code": "11-3111.00",
+		"Title": "Compensation and Benefits Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3121.00",
+		"Title": "Human Resources Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-3131.00",
+		"Title": "Training and Development Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9013.00",
+		"Title": "Farmers",
+		"Description": " Ranchers"
+	},
+	{
+		"O*NET-SOC Code": "11-9021.00",
+		"Title": "Construction Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9031.00",
+		"Title": "Education and Childcare Administrators",
+		"Description": " Preschool and Daycare"
+	},
+	{
+		"O*NET-SOC Code": "11-9032.00",
+		"Title": "Education Administrators",
+		"Description": " Kindergarten through Secondary"
+	},
+	{
+		"O*NET-SOC Code": "11-9033.00",
+		"Title": "Education Administrators",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "11-9039.00",
+		"Title": "Education Administrators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "11-9041.00",
+		"Title": "Architectural and Engineering Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9041.01",
+		"Title": "Biofuels/Biodiesel Technology and Product Development Managers",
+		"Description": "Define"
+	},
+	{
+		"O*NET-SOC Code": "11-9051.00",
+		"Title": "Food Service Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9071.00",
+		"Title": "Gambling Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9072.00",
+		"Title": "Entertainment and Recreation Managers",
+		"Description": " Except Gambling"
+	},
+	{
+		"O*NET-SOC Code": "11-9081.00",
+		"Title": "Lodging Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9111.00",
+		"Title": "Medical and Health Services Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9121.00",
+		"Title": "Natural Sciences Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9121.01",
+		"Title": "Clinical Research Coordinators",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9121.02",
+		"Title": "Water Resource Specialists",
+		"Description": "Design or implement programs and strategies related to water resource issues such as supply"
+	},
+	{
+		"O*NET-SOC Code": "11-9131.00",
+		"Title": "Postmasters and Mail Superintendents",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9141.00",
+		"Title": "Property",
+		"Description": " Real Estate"
+	},
+	{
+		"O*NET-SOC Code": "11-9151.00",
+		"Title": "Social and Community Service Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9161.00",
+		"Title": "Emergency Management Directors",
+		"Description": "Plan and direct disaster response or crisis management activities"
+	},
+	{
+		"O*NET-SOC Code": "11-9171.00",
+		"Title": "Funeral Home Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9179.00",
+		"Title": "Personal Service Managers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "11-9179.01",
+		"Title": "Fitness and Wellness Coordinators",
+		"Description": "Manage or coordinate fitness and wellness programs and services. Manage and train staff of wellness specialists"
+	},
+	{
+		"O*NET-SOC Code": "11-9179.02",
+		"Title": "Spa Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.00",
+		"Title": "Managers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.01",
+		"Title": "Regulatory Affairs Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.02",
+		"Title": "Compliance Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.08",
+		"Title": "Loss Prevention Managers",
+		"Description": "Plan and direct policies"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.09",
+		"Title": "Wind Energy Operations Managers",
+		"Description": "Manage wind field operations"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.10",
+		"Title": "Wind Energy Development Managers",
+		"Description": "Lead or manage the development and evaluation of potential wind energy business opportunities"
+	},
+	{
+		"O*NET-SOC Code": "11-9199.11",
+		"Title": "Brownfield Redevelopment Specialists and Site Managers",
+		"Description": "Plan and direct cleanup and redevelopment of contaminated properties for reuse. Does not include properties sufficiently contaminated to qualify as Superfund sites."
+	},
+	{
+		"O*NET-SOC Code": "13-1011.00",
+		"Title": "Agents and Business Managers of Artists",
+		"Description": " Performers"
+	},
+	{
+		"O*NET-SOC Code": "13-1021.00",
+		"Title": "Buyers and Purchasing Agents",
+		"Description": " Farm Products"
+	},
+	{
+		"O*NET-SOC Code": "13-1022.00",
+		"Title": "Wholesale and Retail Buyers",
+		"Description": " Except Farm Products"
+	},
+	{
+		"O*NET-SOC Code": "13-1023.00",
+		"Title": "Purchasing Agents",
+		"Description": " Except Wholesale"
+	},
+	{
+		"O*NET-SOC Code": "13-1031.00",
+		"Title": "Claims Adjusters",
+		"Description": " Examiners"
+	},
+	{
+		"O*NET-SOC Code": "13-1032.00",
+		"Title": "Insurance Appraisers",
+		"Description": " Auto Damage"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.00",
+		"Title": "Compliance Officers",
+		"Description": "Examine"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.01",
+		"Title": "Environmental Compliance Inspectors",
+		"Description": "Inspect and investigate sources of pollution to protect the public and environment and ensure conformance with Federal"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.03",
+		"Title": "Equal Opportunity Representatives and Officers",
+		"Description": "Monitor and evaluate compliance with equal opportunity laws"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.04",
+		"Title": "Government Property Inspectors and Investigators",
+		"Description": "Investigate or inspect government property to ensure compliance with contract agreements and government regulations."
+	},
+	{
+		"O*NET-SOC Code": "13-1041.06",
+		"Title": "Coroners",
+		"Description": "Direct activities such as autopsies"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.07",
+		"Title": "Regulatory Affairs Specialists",
+		"Description": "Coordinate and document internal regulatory processes"
+	},
+	{
+		"O*NET-SOC Code": "13-1041.08",
+		"Title": "Customs Brokers",
+		"Description": "Prepare customs documentation and ensure that shipments meet all applicable laws to facilitate the import and export of goods. Determine and track duties and taxes payable and process payments on behalf of client. Sign documents under a power of attorney. Represent clients in meetings with customs officials and apply for duty refunds and tariff reclassifications. Coordinate transportation and storage of imported goods."
+	},
+	{
+		"O*NET-SOC Code": "13-1051.00",
+		"Title": "Cost Estimators",
+		"Description": "Prepare cost estimates for product manufacturing"
+	},
+	{
+		"O*NET-SOC Code": "13-1071.00",
+		"Title": "Human Resources Specialists",
+		"Description": "Recruit"
+	},
+	{
+		"O*NET-SOC Code": "13-1074.00",
+		"Title": "Farm Labor Contractors",
+		"Description": "Recruit and hire seasonal or temporary agricultural laborers. May transport"
+	},
+	{
+		"O*NET-SOC Code": "13-1075.00",
+		"Title": "Labor Relations Specialists",
+		"Description": "Resolve disputes between workers and managers"
+	},
+	{
+		"O*NET-SOC Code": "13-1081.00",
+		"Title": "Logisticians",
+		"Description": "Analyze and coordinate the ongoing logistical functions of a firm or organization. Responsible for the entire life cycle of a product"
+	},
+	{
+		"O*NET-SOC Code": "13-1081.01",
+		"Title": "Logistics Engineers",
+		"Description": "Design or analyze operational solutions for projects such as transportation optimization"
+	},
+	{
+		"O*NET-SOC Code": "13-1081.02",
+		"Title": "Logistics Analysts",
+		"Description": "Analyze product delivery or supply chain processes to identify or recommend changes. May manage route activity including invoicing"
+	},
+	{
+		"O*NET-SOC Code": "13-1082.00",
+		"Title": "Project Management Specialists",
+		"Description": "Analyze and coordinate the schedule"
+	},
+	{
+		"O*NET-SOC Code": "13-1111.00",
+		"Title": "Management Analysts",
+		"Description": "Conduct organizational studies and evaluations"
+	},
+	{
+		"O*NET-SOC Code": "13-1121.00",
+		"Title": "Meeting",
+		"Description": " Convention"
+	},
+	{
+		"O*NET-SOC Code": "13-1131.00",
+		"Title": "Fundraisers",
+		"Description": "Organize activities to raise funds or otherwise solicit and gather monetary donations or other gifts for an organization. May design and produce promotional materials. May also raise awareness of the organization's work"
+	},
+	{
+		"O*NET-SOC Code": "13-1141.00",
+		"Title": "Compensation",
+		"Description": " Benefits"
+	},
+	{
+		"O*NET-SOC Code": "13-1151.00",
+		"Title": "Training and Development Specialists",
+		"Description": "Design or conduct work-related training and development programs to improve individual skills or organizational performance. May analyze organizational training needs or evaluate training effectiveness."
+	},
+	{
+		"O*NET-SOC Code": "13-1161.00",
+		"Title": "Market Research Analysts and Marketing Specialists",
+		"Description": "Research conditions in local"
+	},
+	{
+		"O*NET-SOC Code": "13-1161.01",
+		"Title": "Search Marketing Strategists",
+		"Description": "Employ search marketing tactics to increase visibility and engagement with content"
+	},
+	{
+		"O*NET-SOC Code": "13-1199.00",
+		"Title": "Business Operations Specialists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "13-1199.04",
+		"Title": "Business Continuity Planners",
+		"Description": "Develop"
+	},
+	{
+		"O*NET-SOC Code": "13-1199.05",
+		"Title": "Sustainability Specialists",
+		"Description": "Address organizational sustainability issues"
+	},
+	{
+		"O*NET-SOC Code": "13-1199.06",
+		"Title": "Online Merchants",
+		"Description": "Conduct retail activities of businesses operating exclusively online. May perform duties such as preparing business strategies"
+	},
+	{
+		"O*NET-SOC Code": "13-1199.07",
+		"Title": "Security Management Specialists",
+		"Description": "Conduct security assessments for organizations"
+	},
+	{
+		"O*NET-SOC Code": "13-2011.00",
+		"Title": "Accountants and Auditors",
+		"Description": "Examine"
+	},
+	{
+		"O*NET-SOC Code": "13-2022.00",
+		"Title": "Appraisers of Personal and Business Property",
+		"Description": "Appraise and estimate the fair value of tangible personal or business property"
+	},
+	{
+		"O*NET-SOC Code": "13-2023.00",
+		"Title": "Appraisers and Assessors of Real Estate",
+		"Description": "Appraise real estate"
+	},
+	{
+		"O*NET-SOC Code": "13-2031.00",
+		"Title": "Budget Analysts",
+		"Description": "Examine budget estimates for completeness"
+	},
+	{
+		"O*NET-SOC Code": "13-2041.00",
+		"Title": "Credit Analysts",
+		"Description": "Analyze credit data and financial statements of individuals or firms to determine the degree of risk involved in extending credit or lending money. Prepare reports with credit information for use in decisionmaking."
+	},
+	{
+		"O*NET-SOC Code": "13-2051.00",
+		"Title": "Financial and Investment Analysts",
+		"Description": "Conduct quantitative analyses of information involving investment programs or financial data of public or private institutions"
+	},
+	{
+		"O*NET-SOC Code": "13-2052.00",
+		"Title": "Personal Financial Advisors",
+		"Description": "Advise clients on financial plans using knowledge of tax and investment strategies"
+	},
+	{
+		"O*NET-SOC Code": "13-2053.00",
+		"Title": "Insurance Underwriters",
+		"Description": "Review individual applications for insurance to evaluate degree of risk involved and determine acceptance of applications."
+	},
+	{
+		"O*NET-SOC Code": "13-2054.00",
+		"Title": "Financial Risk Specialists",
+		"Description": "Analyze and measure exposure to credit and market risk threatening the assets"
+	},
+	{
+		"O*NET-SOC Code": "13-2061.00",
+		"Title": "Financial Examiners",
+		"Description": "Enforce or ensure compliance with laws and regulations governing financial and securities institutions and financial and real estate transactions. May examine"
+	},
+	{
+		"O*NET-SOC Code": "13-2071.00",
+		"Title": "Credit Counselors",
+		"Description": "Advise and educate individuals or organizations on acquiring and managing debt. May provide guidance in determining the best type of loan and explain loan requirements or restrictions. May help develop debt management plans or student financial aid packages. May advise on credit issues"
+	},
+	{
+		"O*NET-SOC Code": "13-2072.00",
+		"Title": "Loan Officers",
+		"Description": "Evaluate"
+	},
+	{
+		"O*NET-SOC Code": "13-2081.00",
+		"Title": "Tax Examiners and Collectors",
+		"Description": " and Revenue Agents"
+	},
+	{
+		"O*NET-SOC Code": "13-2082.00",
+		"Title": "Tax Preparers",
+		"Description": "Prepare tax returns for individuals or small businesses."
+	},
+	{
+		"O*NET-SOC Code": "13-2099.00",
+		"Title": "Financial Specialists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "13-2099.01",
+		"Title": "Financial Quantitative Analysts",
+		"Description": "Develop quantitative techniques to inform securities investing"
+	},
+	{
+		"O*NET-SOC Code": "13-2099.04",
+		"Title": "Fraud Examiners",
+		"Description": " Investigators and Analysts"
+	},
+	{
+		"O*NET-SOC Code": "15-1211.00",
+		"Title": "Computer Systems Analysts",
+		"Description": "Analyze science"
+	},
+	{
+		"O*NET-SOC Code": "15-1211.01",
+		"Title": "Health Informatics Specialists",
+		"Description": "Apply knowledge of nursing and informatics to assist in the design"
+	},
+	{
+		"O*NET-SOC Code": "15-1212.00",
+		"Title": "Information Security Analysts",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "15-1221.00",
+		"Title": "Computer and Information Research Scientists",
+		"Description": "Conduct research into fundamental computer and information science as theorists"
+	},
+	{
+		"O*NET-SOC Code": "15-1231.00",
+		"Title": "Computer Network Support Specialists",
+		"Description": "Analyze"
+	},
+	{
+		"O*NET-SOC Code": "15-1232.00",
+		"Title": "Computer User Support Specialists",
+		"Description": "Provide technical assistance to computer users. Answer questions or resolve computer problems for clients in person"
+	},
+	{
+		"O*NET-SOC Code": "15-1241.00",
+		"Title": "Computer Network Architects",
+		"Description": "Design and implement computer and information networks"
+	},
+	{
+		"O*NET-SOC Code": "15-1241.01",
+		"Title": "Telecommunications Engineering Specialists",
+		"Description": "Design or configure wired"
+	},
+	{
+		"O*NET-SOC Code": "15-1242.00",
+		"Title": "Database Administrators",
+		"Description": "Administer"
+	},
+	{
+		"O*NET-SOC Code": "15-1243.00",
+		"Title": "Database Architects",
+		"Description": "Design strategies for enterprise databases"
+	},
+	{
+		"O*NET-SOC Code": "15-1243.01",
+		"Title": "Data Warehousing Specialists",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "15-1244.00",
+		"Title": "Network and Computer Systems Administrators",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "15-1251.00",
+		"Title": "Computer Programmers",
+		"Description": "Create"
+	},
+	{
+		"O*NET-SOC Code": "15-1252.00",
+		"Title": "Software Developers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "15-1253.00",
+		"Title": "Software Quality Assurance Analysts and Testers",
+		"Description": "Develop and execute software tests to identify software problems and their causes. Test system modifications to prepare for implementation. Document software and application defects using a bug tracking system and report defects to software or web developers. Create and maintain databases of known defects. May participate in software design reviews to provide input on functional requirements"
+	},
+	{
+		"O*NET-SOC Code": "15-1254.00",
+		"Title": "Web Developers",
+		"Description": "Develop and implement websites"
+	},
+	{
+		"O*NET-SOC Code": "15-1255.00",
+		"Title": "Web and Digital Interface Designers",
+		"Description": "Design digital user interfaces or websites. Develop and test layouts"
+	},
+	{
+		"O*NET-SOC Code": "15-1255.01",
+		"Title": "Video Game Designers",
+		"Description": "Design core features of video games. Specify innovative game and role-play mechanics"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.00",
+		"Title": "Computer Occupations",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.01",
+		"Title": "Web Administrators",
+		"Description": "Manage web environment design"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.02",
+		"Title": "Geographic Information Systems Technologists and Technicians",
+		"Description": "Assist scientists or related professionals in building"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.03",
+		"Title": "Document Management Specialists",
+		"Description": "Implement and administer enterprise-wide document management systems and related procedures that allow organizations to capture"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.04",
+		"Title": "Penetration Testers",
+		"Description": "Evaluate network system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempt to breach and exploit critical systems and gain access to sensitive information to assess system security."
+	},
+	{
+		"O*NET-SOC Code": "15-1299.05",
+		"Title": "Information Security Engineers",
+		"Description": "Develop and oversee the implementation of information security procedures and policies. Build"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.06",
+		"Title": "Digital Forensics Analysts",
+		"Description": "Conduct investigations on computer-based crimes establishing documentary or physical evidence"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.07",
+		"Title": "Blockchain Engineers",
+		"Description": "Maintain and support distributed and decentralized blockchain-based networks or block-chain applications such as cryptocurrency exchange"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.08",
+		"Title": "Computer Systems Engineers/Architects",
+		"Description": "Design and develop solutions to complex applications problems"
+	},
+	{
+		"O*NET-SOC Code": "15-1299.09",
+		"Title": "Information Technology Project Managers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "15-2011.00",
+		"Title": "Actuaries",
+		"Description": "Analyze statistical data"
+	},
+	{
+		"O*NET-SOC Code": "15-2021.00",
+		"Title": "Mathematicians",
+		"Description": "Conduct research in fundamental mathematics or in application of mathematical techniques to science"
+	},
+	{
+		"O*NET-SOC Code": "15-2031.00",
+		"Title": "Operations Research Analysts",
+		"Description": "Formulate and apply mathematical modeling and other optimizing methods to develop and interpret information that assists management with decisionmaking"
+	},
+	{
+		"O*NET-SOC Code": "15-2041.00",
+		"Title": "Statisticians",
+		"Description": "Develop or apply mathematical or statistical theory and methods to collect"
+	},
+	{
+		"O*NET-SOC Code": "15-2041.01",
+		"Title": "Biostatisticians",
+		"Description": "Develop and apply biostatistical theory and methods to the study of life sciences."
+	},
+	{
+		"O*NET-SOC Code": "15-2051.00",
+		"Title": "Data Scientists",
+		"Description": "Develop and implement a set of techniques or analytics applications to transform raw data into meaningful information using data-oriented programming languages and visualization software. Apply data mining"
+	},
+	{
+		"O*NET-SOC Code": "15-2051.01",
+		"Title": "Business Intelligence Analysts",
+		"Description": "Produce financial and market intelligence by querying data repositories and generating periodic reports. Devise methods for identifying data patterns and trends in available information sources."
+	},
+	{
+		"O*NET-SOC Code": "15-2051.02",
+		"Title": "Clinical Data Managers",
+		"Description": "Apply knowledge of health care and database management to analyze clinical data"
+	},
+	{
+		"O*NET-SOC Code": "15-2099.00",
+		"Title": "Mathematical Science Occupations",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "15-2099.01",
+		"Title": "Bioinformatics Technicians",
+		"Description": "Apply principles and methods of bioinformatics to assist scientists in areas such as pharmaceuticals"
+	},
+	{
+		"O*NET-SOC Code": "17-1011.00",
+		"Title": "Architects",
+		"Description": " Except Landscape and Naval"
+	},
+	{
+		"O*NET-SOC Code": "17-1012.00",
+		"Title": "Landscape Architects",
+		"Description": "Plan and design land areas for projects such as parks and other recreational facilities"
+	},
+	{
+		"O*NET-SOC Code": "17-1021.00",
+		"Title": "Cartographers and Photogrammetrists",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-1022.00",
+		"Title": "Surveyors",
+		"Description": "Make exact measurements and determine property boundaries. Provide data relevant to the shape"
+	},
+	{
+		"O*NET-SOC Code": "17-1022.01",
+		"Title": "Geodetic Surveyors",
+		"Description": "Measure large areas of the Earth's surface using satellite observations"
+	},
+	{
+		"O*NET-SOC Code": "17-2011.00",
+		"Title": "Aerospace Engineers",
+		"Description": "Perform engineering duties in designing"
+	},
+	{
+		"O*NET-SOC Code": "17-2021.00",
+		"Title": "Agricultural Engineers",
+		"Description": "Apply knowledge of engineering technology and biological science to agricultural problems concerned with power and machinery"
+	},
+	{
+		"O*NET-SOC Code": "17-2031.00",
+		"Title": "Bioengineers and Biomedical Engineers",
+		"Description": "Apply knowledge of engineering"
+	},
+	{
+		"O*NET-SOC Code": "17-2041.00",
+		"Title": "Chemical Engineers",
+		"Description": "Design chemical plant equipment and devise processes for manufacturing chemicals and products"
+	},
+	{
+		"O*NET-SOC Code": "17-2051.00",
+		"Title": "Civil Engineers",
+		"Description": "Perform engineering duties in planning"
+	},
+	{
+		"O*NET-SOC Code": "17-2051.01",
+		"Title": "Transportation Engineers",
+		"Description": "Develop plans for surface transportation projects"
+	},
+	{
+		"O*NET-SOC Code": "17-2051.02",
+		"Title": "Water/Wastewater Engineers",
+		"Description": "Design or oversee projects involving provision of potable water"
+	},
+	{
+		"O*NET-SOC Code": "17-2061.00",
+		"Title": "Computer Hardware Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2071.00",
+		"Title": "Electrical Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2072.00",
+		"Title": "Electronics Engineers",
+		"Description": " Except Computer"
+	},
+	{
+		"O*NET-SOC Code": "17-2072.01",
+		"Title": "Radio Frequency Identification Device Specialists",
+		"Description": "Design and implement radio frequency identification device (RFID) systems used to track shipments or goods."
+	},
+	{
+		"O*NET-SOC Code": "17-2081.00",
+		"Title": "Environmental Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2111.00",
+		"Title": "Health and Safety Engineers",
+		"Description": " Except Mining Safety Engineers and Inspectors"
+	},
+	{
+		"O*NET-SOC Code": "17-2111.02",
+		"Title": "Fire-Prevention and Protection Engineers",
+		"Description": "Research causes of fires"
+	},
+	{
+		"O*NET-SOC Code": "17-2112.00",
+		"Title": "Industrial Engineers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "17-2112.01",
+		"Title": "Human Factors Engineers and Ergonomists",
+		"Description": "Design objects"
+	},
+	{
+		"O*NET-SOC Code": "17-2112.02",
+		"Title": "Validation Engineers",
+		"Description": "Design or plan protocols for equipment or processes to produce products meeting internal and external purity"
+	},
+	{
+		"O*NET-SOC Code": "17-2112.03",
+		"Title": "Manufacturing Engineers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "17-2121.00",
+		"Title": "Marine Engineers and Naval Architects",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "17-2131.00",
+		"Title": "Materials Engineers",
+		"Description": "Evaluate materials and develop machinery and processes to manufacture materials for use in products that must meet specialized design and performance specifications. Develop new uses for known materials. Includes those engineers working with composite materials or specializing in one type of material"
+	},
+	{
+		"O*NET-SOC Code": "17-2141.00",
+		"Title": "Mechanical Engineers",
+		"Description": "Perform engineering duties in planning and designing tools"
+	},
+	{
+		"O*NET-SOC Code": "17-2141.01",
+		"Title": "Fuel Cell Engineers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "17-2141.02",
+		"Title": "Automotive Engineers",
+		"Description": "Develop new or improved designs for vehicle structural members"
+	},
+	{
+		"O*NET-SOC Code": "17-2151.00",
+		"Title": "Mining and Geological Engineers",
+		"Description": " Including Mining Safety Engineers"
+	},
+	{
+		"O*NET-SOC Code": "17-2161.00",
+		"Title": "Nuclear Engineers",
+		"Description": "Conduct research on nuclear engineering projects or apply principles and theory of nuclear science to problems concerned with release"
+	},
+	{
+		"O*NET-SOC Code": "17-2171.00",
+		"Title": "Petroleum Engineers",
+		"Description": "Devise methods to improve oil and gas extraction and production and determine the need for new or modified tool designs. Oversee drilling and offer technical advice."
+	},
+	{
+		"O*NET-SOC Code": "17-2199.00",
+		"Title": "Engineers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.03",
+		"Title": "Energy Engineers",
+		"Description": " Except Wind and Solar"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.05",
+		"Title": "Mechatronics Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.06",
+		"Title": "Microsystems Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.07",
+		"Title": "Photonics Engineers",
+		"Description": "Design technologies specializing in light information or light energy"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.08",
+		"Title": "Robotics Engineers",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.09",
+		"Title": "Nanosystems Engineers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "17-2199.10",
+		"Title": "Wind Energy Engineers",
+		"Description": "Design underground or overhead wind farm collector systems and prepare and develop site specifications."
+	},
+	{
+		"O*NET-SOC Code": "17-2199.11",
+		"Title": "Solar Energy Systems Engineers",
+		"Description": "Perform site-specific engineering analysis or evaluation of energy efficiency and solar projects involving residential"
+	},
+	{
+		"O*NET-SOC Code": "17-3011.00",
+		"Title": "Architectural and Civil Drafters",
+		"Description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects"
+	},
+	{
+		"O*NET-SOC Code": "17-3012.00",
+		"Title": "Electrical and Electronics Drafters",
+		"Description": "Prepare wiring diagrams"
+	},
+	{
+		"O*NET-SOC Code": "17-3013.00",
+		"Title": "Mechanical Drafters",
+		"Description": "Prepare detailed working diagrams of machinery and mechanical devices"
+	},
+	{
+		"O*NET-SOC Code": "17-3019.00",
+		"Title": "Drafters",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "17-3021.00",
+		"Title": "Aerospace Engineering and Operations Technologists and Technicians",
+		"Description": "Operate"
+	},
+	{
+		"O*NET-SOC Code": "17-3022.00",
+		"Title": "Civil Engineering Technologists and Technicians",
+		"Description": "Apply theory and principles of civil engineering in planning"
+	},
+	{
+		"O*NET-SOC Code": "17-3023.00",
+		"Title": "Electrical and Electronic Engineering Technologists and Technicians",
+		"Description": "Apply electrical and electronic theory and related knowledge"
+	},
+	{
+		"O*NET-SOC Code": "17-3024.00",
+		"Title": "Electro-Mechanical and Mechatronics Technologists and Technicians",
+		"Description": "Operate"
+	},
+	{
+		"O*NET-SOC Code": "17-3024.01",
+		"Title": "Robotics Technicians",
+		"Description": "Build"
+	},
+	{
+		"O*NET-SOC Code": "17-3025.00",
+		"Title": "Environmental Engineering Technologists and Technicians",
+		"Description": "Apply theory and principles of environmental engineering to modify"
+	},
+	{
+		"O*NET-SOC Code": "17-3026.00",
+		"Title": "Industrial Engineering Technologists and Technicians",
+		"Description": "Apply engineering theory and principles to problems of industrial layout or manufacturing production"
+	},
+	{
+		"O*NET-SOC Code": "17-3026.01",
+		"Title": "Nanotechnology Engineering Technologists and Technicians",
+		"Description": "Implement production processes and operate commercial-scale production equipment to produce"
+	},
+	{
+		"O*NET-SOC Code": "17-3027.00",
+		"Title": "Mechanical Engineering Technologists and Technicians",
+		"Description": "Apply theory and principles of mechanical engineering to modify"
+	},
+	{
+		"O*NET-SOC Code": "17-3027.01",
+		"Title": "Automotive Engineering Technicians",
+		"Description": "Assist engineers in determining the practicality of proposed product design changes and plan and carry out tests on experimental test devices or equipment for performance"
+	},
+	{
+		"O*NET-SOC Code": "17-3028.00",
+		"Title": "Calibration Technologists and Technicians",
+		"Description": "Execute or adapt procedures and techniques for calibrating measurement devices"
+	},
+	{
+		"O*NET-SOC Code": "17-3029.00",
+		"Title": "Engineering Technologists and Technicians",
+		"Description": " Except Drafters"
+	},
+	{
+		"O*NET-SOC Code": "17-3029.01",
+		"Title": "Non-Destructive Testing Specialists",
+		"Description": "Test the safety of structures"
+	},
+	{
+		"O*NET-SOC Code": "17-3029.08",
+		"Title": "Photonics Technicians",
+		"Description": "Build"
+	},
+	{
+		"O*NET-SOC Code": "17-3031.00",
+		"Title": "Surveying and Mapping Technicians",
+		"Description": "Perform surveying and mapping duties"
+	},
+	{
+		"O*NET-SOC Code": "19-1011.00",
+		"Title": "Animal Scientists",
+		"Description": "Conduct research in the genetics"
+	},
+	{
+		"O*NET-SOC Code": "19-1012.00",
+		"Title": "Food Scientists and Technologists",
+		"Description": "Use chemistry"
+	},
+	{
+		"O*NET-SOC Code": "19-1013.00",
+		"Title": "Soil and Plant Scientists",
+		"Description": "Conduct research in breeding"
+	},
+	{
+		"O*NET-SOC Code": "19-1021.00",
+		"Title": "Biochemists and Biophysicists",
+		"Description": "Study the chemical composition or physical principles of living cells and organisms"
+	},
+	{
+		"O*NET-SOC Code": "19-1022.00",
+		"Title": "Microbiologists",
+		"Description": "Investigate the growth"
+	},
+	{
+		"O*NET-SOC Code": "19-1023.00",
+		"Title": "Zoologists and Wildlife Biologists",
+		"Description": "Study the origins"
+	},
+	{
+		"O*NET-SOC Code": "19-1029.00",
+		"Title": "Biological Scientists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "19-1029.01",
+		"Title": "Bioinformatics Scientists",
+		"Description": "Conduct research using bioinformatics theory and methods in areas such as pharmaceuticals"
+	},
+	{
+		"O*NET-SOC Code": "19-1029.02",
+		"Title": "Molecular and Cellular Biologists",
+		"Description": "Research and study cellular molecules and organelles to understand cell function and organization."
+	},
+	{
+		"O*NET-SOC Code": "19-1029.03",
+		"Title": "Geneticists",
+		"Description": "Research and study the inheritance of traits at the molecular"
+	},
+	{
+		"O*NET-SOC Code": "19-1029.04",
+		"Title": "Biologists",
+		"Description": "Research or study basic principles of plant and animal life"
+	},
+	{
+		"O*NET-SOC Code": "19-1031.00",
+		"Title": "Conservation Scientists",
+		"Description": "Manage"
+	},
+	{
+		"O*NET-SOC Code": "19-1031.02",
+		"Title": "Range Managers",
+		"Description": "Research or study range land management practices to provide sustained production of forage"
+	},
+	{
+		"O*NET-SOC Code": "19-1031.03",
+		"Title": "Park Naturalists",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "19-1032.00",
+		"Title": "Foresters",
+		"Description": "Manage public and private forested lands for economic"
+	},
+	{
+		"O*NET-SOC Code": "19-1041.00",
+		"Title": "Epidemiologists",
+		"Description": "Investigate and describe the determinants and distribution of disease"
+	},
+	{
+		"O*NET-SOC Code": "19-1042.00",
+		"Title": "Medical Scientists",
+		"Description": " Except Epidemiologists"
+	},
+	{
+		"O*NET-SOC Code": "19-1099.00",
+		"Title": "Life Scientists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "19-2011.00",
+		"Title": "Astronomers",
+		"Description": "Observe"
+	},
+	{
+		"O*NET-SOC Code": "19-2012.00",
+		"Title": "Physicists",
+		"Description": "Conduct research into physical phenomena"
+	},
+	{
+		"O*NET-SOC Code": "19-2021.00",
+		"Title": "Atmospheric and Space Scientists",
+		"Description": "Investigate atmospheric phenomena and interpret meteorological data"
+	},
+	{
+		"O*NET-SOC Code": "19-2031.00",
+		"Title": "Chemists",
+		"Description": "Conduct qualitative and quantitative chemical analyses or experiments in laboratories for quality or process control or to develop new products or knowledge."
+	},
+	{
+		"O*NET-SOC Code": "19-2032.00",
+		"Title": "Materials Scientists",
+		"Description": "Research and study the structures and chemical properties of various natural and synthetic or composite materials"
+	},
+	{
+		"O*NET-SOC Code": "19-2041.00",
+		"Title": "Environmental Scientists and Specialists",
+		"Description": " Including Health"
+	},
+	{
+		"O*NET-SOC Code": "19-2041.01",
+		"Title": "Climate Change Policy Analysts",
+		"Description": "Research and analyze policy developments related to climate change. Make climate-related recommendations for actions such as legislation"
+	},
+	{
+		"O*NET-SOC Code": "19-2041.02",
+		"Title": "Environmental Restoration Planners",
+		"Description": "Collaborate with field and biology staff to oversee the implementation of restoration projects and to develop new products. Process and synthesize complex scientific data into practical strategies for restoration"
+	},
+	{
+		"O*NET-SOC Code": "19-2041.03",
+		"Title": "Industrial Ecologists",
+		"Description": "Apply principles and processes of natural ecosystems to develop models for efficient industrial systems. Use knowledge from the physical and social sciences to maximize effective use of natural resources in the production and use of goods and services. Examine societal issues and their relationship with both technical systems and the environment."
+	},
+	{
+		"O*NET-SOC Code": "19-2042.00",
+		"Title": "Geoscientists",
+		"Description": " Except Hydrologists and Geographers"
+	},
+	{
+		"O*NET-SOC Code": "19-2043.00",
+		"Title": "Hydrologists",
+		"Description": "Research the distribution"
+	},
+	{
+		"O*NET-SOC Code": "19-2099.00",
+		"Title": "Physical Scientists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "19-2099.01",
+		"Title": "Remote Sensing Scientists and Technologists",
+		"Description": "Apply remote sensing principles and methods to analyze data and solve problems in areas such as natural resource management"
+	},
+	{
+		"O*NET-SOC Code": "19-3011.00",
+		"Title": "Economists",
+		"Description": "Conduct research"
+	},
+	{
+		"O*NET-SOC Code": "19-3011.01",
+		"Title": "Environmental Economists",
+		"Description": "Conduct economic analysis related to environmental protection and use of the natural environment"
+	},
+	{
+		"O*NET-SOC Code": "19-3022.00",
+		"Title": "Survey Researchers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "19-3032.00",
+		"Title": "Industrial-Organizational Psychologists",
+		"Description": "Apply principles of psychology to human resources"
+	},
+	{
+		"O*NET-SOC Code": "19-3033.00",
+		"Title": "Clinical and Counseling Psychologists",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "19-3034.00",
+		"Title": "School Psychologists",
+		"Description": "Diagnose and implement individual or schoolwide interventions or strategies to address educational"
+	},
+	{
+		"O*NET-SOC Code": "19-3039.00",
+		"Title": "Psychologists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "19-3039.02",
+		"Title": "Neuropsychologists",
+		"Description": "Apply theories and principles of neuropsychology to evaluate and diagnose disorders of higher cerebral functioning"
+	},
+	{
+		"O*NET-SOC Code": "19-3039.03",
+		"Title": "Clinical Neuropsychologists",
+		"Description": "Assess and diagnose patients with neurobehavioral problems related to acquired or developmental disorders of the nervous system"
+	},
+	{
+		"O*NET-SOC Code": "19-3041.00",
+		"Title": "Sociologists",
+		"Description": "Study human society and social behavior by examining the groups and social institutions that people form"
+	},
+	{
+		"O*NET-SOC Code": "19-3051.00",
+		"Title": "Urban and Regional Planners",
+		"Description": "Develop comprehensive plans and programs for use of land and physical facilities of jurisdictions"
+	},
+	{
+		"O*NET-SOC Code": "19-3091.00",
+		"Title": "Anthropologists and Archeologists",
+		"Description": "Study the origin"
+	},
+	{
+		"O*NET-SOC Code": "19-3092.00",
+		"Title": "Geographers",
+		"Description": "Study the nature and use of areas of the Earth's surface"
+	},
+	{
+		"O*NET-SOC Code": "19-3093.00",
+		"Title": "Historians",
+		"Description": "Research"
+	},
+	{
+		"O*NET-SOC Code": "19-3094.00",
+		"Title": "Political Scientists",
+		"Description": "Study the origin"
+	},
+	{
+		"O*NET-SOC Code": "19-3099.00",
+		"Title": "Social Scientists and Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "19-3099.01",
+		"Title": "Transportation Planners",
+		"Description": "Prepare studies for proposed transportation projects. Gather"
+	},
+	{
+		"O*NET-SOC Code": "19-4012.00",
+		"Title": "Agricultural Technicians",
+		"Description": "Work with agricultural scientists in plant"
+	},
+	{
+		"O*NET-SOC Code": "19-4012.01",
+		"Title": "Precision Agriculture Technicians",
+		"Description": "Apply geospatial technologies"
+	},
+	{
+		"O*NET-SOC Code": "19-4013.00",
+		"Title": "Food Science Technicians",
+		"Description": "Work with food scientists or technologists to perform standardized qualitative and quantitative tests to determine physical or chemical properties of food or beverage products. Includes technicians who assist in research and development of production technology"
+	},
+	{
+		"O*NET-SOC Code": "19-4021.00",
+		"Title": "Biological Technicians",
+		"Description": "Assist biological and medical scientists. Set up"
+	},
+	{
+		"O*NET-SOC Code": "19-4031.00",
+		"Title": "Chemical Technicians",
+		"Description": "Conduct chemical and physical laboratory tests to assist scientists in making qualitative and quantitative analyses of solids"
+	},
+	{
+		"O*NET-SOC Code": "19-4042.00",
+		"Title": "Environmental Science and Protection Technicians",
+		"Description": " Including Health"
+	},
+	{
+		"O*NET-SOC Code": "19-4043.00",
+		"Title": "Geological Technicians",
+		"Description": " Except Hydrologic Technicians"
+	},
+	{
+		"O*NET-SOC Code": "19-4044.00",
+		"Title": "Hydrologic Technicians",
+		"Description": "Collect and organize data concerning the distribution and circulation of ground and surface water"
+	},
+	{
+		"O*NET-SOC Code": "19-4051.00",
+		"Title": "Nuclear Technicians",
+		"Description": "Assist nuclear physicists"
+	},
+	{
+		"O*NET-SOC Code": "19-4051.02",
+		"Title": "Nuclear Monitoring Technicians",
+		"Description": "Collect and test samples to monitor results of nuclear experiments and contamination of humans"
+	},
+	{
+		"O*NET-SOC Code": "19-4061.00",
+		"Title": "Social Science Research Assistants",
+		"Description": "Assist social scientists in laboratory"
+	},
+	{
+		"O*NET-SOC Code": "19-4071.00",
+		"Title": "Forest and Conservation Technicians",
+		"Description": "Provide technical assistance regarding the conservation of soil"
+	},
+	{
+		"O*NET-SOC Code": "19-4092.00",
+		"Title": "Forensic Science Technicians",
+		"Description": "Collect"
+	},
+	{
+		"O*NET-SOC Code": "19-4099.00",
+		"Title": "Life",
+		"Description": " Physical"
+	},
+	{
+		"O*NET-SOC Code": "19-4099.01",
+		"Title": "Quality Control Analysts",
+		"Description": "Conduct tests to determine quality of raw materials"
+	},
+	{
+		"O*NET-SOC Code": "19-4099.03",
+		"Title": "Remote Sensing Technicians",
+		"Description": "Apply remote sensing technologies to assist scientists in areas such as natural resources"
+	},
+	{
+		"O*NET-SOC Code": "19-5011.00",
+		"Title": "Occupational Health and Safety Specialists",
+		"Description": "Review"
+	},
+	{
+		"O*NET-SOC Code": "19-5012.00",
+		"Title": "Occupational Health and Safety Technicians",
+		"Description": "Collect data on work environments for analysis by occupational health and safety specialists. Implement and conduct evaluation of programs designed to limit chemical"
+	},
+	{
+		"O*NET-SOC Code": "21-1011.00",
+		"Title": "Substance Abuse and Behavioral Disorder Counselors",
+		"Description": "Counsel and advise individuals with alcohol"
+	},
+	{
+		"O*NET-SOC Code": "21-1012.00",
+		"Title": "Educational",
+		"Description": " Guidance"
+	},
+	{
+		"O*NET-SOC Code": "21-1013.00",
+		"Title": "Marriage and Family Therapists",
+		"Description": "Diagnose and treat mental and emotional disorders"
+	},
+	{
+		"O*NET-SOC Code": "21-1014.00",
+		"Title": "Mental Health Counselors",
+		"Description": "Counsel and advise individuals and groups to promote optimum mental and emotional health"
+	},
+	{
+		"O*NET-SOC Code": "21-1015.00",
+		"Title": "Rehabilitation Counselors",
+		"Description": "Counsel individuals to maximize the independence and employability of persons coping with personal"
+	},
+	{
+		"O*NET-SOC Code": "21-1019.00",
+		"Title": "Counselors",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "21-1021.00",
+		"Title": "Child",
+		"Description": " Family"
+	},
+	{
+		"O*NET-SOC Code": "21-1022.00",
+		"Title": "Healthcare Social Workers",
+		"Description": "Provide individuals"
+	},
+	{
+		"O*NET-SOC Code": "21-1023.00",
+		"Title": "Mental Health and Substance Abuse Social Workers",
+		"Description": "Assess and treat individuals with mental"
+	},
+	{
+		"O*NET-SOC Code": "21-1029.00",
+		"Title": "Social Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "21-1091.00",
+		"Title": "Health Education Specialists",
+		"Description": "Provide and manage health education programs that help individuals"
+	},
+	{
+		"O*NET-SOC Code": "21-1092.00",
+		"Title": "Probation Officers and Correctional Treatment Specialists",
+		"Description": "Provide social services to assist in rehabilitation of law offenders in custody or on probation or parole. Make recommendations for actions involving formulation of rehabilitation plan and treatment of offender"
+	},
+	{
+		"O*NET-SOC Code": "21-1093.00",
+		"Title": "Social and Human Service Assistants",
+		"Description": "Assist other social and human service providers in providing client services in a wide variety of fields"
+	},
+	{
+		"O*NET-SOC Code": "21-1094.00",
+		"Title": "Community Health Workers",
+		"Description": "Promote health within a community by assisting individuals to adopt healthy behaviors. Serve as an advocate for the health needs of individuals by assisting community residents in effectively communicating with healthcare providers or social service agencies. Act as liaison or advocate and implement programs that promote"
+	},
+	{
+		"O*NET-SOC Code": "21-1099.00",
+		"Title": "Community and Social Service Specialists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "21-2011.00",
+		"Title": "Clergy",
+		"Description": "Conduct religious worship and perform other spiritual functions associated with beliefs and practices of religious faith or denomination. Provide spiritual and moral guidance and assistance to members."
+	},
+	{
+		"O*NET-SOC Code": "21-2021.00",
+		"Title": "Directors",
+		"Description": " Religious Activities and Education"
+	},
+	{
+		"O*NET-SOC Code": "21-2099.00",
+		"Title": "Religious Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "23-1011.00",
+		"Title": "Lawyers",
+		"Description": "Represent clients in criminal and civil litigation and other legal proceedings"
+	},
+	{
+		"O*NET-SOC Code": "23-1012.00",
+		"Title": "Judicial Law Clerks",
+		"Description": "Assist judges in court or by conducting research or preparing legal documents."
+	},
+	{
+		"O*NET-SOC Code": "23-1021.00",
+		"Title": "Administrative Law Judges",
+		"Description": " Adjudicators"
+	},
+	{
+		"O*NET-SOC Code": "23-1022.00",
+		"Title": "Arbitrators",
+		"Description": " Mediators"
+	},
+	{
+		"O*NET-SOC Code": "23-1023.00",
+		"Title": "Judges",
+		"Description": " Magistrate Judges"
+	},
+	{
+		"O*NET-SOC Code": "23-2011.00",
+		"Title": "Paralegals and Legal Assistants",
+		"Description": "Assist lawyers by investigating facts"
+	},
+	{
+		"O*NET-SOC Code": "23-2093.00",
+		"Title": "Title Examiners",
+		"Description": " Abstractors"
+	},
+	{
+		"O*NET-SOC Code": "23-2099.00",
+		"Title": "Legal Support Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "25-1011.00",
+		"Title": "Business Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1021.00",
+		"Title": "Computer Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1022.00",
+		"Title": "Mathematical Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1031.00",
+		"Title": "Architecture Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1032.00",
+		"Title": "Engineering Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1041.00",
+		"Title": "Agricultural Sciences Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1042.00",
+		"Title": "Biological Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1043.00",
+		"Title": "Forestry and Conservation Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1051.00",
+		"Title": "Atmospheric",
+		"Description": " Earth"
+	},
+	{
+		"O*NET-SOC Code": "25-1052.00",
+		"Title": "Chemistry Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1053.00",
+		"Title": "Environmental Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1054.00",
+		"Title": "Physics Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1061.00",
+		"Title": "Anthropology and Archeology Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1062.00",
+		"Title": "Area",
+		"Description": " Ethnic"
+	},
+	{
+		"O*NET-SOC Code": "25-1063.00",
+		"Title": "Economics Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1064.00",
+		"Title": "Geography Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1065.00",
+		"Title": "Political Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1066.00",
+		"Title": "Psychology Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1067.00",
+		"Title": "Sociology Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1069.00",
+		"Title": "Social Sciences Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1071.00",
+		"Title": "Health Specialties Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1072.00",
+		"Title": "Nursing Instructors and Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1081.00",
+		"Title": "Education Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1082.00",
+		"Title": "Library Science Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1111.00",
+		"Title": "Criminal Justice and Law Enforcement Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1112.00",
+		"Title": "Law Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1113.00",
+		"Title": "Social Work Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1121.00",
+		"Title": "Art",
+		"Description": " Drama"
+	},
+	{
+		"O*NET-SOC Code": "25-1122.00",
+		"Title": "Communications Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1123.00",
+		"Title": "English Language and Literature Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1124.00",
+		"Title": "Foreign Language and Literature Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1125.00",
+		"Title": "History Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1126.00",
+		"Title": "Philosophy and Religion Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1192.00",
+		"Title": "Family and Consumer Sciences Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1193.00",
+		"Title": "Recreation and Fitness Studies Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1194.00",
+		"Title": "Career/Technical Education Teachers",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-1199.00",
+		"Title": "Postsecondary Teachers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "25-2011.00",
+		"Title": "Preschool Teachers",
+		"Description": " Except Special Education"
+	},
+	{
+		"O*NET-SOC Code": "25-2012.00",
+		"Title": "Kindergarten Teachers",
+		"Description": " Except Special Education"
+	},
+	{
+		"O*NET-SOC Code": "25-2021.00",
+		"Title": "Elementary School Teachers",
+		"Description": " Except Special Education"
+	},
+	{
+		"O*NET-SOC Code": "25-2022.00",
+		"Title": "Middle School Teachers",
+		"Description": " Except Special and Career/Technical Education"
+	},
+	{
+		"O*NET-SOC Code": "25-2023.00",
+		"Title": "Career/Technical Education Teachers",
+		"Description": " Middle School"
+	},
+	{
+		"O*NET-SOC Code": "25-2031.00",
+		"Title": "Secondary School Teachers",
+		"Description": " Except Special and Career/Technical Education"
+	},
+	{
+		"O*NET-SOC Code": "25-2032.00",
+		"Title": "Career/Technical Education Teachers",
+		"Description": " Secondary School"
+	},
+	{
+		"O*NET-SOC Code": "25-2051.00",
+		"Title": "Special Education Teachers",
+		"Description": " Preschool"
+	},
+	{
+		"O*NET-SOC Code": "25-2055.00",
+		"Title": "Special Education Teachers",
+		"Description": " Kindergarten"
+	},
+	{
+		"O*NET-SOC Code": "25-2056.00",
+		"Title": "Special Education Teachers",
+		"Description": " Elementary School"
+	},
+	{
+		"O*NET-SOC Code": "25-2057.00",
+		"Title": "Special Education Teachers",
+		"Description": " Middle School"
+	},
+	{
+		"O*NET-SOC Code": "25-2058.00",
+		"Title": "Special Education Teachers",
+		"Description": " Secondary School"
+	},
+	{
+		"O*NET-SOC Code": "25-2059.00",
+		"Title": "Special Education Teachers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "25-2059.01",
+		"Title": "Adapted Physical Education Specialists",
+		"Description": "Provide individualized physical education instruction or services to children"
+	},
+	{
+		"O*NET-SOC Code": "25-3011.00",
+		"Title": "Adult Basic Education",
+		"Description": " Adult Secondary Education"
+	},
+	{
+		"O*NET-SOC Code": "25-3021.00",
+		"Title": "Self-Enrichment Teachers",
+		"Description": "Teach or instruct individuals or groups for the primary purpose of self-enrichment or recreation"
+	},
+	{
+		"O*NET-SOC Code": "25-3031.00",
+		"Title": "Substitute Teachers",
+		"Description": " Short-Term"
+	},
+	{
+		"O*NET-SOC Code": "25-3041.00",
+		"Title": "Tutors",
+		"Description": "Instruct individual students or small groups of students in academic subjects to support formal class instruction or to prepare students for standardized or admissions tests."
+	},
+	{
+		"O*NET-SOC Code": "25-3099.00",
+		"Title": "Teachers and Instructors",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "25-4011.00",
+		"Title": "Archivists",
+		"Description": "Appraise"
+	},
+	{
+		"O*NET-SOC Code": "25-4012.00",
+		"Title": "Curators",
+		"Description": "Administer collections"
+	},
+	{
+		"O*NET-SOC Code": "25-4013.00",
+		"Title": "Museum Technicians and Conservators",
+		"Description": "Restore"
+	},
+	{
+		"O*NET-SOC Code": "25-4022.00",
+		"Title": "Librarians and Media Collections Specialists",
+		"Description": "Administer and maintain libraries or collections of information"
+	},
+	{
+		"O*NET-SOC Code": "25-4031.00",
+		"Title": "Library Technicians",
+		"Description": "Assist librarians by helping readers in the use of library catalogs"
+	},
+	{
+		"O*NET-SOC Code": "25-9021.00",
+		"Title": "Farm and Home Management Educators",
+		"Description": "Instruct and advise individuals and families engaged in agriculture"
+	},
+	{
+		"O*NET-SOC Code": "25-9031.00",
+		"Title": "Instructional Coordinators",
+		"Description": "Develop instructional material"
+	},
+	{
+		"O*NET-SOC Code": "25-9042.00",
+		"Title": "Teaching Assistants",
+		"Description": " Preschool"
+	},
+	{
+		"O*NET-SOC Code": "25-9043.00",
+		"Title": "Teaching Assistants",
+		"Description": " Special Education"
+	},
+	{
+		"O*NET-SOC Code": "25-9044.00",
+		"Title": "Teaching Assistants",
+		"Description": " Postsecondary"
+	},
+	{
+		"O*NET-SOC Code": "25-9049.00",
+		"Title": "Teaching Assistants",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "25-9099.00",
+		"Title": "Educational Instruction and Library Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "27-1011.00",
+		"Title": "Art Directors",
+		"Description": "Formulate design concepts and presentation approaches for visual productions and media"
+	},
+	{
+		"O*NET-SOC Code": "27-1012.00",
+		"Title": "Craft Artists",
+		"Description": "Create or reproduce handmade objects for sale and exhibition using a variety of techniques"
+	},
+	{
+		"O*NET-SOC Code": "27-1013.00",
+		"Title": "Fine Artists",
+		"Description": " Including Painters"
+	},
+	{
+		"O*NET-SOC Code": "27-1014.00",
+		"Title": "Special Effects Artists and Animators",
+		"Description": "Create special effects or animations using film"
+	},
+	{
+		"O*NET-SOC Code": "27-1019.00",
+		"Title": "Artists and Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "27-1021.00",
+		"Title": "Commercial and Industrial Designers",
+		"Description": "Design and develop manufactured products"
+	},
+	{
+		"O*NET-SOC Code": "27-1022.00",
+		"Title": "Fashion Designers",
+		"Description": "Design clothing and accessories. Create original designs or adapt fashion trends."
+	},
+	{
+		"O*NET-SOC Code": "27-1023.00",
+		"Title": "Floral Designers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "27-1024.00",
+		"Title": "Graphic Designers",
+		"Description": "Design or create graphics to meet specific commercial or promotional needs"
+	},
+	{
+		"O*NET-SOC Code": "27-1025.00",
+		"Title": "Interior Designers",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "27-1026.00",
+		"Title": "Merchandise Displayers and Window Trimmers",
+		"Description": "Plan and erect commercial displays"
+	},
+	{
+		"O*NET-SOC Code": "27-1027.00",
+		"Title": "Set and Exhibit Designers",
+		"Description": "Design special exhibits and sets for film"
+	},
+	{
+		"O*NET-SOC Code": "27-1029.00",
+		"Title": "Designers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "27-2011.00",
+		"Title": "Actors",
+		"Description": "Play parts in stage"
+	},
+	{
+		"O*NET-SOC Code": "27-2012.00",
+		"Title": "Producers and Directors",
+		"Description": "Produce or direct stage"
+	},
+	{
+		"O*NET-SOC Code": "27-2012.03",
+		"Title": "Media Programming Directors",
+		"Description": "Direct and coordinate activities of personnel engaged in preparation of radio or television station program schedules and programs"
+	},
+	{
+		"O*NET-SOC Code": "27-2012.04",
+		"Title": "Talent Directors",
+		"Description": "Audition and interview performers to select most appropriate talent for parts in stage"
+	},
+	{
+		"O*NET-SOC Code": "27-2012.05",
+		"Title": "Media Technical Directors/Managers",
+		"Description": "Coordinate activities of technical departments"
+	},
+	{
+		"O*NET-SOC Code": "27-2021.00",
+		"Title": "Athletes and Sports Competitors",
+		"Description": "Compete in athletic events."
+	},
+	{
+		"O*NET-SOC Code": "27-2022.00",
+		"Title": "Coaches and Scouts",
+		"Description": "Instruct or coach groups or individuals in the fundamentals of sports for the primary purpose of competition. Demonstrate techniques and methods of participation. May evaluate athletes' strengths and weaknesses as possible recruits or to improve the athletes' technique to prepare them for competition. Those required to hold teaching certifications should be reported in the appropriate teaching category."
+	},
+	{
+		"O*NET-SOC Code": "27-2023.00",
+		"Title": "Umpires",
+		"Description": " Referees"
+	},
+	{
+		"O*NET-SOC Code": "27-2031.00",
+		"Title": "Dancers",
+		"Description": "Perform dances. May perform on stage"
+	},
+	{
+		"O*NET-SOC Code": "27-2032.00",
+		"Title": "Choreographers",
+		"Description": "Create new dance routines. Rehearse performance of routines. May direct and stage presentations."
+	},
+	{
+		"O*NET-SOC Code": "27-2041.00",
+		"Title": "Music Directors and Composers",
+		"Description": "Conduct"
+	},
+	{
+		"O*NET-SOC Code": "27-2042.00",
+		"Title": "Musicians and Singers",
+		"Description": "Play one or more musical instruments or sing. May perform on stage"
+	},
+	{
+		"O*NET-SOC Code": "27-2091.00",
+		"Title": "Disc Jockeys",
+		"Description": " Except Radio"
+	},
+	{
+		"O*NET-SOC Code": "27-2099.00",
+		"Title": "Entertainers and Performers",
+		"Description": " Sports and Related Workers"
+	},
+	{
+		"O*NET-SOC Code": "27-3011.00",
+		"Title": "Broadcast Announcers and Radio Disc Jockeys",
+		"Description": "Speak or read from scripted materials"
+	},
+	{
+		"O*NET-SOC Code": "27-3023.00",
+		"Title": "News Analysts",
+		"Description": " Reporters"
+	},
+	{
+		"O*NET-SOC Code": "27-3031.00",
+		"Title": "Public Relations Specialists",
+		"Description": "Promote or create an intended public image for individuals"
+	},
+	{
+		"O*NET-SOC Code": "27-3041.00",
+		"Title": "Editors",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "27-3042.00",
+		"Title": "Technical Writers",
+		"Description": "Write technical materials"
+	},
+	{
+		"O*NET-SOC Code": "27-3043.00",
+		"Title": "Writers and Authors",
+		"Description": "Originate and prepare written material"
+	},
+	{
+		"O*NET-SOC Code": "27-3043.05",
+		"Title": "Poets",
+		"Description": " Lyricists and Creative Writers"
+	},
+	{
+		"O*NET-SOC Code": "27-3091.00",
+		"Title": "Interpreters and Translators",
+		"Description": "Interpret oral or sign language"
+	},
+	{
+		"O*NET-SOC Code": "27-3092.00",
+		"Title": "Court Reporters and Simultaneous Captioners",
+		"Description": "Use verbatim methods and equipment to capture"
+	},
+	{
+		"O*NET-SOC Code": "27-3099.00",
+		"Title": "Media and Communication Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "27-4011.00",
+		"Title": "Audio and Video Technicians",
+		"Description": "Set up"
+	},
+	{
+		"O*NET-SOC Code": "27-4012.00",
+		"Title": "Broadcast Technicians",
+		"Description": "Set up"
+	},
+	{
+		"O*NET-SOC Code": "27-4014.00",
+		"Title": "Sound Engineering Technicians",
+		"Description": "Assemble and operate equipment to record"
+	},
+	{
+		"O*NET-SOC Code": "27-4015.00",
+		"Title": "Lighting Technicians",
+		"Description": "Set up"
+	},
+	{
+		"O*NET-SOC Code": "27-4021.00",
+		"Title": "Photographers",
+		"Description": "Photograph people"
+	},
+	{
+		"O*NET-SOC Code": "27-4031.00",
+		"Title": "Camera Operators",
+		"Description": " Television"
+	},
+	{
+		"O*NET-SOC Code": "27-4032.00",
+		"Title": "Film and Video Editors",
+		"Description": "Edit moving images on film"
+	},
+	{
+		"O*NET-SOC Code": "27-4099.00",
+		"Title": "Media and Communication Equipment Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-1011.00",
+		"Title": "Chiropractors",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1021.00",
+		"Title": "Dentists",
+		"Description": " General"
+	},
+	{
+		"O*NET-SOC Code": "29-1022.00",
+		"Title": "Oral and Maxillofacial Surgeons",
+		"Description": "Perform surgery and related procedures on the hard and soft tissues of the oral and maxillofacial regions to treat diseases"
+	},
+	{
+		"O*NET-SOC Code": "29-1023.00",
+		"Title": "Orthodontists",
+		"Description": "Examine"
+	},
+	{
+		"O*NET-SOC Code": "29-1024.00",
+		"Title": "Prosthodontists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1029.00",
+		"Title": "Dentists",
+		"Description": " All Other Specialists"
+	},
+	{
+		"O*NET-SOC Code": "29-1031.00",
+		"Title": "Dietitians and Nutritionists",
+		"Description": "Plan and conduct food service or nutritional programs to assist in the promotion of health and control of disease. May supervise activities of a department providing quantity food services"
+	},
+	{
+		"O*NET-SOC Code": "29-1041.00",
+		"Title": "Optometrists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1051.00",
+		"Title": "Pharmacists",
+		"Description": "Dispense drugs prescribed by physicians and other health practitioners and provide information to patients about medications and their use. May advise physicians and other health practitioners on the selection"
+	},
+	{
+		"O*NET-SOC Code": "29-1071.00",
+		"Title": "Physician Assistants",
+		"Description": "Provide healthcare services typically performed by a physician"
+	},
+	{
+		"O*NET-SOC Code": "29-1071.01",
+		"Title": "Anesthesiologist Assistants",
+		"Description": "Assist anesthesiologists in the administration of anesthesia for surgical and non-surgical procedures. Monitor patient status and provide patient care during surgical treatment."
+	},
+	{
+		"O*NET-SOC Code": "29-1081.00",
+		"Title": "Podiatrists",
+		"Description": "Diagnose and treat diseases and deformities of the human foot."
+	},
+	{
+		"O*NET-SOC Code": "29-1122.00",
+		"Title": "Occupational Therapists",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1122.01",
+		"Title": "Low Vision Therapists",
+		"Description": " Orientation and Mobility Specialists"
+	},
+	{
+		"O*NET-SOC Code": "29-1123.00",
+		"Title": "Physical Therapists",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1124.00",
+		"Title": "Radiation Therapists",
+		"Description": "Provide radiation therapy to patients as prescribed by a radiation oncologist according to established practices and standards. Duties may include reviewing prescription and diagnosis; acting as liaison with physician and supportive care personnel; preparing equipment"
+	},
+	{
+		"O*NET-SOC Code": "29-1125.00",
+		"Title": "Recreational Therapists",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "29-1126.00",
+		"Title": "Respiratory Therapists",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1127.00",
+		"Title": "Speech-Language Pathologists",
+		"Description": "Assess and treat persons with speech"
+	},
+	{
+		"O*NET-SOC Code": "29-1128.00",
+		"Title": "Exercise Physiologists",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1129.00",
+		"Title": "Therapists",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-1129.01",
+		"Title": "Art Therapists",
+		"Description": "Plan or conduct art therapy sessions or programs to improve clients' physical"
+	},
+	{
+		"O*NET-SOC Code": "29-1129.02",
+		"Title": "Music Therapists",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "29-1131.00",
+		"Title": "Veterinarians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1141.00",
+		"Title": "Registered Nurses",
+		"Description": "Assess patient health problems and needs"
+	},
+	{
+		"O*NET-SOC Code": "29-1141.01",
+		"Title": "Acute Care Nurses",
+		"Description": "Provide advanced nursing care for patients with acute conditions such as heart attacks"
+	},
+	{
+		"O*NET-SOC Code": "29-1141.02",
+		"Title": "Advanced Practice Psychiatric Nurses",
+		"Description": "Assess"
+	},
+	{
+		"O*NET-SOC Code": "29-1141.03",
+		"Title": "Critical Care Nurses",
+		"Description": "Provide specialized nursing care for patients in critical or coronary care units."
+	},
+	{
+		"O*NET-SOC Code": "29-1141.04",
+		"Title": "Clinical Nurse Specialists",
+		"Description": "Direct nursing staff in the provision of patient care in a clinical practice setting"
+	},
+	{
+		"O*NET-SOC Code": "29-1151.00",
+		"Title": "Nurse Anesthetists",
+		"Description": "Administer anesthesia"
+	},
+	{
+		"O*NET-SOC Code": "29-1161.00",
+		"Title": "Nurse Midwives",
+		"Description": "Diagnose and coordinate all aspects of the birthing process"
+	},
+	{
+		"O*NET-SOC Code": "29-1171.00",
+		"Title": "Nurse Practitioners",
+		"Description": "Diagnose and treat acute"
+	},
+	{
+		"O*NET-SOC Code": "29-1181.00",
+		"Title": "Audiologists",
+		"Description": "Assess and treat persons with hearing and related disorders. May fit hearing aids and provide auditory training. May perform research related to hearing problems."
+	},
+	{
+		"O*NET-SOC Code": "29-1211.00",
+		"Title": "Anesthesiologists",
+		"Description": "Administer anesthetics and analgesics for pain management prior to"
+	},
+	{
+		"O*NET-SOC Code": "29-1212.00",
+		"Title": "Cardiologists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1213.00",
+		"Title": "Dermatologists",
+		"Description": "Diagnose and treat diseases relating to the skin"
+	},
+	{
+		"O*NET-SOC Code": "29-1214.00",
+		"Title": "Emergency Medicine Physicians",
+		"Description": "Make immediate medical decisions and act to prevent death or further disability. Provide immediate recognition"
+	},
+	{
+		"O*NET-SOC Code": "29-1215.00",
+		"Title": "Family Medicine Physicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1216.00",
+		"Title": "General Internal Medicine Physicians",
+		"Description": "Diagnose and provide nonsurgical treatment for a wide range of diseases and injuries of internal organ systems. Provide care mainly for adults and adolescents"
+	},
+	{
+		"O*NET-SOC Code": "29-1217.00",
+		"Title": "Neurologists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1218.00",
+		"Title": "Obstetricians and Gynecologists",
+		"Description": "Provide medical care related to pregnancy or childbirth. Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1221.00",
+		"Title": "Pediatricians",
+		"Description": " General"
+	},
+	{
+		"O*NET-SOC Code": "29-1222.00",
+		"Title": "Physicians",
+		"Description": " Pathologists"
+	},
+	{
+		"O*NET-SOC Code": "29-1223.00",
+		"Title": "Psychiatrists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1224.00",
+		"Title": "Radiologists",
+		"Description": "Diagnose and treat diseases and injuries using medical imaging techniques"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.00",
+		"Title": "Physicians",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.01",
+		"Title": "Allergists and Immunologists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.02",
+		"Title": "Hospitalists",
+		"Description": "Provide inpatient care predominantly in settings such as medical wards"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.03",
+		"Title": "Urologists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.04",
+		"Title": "Physical Medicine and Rehabilitation Physicians",
+		"Description": "Diagnose and treat disorders requiring physiotherapy to provide physical"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.05",
+		"Title": "Preventive Medicine Physicians",
+		"Description": "Apply knowledge of general preventive medicine and public health issues to promote health care to groups or individuals"
+	},
+	{
+		"O*NET-SOC Code": "29-1229.06",
+		"Title": "Sports Medicine Physicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1241.00",
+		"Title": "Ophthalmologists",
+		"Description": " Except Pediatric"
+	},
+	{
+		"O*NET-SOC Code": "29-1242.00",
+		"Title": "Orthopedic Surgeons",
+		"Description": " Except Pediatric"
+	},
+	{
+		"O*NET-SOC Code": "29-1243.00",
+		"Title": "Pediatric Surgeons",
+		"Description": "Diagnose and perform surgery to treat fetal abnormalities and birth defects"
+	},
+	{
+		"O*NET-SOC Code": "29-1249.00",
+		"Title": "Surgeons",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-1291.00",
+		"Title": "Acupuncturists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1292.00",
+		"Title": "Dental Hygienists",
+		"Description": "Administer oral hygiene care to patients. Assess patient oral hygiene problems or needs and maintain health records. Advise patients on oral health maintenance and disease prevention. May provide advanced care such as providing fluoride treatment or administering topical anesthesia."
+	},
+	{
+		"O*NET-SOC Code": "29-1299.00",
+		"Title": "Healthcare Diagnosing or Treating Practitioners",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-1299.01",
+		"Title": "Naturopathic Physicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "29-1299.02",
+		"Title": "Orthoptists",
+		"Description": "Diagnose and treat visual system disorders such as binocular vision and eye movement impairments."
+	},
+	{
+		"O*NET-SOC Code": "29-2011.00",
+		"Title": "Medical and Clinical Laboratory Technologists",
+		"Description": "Perform complex medical laboratory tests for diagnosis"
+	},
+	{
+		"O*NET-SOC Code": "29-2011.01",
+		"Title": "Cytogenetic Technologists",
+		"Description": "Analyze chromosomes or chromosome segments found in biological specimens"
+	},
+	{
+		"O*NET-SOC Code": "29-2011.02",
+		"Title": "Cytotechnologists",
+		"Description": "Stain"
+	},
+	{
+		"O*NET-SOC Code": "29-2011.04",
+		"Title": "Histotechnologists",
+		"Description": "Apply knowledge of health and disease causes to evaluate new laboratory techniques and procedures to examine tissue samples. Process and prepare histological slides from tissue sections for microscopic examination and diagnosis by pathologists. May solve technical or instrument problems or assist with research studies."
+	},
+	{
+		"O*NET-SOC Code": "29-2012.00",
+		"Title": "Medical and Clinical Laboratory Technicians",
+		"Description": "Perform routine medical laboratory tests for the diagnosis"
+	},
+	{
+		"O*NET-SOC Code": "29-2012.01",
+		"Title": "Histology Technicians",
+		"Description": "Prepare histological slides from tissue sections for microscopic examination and diagnosis by pathologists. May assist with research studies."
+	},
+	{
+		"O*NET-SOC Code": "29-2031.00",
+		"Title": "Cardiovascular Technologists and Technicians",
+		"Description": "Conduct tests on pulmonary or cardiovascular systems of patients for diagnostic"
+	},
+	{
+		"O*NET-SOC Code": "29-2032.00",
+		"Title": "Diagnostic Medical Sonographers",
+		"Description": "Produce ultrasonic recordings of internal organs for use by physicians. Includes vascular technologists."
+	},
+	{
+		"O*NET-SOC Code": "29-2033.00",
+		"Title": "Nuclear Medicine Technologists",
+		"Description": "Prepare"
+	},
+	{
+		"O*NET-SOC Code": "29-2034.00",
+		"Title": "Radiologic Technologists and Technicians",
+		"Description": "Take x-rays and CAT scans or administer nonradioactive materials into patient's bloodstream for diagnostic or research purposes. Includes radiologic technologists and technicians who specialize in other scanning modalities."
+	},
+	{
+		"O*NET-SOC Code": "29-2035.00",
+		"Title": "Magnetic Resonance Imaging Technologists",
+		"Description": "Operate Magnetic Resonance Imaging (MRI) scanners. Monitor patient safety and comfort"
+	},
+	{
+		"O*NET-SOC Code": "29-2036.00",
+		"Title": "Medical Dosimetrists",
+		"Description": "Generate radiation treatment plans"
+	},
+	{
+		"O*NET-SOC Code": "29-2042.00",
+		"Title": "Emergency Medical Technicians",
+		"Description": "Assess injuries and illnesses and administer basic emergency medical care. May transport injured or sick persons to medical facilities."
+	},
+	{
+		"O*NET-SOC Code": "29-2043.00",
+		"Title": "Paramedics",
+		"Description": "Administer basic or advanced emergency medical care and assess injuries and illnesses. May administer medication intravenously"
+	},
+	{
+		"O*NET-SOC Code": "29-2051.00",
+		"Title": "Dietetic Technicians",
+		"Description": "Assist in the provision of food service and nutritional programs"
+	},
+	{
+		"O*NET-SOC Code": "29-2052.00",
+		"Title": "Pharmacy Technicians",
+		"Description": "Prepare medications under the direction of a pharmacist. May measure"
+	},
+	{
+		"O*NET-SOC Code": "29-2053.00",
+		"Title": "Psychiatric Technicians",
+		"Description": "Care for individuals with mental or emotional conditions or disabilities"
+	},
+	{
+		"O*NET-SOC Code": "29-2055.00",
+		"Title": "Surgical Technologists",
+		"Description": "Assist in operations"
+	},
+	{
+		"O*NET-SOC Code": "29-2056.00",
+		"Title": "Veterinary Technologists and Technicians",
+		"Description": "Perform medical tests in a laboratory environment for use in the treatment and diagnosis of diseases in animals. Prepare vaccines and serums for prevention of diseases. Prepare tissue samples"
+	},
+	{
+		"O*NET-SOC Code": "29-2057.00",
+		"Title": "Ophthalmic Medical Technicians",
+		"Description": "Assist ophthalmologists by performing ophthalmic clinical functions. May administer eye exams"
+	},
+	{
+		"O*NET-SOC Code": "29-2061.00",
+		"Title": "Licensed Practical and Licensed Vocational Nurses",
+		"Description": "Care for ill"
+	},
+	{
+		"O*NET-SOC Code": "29-2072.00",
+		"Title": "Medical Records Specialists",
+		"Description": "Compile"
+	},
+	{
+		"O*NET-SOC Code": "29-2081.00",
+		"Title": "Opticians",
+		"Description": " Dispensing"
+	},
+	{
+		"O*NET-SOC Code": "29-2091.00",
+		"Title": "Orthotists and Prosthetists",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "29-2092.00",
+		"Title": "Hearing Aid Specialists",
+		"Description": "Select and fit hearing aids for customers. Administer and interpret tests of hearing. Assess hearing instrument efficacy. Take ear impressions and prepare"
+	},
+	{
+		"O*NET-SOC Code": "29-2099.00",
+		"Title": "Health Technologists and Technicians",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-2099.01",
+		"Title": "Neurodiagnostic Technologists",
+		"Description": "Conduct electroneurodiagnostic (END) tests such as electroencephalograms"
+	},
+	{
+		"O*NET-SOC Code": "29-2099.05",
+		"Title": "Ophthalmic Medical Technologists",
+		"Description": "Assist ophthalmologists by performing ophthalmic clinical functions and ophthalmic photography. Provide instruction and supervision to other ophthalmic personnel. Assist with minor surgical procedures"
+	},
+	{
+		"O*NET-SOC Code": "29-2099.08",
+		"Title": "Patient Representatives",
+		"Description": "Assist patients in obtaining services"
+	},
+	{
+		"O*NET-SOC Code": "29-9021.00",
+		"Title": "Health Information Technologists and Medical Registrars",
+		"Description": "Apply knowledge of healthcare and information systems to assist in the design"
+	},
+	{
+		"O*NET-SOC Code": "29-9091.00",
+		"Title": "Athletic Trainers",
+		"Description": "Evaluate and treat musculoskeletal injuries or illnesses. Provide preventive"
+	},
+	{
+		"O*NET-SOC Code": "29-9092.00",
+		"Title": "Genetic Counselors",
+		"Description": "Assess individual or family risk for a variety of inherited conditions"
+	},
+	{
+		"O*NET-SOC Code": "29-9093.00",
+		"Title": "Surgical Assistants",
+		"Description": "Assist in operations"
+	},
+	{
+		"O*NET-SOC Code": "29-9099.00",
+		"Title": "Healthcare Practitioners and Technical Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "29-9099.01",
+		"Title": "Midwives",
+		"Description": "Provide prenatal care and childbirth assistance."
+	},
+	{
+		"O*NET-SOC Code": "31-1121.00",
+		"Title": "Home Health Aides",
+		"Description": "Monitor the health status of an individual with disabilities or illness"
+	},
+	{
+		"O*NET-SOC Code": "31-1122.00",
+		"Title": "Personal Care Aides",
+		"Description": "Provide personalized assistance to individuals with disabilities or illness who require help with personal care and activities of daily living support (e.g."
+	},
+	{
+		"O*NET-SOC Code": "31-1131.00",
+		"Title": "Nursing Assistants",
+		"Description": "Provide or assist with basic care or support under the direction of onsite licensed nursing staff. Perform duties such as monitoring of health status"
+	},
+	{
+		"O*NET-SOC Code": "31-1132.00",
+		"Title": "Orderlies",
+		"Description": "Transport patients to areas such as operating rooms or x-ray rooms using wheelchairs"
+	},
+	{
+		"O*NET-SOC Code": "31-1133.00",
+		"Title": "Psychiatric Aides",
+		"Description": "Assist mentally impaired or emotionally disturbed patients"
+	},
+	{
+		"O*NET-SOC Code": "31-2011.00",
+		"Title": "Occupational Therapy Assistants",
+		"Description": "Assist occupational therapists in providing occupational therapy treatments and procedures. May"
+	},
+	{
+		"O*NET-SOC Code": "31-2012.00",
+		"Title": "Occupational Therapy Aides",
+		"Description": "Under close supervision of an occupational therapist or occupational therapy assistant"
+	},
+	{
+		"O*NET-SOC Code": "31-2021.00",
+		"Title": "Physical Therapist Assistants",
+		"Description": "Assist physical therapists in providing physical therapy treatments and procedures. May"
+	},
+	{
+		"O*NET-SOC Code": "31-2022.00",
+		"Title": "Physical Therapist Aides",
+		"Description": "Under close supervision of a physical therapist or physical therapy assistant"
+	},
+	{
+		"O*NET-SOC Code": "31-9011.00",
+		"Title": "Massage Therapists",
+		"Description": "Perform therapeutic massages of soft tissues and joints. May assist in the assessment of range of motion and muscle strength"
+	},
+	{
+		"O*NET-SOC Code": "31-9091.00",
+		"Title": "Dental Assistants",
+		"Description": "Perform limited clinical duties under the direction of a dentist. Clinical duties may include equipment preparation and sterilization"
+	},
+	{
+		"O*NET-SOC Code": "31-9092.00",
+		"Title": "Medical Assistants",
+		"Description": "Perform administrative and certain clinical duties under the direction of a physician. Administrative duties may include scheduling appointments"
+	},
+	{
+		"O*NET-SOC Code": "31-9093.00",
+		"Title": "Medical Equipment Preparers",
+		"Description": "Prepare"
+	},
+	{
+		"O*NET-SOC Code": "31-9094.00",
+		"Title": "Medical Transcriptionists",
+		"Description": "Transcribe medical reports recorded by physicians and other healthcare practitioners using various electronic devices"
+	},
+	{
+		"O*NET-SOC Code": "31-9095.00",
+		"Title": "Pharmacy Aides",
+		"Description": "Record drugs delivered to the pharmacy"
+	},
+	{
+		"O*NET-SOC Code": "31-9096.00",
+		"Title": "Veterinary Assistants and Laboratory Animal Caretakers",
+		"Description": "Feed"
+	},
+	{
+		"O*NET-SOC Code": "31-9097.00",
+		"Title": "Phlebotomists",
+		"Description": "Draw blood for tests"
+	},
+	{
+		"O*NET-SOC Code": "31-9099.00",
+		"Title": "Healthcare Support Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "31-9099.01",
+		"Title": "Speech-Language Pathology Assistants",
+		"Description": "Assist speech-language pathologists in the assessment and treatment of speech"
+	},
+	{
+		"O*NET-SOC Code": "31-9099.02",
+		"Title": "Endoscopy Technicians",
+		"Description": "Maintain a sterile field to provide support for physicians and nurses during endoscopy procedures. Prepare and maintain instruments and equipment. May obtain specimens."
+	},
+	{
+		"O*NET-SOC Code": "33-1011.00",
+		"Title": "First-Line Supervisors of Correctional Officers",
+		"Description": "Directly supervise and coordinate activities of correctional officers and jailers."
+	},
+	{
+		"O*NET-SOC Code": "33-1012.00",
+		"Title": "First-Line Supervisors of Police and Detectives",
+		"Description": "Directly supervise and coordinate activities of members of police force."
+	},
+	{
+		"O*NET-SOC Code": "33-1021.00",
+		"Title": "First-Line Supervisors of Firefighting and Prevention Workers",
+		"Description": "Directly supervise and coordinate activities of workers engaged in firefighting and fire prevention and control."
+	},
+	{
+		"O*NET-SOC Code": "33-1091.00",
+		"Title": "First-Line Supervisors of Security Workers",
+		"Description": "Directly supervise and coordinate activities of security workers and security guards."
+	},
+	{
+		"O*NET-SOC Code": "33-1099.00",
+		"Title": "First-Line Supervisors of Protective Service Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "33-2011.00",
+		"Title": "Firefighters",
+		"Description": "Control and extinguish fires or respond to emergency situations where life"
+	},
+	{
+		"O*NET-SOC Code": "33-2021.00",
+		"Title": "Fire Inspectors and Investigators",
+		"Description": "Inspect buildings to detect fire hazards and enforce local ordinances and state laws"
+	},
+	{
+		"O*NET-SOC Code": "33-2022.00",
+		"Title": "Forest Fire Inspectors and Prevention Specialists",
+		"Description": "Enforce fire regulations"
+	},
+	{
+		"O*NET-SOC Code": "33-3011.00",
+		"Title": "Bailiffs",
+		"Description": "Maintain order in courts of law."
+	},
+	{
+		"O*NET-SOC Code": "33-3012.00",
+		"Title": "Correctional Officers and Jailers",
+		"Description": "Guard inmates in penal or rehabilitative institutions in accordance with established regulations and procedures. May guard prisoners in transit between jail"
+	},
+	{
+		"O*NET-SOC Code": "33-3021.00",
+		"Title": "Detectives and Criminal Investigators",
+		"Description": "Conduct investigations related to suspected violations of federal"
+	},
+	{
+		"O*NET-SOC Code": "33-3021.02",
+		"Title": "Police Identification and Records Officers",
+		"Description": "Collect evidence at crime scene"
+	},
+	{
+		"O*NET-SOC Code": "33-3021.06",
+		"Title": "Intelligence Analysts",
+		"Description": "Gather"
+	},
+	{
+		"O*NET-SOC Code": "33-3031.00",
+		"Title": "Fish and Game Wardens",
+		"Description": "Patrol assigned area to prevent fish and game law violations. Investigate reports of damage to crops or property by wildlife. Compile biological data."
+	},
+	{
+		"O*NET-SOC Code": "33-3041.00",
+		"Title": "Parking Enforcement Workers",
+		"Description": "Patrol assigned area"
+	},
+	{
+		"O*NET-SOC Code": "33-3051.00",
+		"Title": "Police and Sheriff's Patrol Officers",
+		"Description": "Maintain order and protect life and property by enforcing local"
+	},
+	{
+		"O*NET-SOC Code": "33-3051.04",
+		"Title": "Customs and Border Protection Officers",
+		"Description": "Investigate and inspect persons"
+	},
+	{
+		"O*NET-SOC Code": "33-3052.00",
+		"Title": "Transit and Railroad Police",
+		"Description": "Protect and police railroad and transit property"
+	},
+	{
+		"O*NET-SOC Code": "33-9011.00",
+		"Title": "Animal Control Workers",
+		"Description": "Handle animals for the purpose of investigations of mistreatment"
+	},
+	{
+		"O*NET-SOC Code": "33-9021.00",
+		"Title": "Private Detectives and Investigators",
+		"Description": "Gather"
+	},
+	{
+		"O*NET-SOC Code": "33-9031.00",
+		"Title": "Gambling Surveillance Officers and Gambling Investigators",
+		"Description": "Observe gambling operation for irregular activities such as cheating or theft by either employees or patrons. Investigate potential threats to gambling assets such as money"
+	},
+	{
+		"O*NET-SOC Code": "33-9032.00",
+		"Title": "Security Guards",
+		"Description": "Guard"
+	},
+	{
+		"O*NET-SOC Code": "33-9091.00",
+		"Title": "Crossing Guards and Flaggers",
+		"Description": "Guide or control vehicular or pedestrian traffic at such places as streets"
+	},
+	{
+		"O*NET-SOC Code": "33-9092.00",
+		"Title": "Lifeguards",
+		"Description": " Ski Patrol"
+	},
+	{
+		"O*NET-SOC Code": "33-9093.00",
+		"Title": "Transportation Security Screeners",
+		"Description": "Conduct screening of passengers"
+	},
+	{
+		"O*NET-SOC Code": "33-9094.00",
+		"Title": "School Bus Monitors",
+		"Description": "Maintain order among students on a school bus. Duties include helping students safely board and exit and communicating behavioral problems. May perform pretrip and posttrip inspections and prepare for and assist in emergency evacuations."
+	},
+	{
+		"O*NET-SOC Code": "33-9099.00",
+		"Title": "Protective Service Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "33-9099.02",
+		"Title": "Retail Loss Prevention Specialists",
+		"Description": "Implement procedures and systems to prevent merchandise loss. Conduct audits and investigations of employee activity. May assist in developing policies"
+	},
+	{
+		"O*NET-SOC Code": "35-1011.00",
+		"Title": "Chefs and Head Cooks",
+		"Description": "Direct and may participate in the preparation"
+	},
+	{
+		"O*NET-SOC Code": "35-1012.00",
+		"Title": "First-Line Supervisors of Food Preparation and Serving Workers",
+		"Description": "Directly supervise and coordinate activities of workers engaged in preparing and serving food."
+	},
+	{
+		"O*NET-SOC Code": "35-2011.00",
+		"Title": "Cooks",
+		"Description": " Fast Food"
+	},
+	{
+		"O*NET-SOC Code": "35-2012.00",
+		"Title": "Cooks",
+		"Description": " Institution and Cafeteria"
+	},
+	{
+		"O*NET-SOC Code": "35-2013.00",
+		"Title": "Cooks",
+		"Description": " Private Household"
+	},
+	{
+		"O*NET-SOC Code": "35-2014.00",
+		"Title": "Cooks",
+		"Description": " Restaurant"
+	},
+	{
+		"O*NET-SOC Code": "35-2015.00",
+		"Title": "Cooks",
+		"Description": " Short Order"
+	},
+	{
+		"O*NET-SOC Code": "35-2019.00",
+		"Title": "Cooks",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "35-2021.00",
+		"Title": "Food Preparation Workers",
+		"Description": "Perform a variety of food preparation duties other than cooking"
+	},
+	{
+		"O*NET-SOC Code": "35-3011.00",
+		"Title": "Bartenders",
+		"Description": "Mix and serve drinks to patrons"
+	},
+	{
+		"O*NET-SOC Code": "35-3023.00",
+		"Title": "Fast Food and Counter Workers",
+		"Description": "Perform duties such as taking orders and serving food and beverages. Serve customers at counter or from a steam table. May take payment. May prepare food and beverages."
+	},
+	{
+		"O*NET-SOC Code": "35-3023.01",
+		"Title": "Baristas",
+		"Description": "Prepare or serve specialty coffee or other beverages. Serve food such as baked goods or sandwiches to patrons."
+	},
+	{
+		"O*NET-SOC Code": "35-3031.00",
+		"Title": "Waiters and Waitresses",
+		"Description": "Take orders and serve food and beverages to patrons at tables in dining establishment."
+	},
+	{
+		"O*NET-SOC Code": "35-3041.00",
+		"Title": "Food Servers",
+		"Description": " Nonrestaurant"
+	},
+	{
+		"O*NET-SOC Code": "35-9011.00",
+		"Title": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+		"Description": "Facilitate food service. Clean tables; remove dirty dishes; replace soiled table linens; set tables; replenish supply of clean linens"
+	},
+	{
+		"O*NET-SOC Code": "35-9021.00",
+		"Title": "Dishwashers",
+		"Description": "Clean dishes"
+	},
+	{
+		"O*NET-SOC Code": "35-9031.00",
+		"Title": "Hosts and Hostesses",
+		"Description": " Restaurant"
+	},
+	{
+		"O*NET-SOC Code": "35-9099.00",
+		"Title": "Food Preparation and Serving Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "37-1011.00",
+		"Title": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+		"Description": "Directly supervise and coordinate work activities of cleaning personnel in hotels"
+	},
+	{
+		"O*NET-SOC Code": "37-1012.00",
+		"Title": "First-Line Supervisors of Landscaping",
+		"Description": " Lawn Service"
+	},
+	{
+		"O*NET-SOC Code": "37-2011.00",
+		"Title": "Janitors and Cleaners",
+		"Description": " Except Maids and Housekeeping Cleaners"
+	},
+	{
+		"O*NET-SOC Code": "37-2012.00",
+		"Title": "Maids and Housekeeping Cleaners",
+		"Description": "Perform any combination of light cleaning duties to maintain private households or commercial establishments"
+	},
+	{
+		"O*NET-SOC Code": "37-2019.00",
+		"Title": "Building Cleaning Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "37-2021.00",
+		"Title": "Pest Control Workers",
+		"Description": "Apply or release chemical solutions or toxic gases and set traps to kill or remove pests and vermin that infest buildings and surrounding areas."
+	},
+	{
+		"O*NET-SOC Code": "37-3011.00",
+		"Title": "Landscaping and Groundskeeping Workers",
+		"Description": "Landscape or maintain grounds of property using hand or power tools or equipment. Workers typically perform a variety of tasks"
+	},
+	{
+		"O*NET-SOC Code": "37-3012.00",
+		"Title": "Pesticide Handlers",
+		"Description": " Sprayers"
+	},
+	{
+		"O*NET-SOC Code": "37-3013.00",
+		"Title": "Tree Trimmers and Pruners",
+		"Description": "Using sophisticated climbing and rigging techniques"
+	},
+	{
+		"O*NET-SOC Code": "37-3019.00",
+		"Title": "Grounds Maintenance Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "39-1013.00",
+		"Title": "First-Line Supervisors of Gambling Services Workers",
+		"Description": "Directly supervise and coordinate activities of workers in assigned gambling areas. May circulate among tables"
+	},
+	{
+		"O*NET-SOC Code": "39-1014.00",
+		"Title": "First-Line Supervisors of Entertainment and Recreation Workers",
+		"Description": " Except Gambling Services"
+	},
+	{
+		"O*NET-SOC Code": "39-1022.00",
+		"Title": "First-Line Supervisors of Personal Service Workers",
+		"Description": "Supervise and coordinate activities of personal service workers."
+	},
+	{
+		"O*NET-SOC Code": "39-2011.00",
+		"Title": "Animal Trainers",
+		"Description": "Train animals for riding"
+	},
+	{
+		"O*NET-SOC Code": "39-2021.00",
+		"Title": "Animal Caretakers",
+		"Description": "Feed"
+	},
+	{
+		"O*NET-SOC Code": "39-3011.00",
+		"Title": "Gambling Dealers",
+		"Description": "Operate table games. Stand or sit behind table and operate games of chance by dispensing the appropriate number of cards or blocks to players"
+	},
+	{
+		"O*NET-SOC Code": "39-3012.00",
+		"Title": "Gambling and Sports Book Writers and Runners",
+		"Description": "Post information enabling patrons to wager on various races and sporting events. Assist in the operation of games such as keno and bingo. May operate random number-generating equipment and announce the numbers for patrons. Receive"
+	},
+	{
+		"O*NET-SOC Code": "39-3019.00",
+		"Title": "Gambling Service Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "39-3021.00",
+		"Title": "Motion Picture Projectionists",
+		"Description": "Set up and operate motion picture projection and related sound reproduction equipment."
+	},
+	{
+		"O*NET-SOC Code": "39-3031.00",
+		"Title": "Ushers",
+		"Description": " Lobby Attendants"
+	},
+	{
+		"O*NET-SOC Code": "39-3091.00",
+		"Title": "Amusement and Recreation Attendants",
+		"Description": "Perform a variety of attending duties at amusement or recreation facility. May schedule use of recreation facilities"
+	},
+	{
+		"O*NET-SOC Code": "39-3092.00",
+		"Title": "Costume Attendants",
+		"Description": "Select"
+	},
+	{
+		"O*NET-SOC Code": "39-3093.00",
+		"Title": "Locker Room",
+		"Description": " Coatroom"
+	},
+	{
+		"O*NET-SOC Code": "39-3099.00",
+		"Title": "Entertainment Attendants and Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "39-4011.00",
+		"Title": "Embalmers",
+		"Description": "Prepare bodies for interment in conformity with legal requirements."
+	},
+	{
+		"O*NET-SOC Code": "39-4012.00",
+		"Title": "Crematory Operators",
+		"Description": "Operate crematory equipment to reduce human or animal remains to bone fragments in accordance with state and local regulations. Duties may include preparing the body for cremation and performing general maintenance on crematory equipment. May use traditional flame-based cremation"
+	},
+	{
+		"O*NET-SOC Code": "39-4021.00",
+		"Title": "Funeral Attendants",
+		"Description": "Perform a variety of tasks during funeral"
+	},
+	{
+		"O*NET-SOC Code": "39-4031.00",
+		"Title": "Morticians",
+		"Description": " Undertakers"
+	},
+	{
+		"O*NET-SOC Code": "39-5011.00",
+		"Title": "Barbers",
+		"Description": "Provide barbering services"
+	},
+	{
+		"O*NET-SOC Code": "39-5012.00",
+		"Title": "Hairdressers",
+		"Description": " Hairstylists"
+	},
+	{
+		"O*NET-SOC Code": "39-5091.00",
+		"Title": "Makeup Artists",
+		"Description": " Theatrical and Performance"
+	},
+	{
+		"O*NET-SOC Code": "39-5092.00",
+		"Title": "Manicurists and Pedicurists",
+		"Description": "Clean and shape customers' fingernails and toenails. May polish or decorate nails."
+	},
+	{
+		"O*NET-SOC Code": "39-5093.00",
+		"Title": "Shampooers",
+		"Description": "Shampoo and rinse customers' hair."
+	},
+	{
+		"O*NET-SOC Code": "39-5094.00",
+		"Title": "Skincare Specialists",
+		"Description": "Provide skincare treatments to face and body to enhance an individual's appearance. Includes electrologists and laser hair removal specialists."
+	},
+	{
+		"O*NET-SOC Code": "39-6011.00",
+		"Title": "Baggage Porters and Bellhops",
+		"Description": "Handle baggage for travelers at transportation terminals or for guests at hotels or similar establishments."
+	},
+	{
+		"O*NET-SOC Code": "39-6012.00",
+		"Title": "Concierges",
+		"Description": "Assist patrons at hotel"
+	},
+	{
+		"O*NET-SOC Code": "39-7011.00",
+		"Title": "Tour Guides and Escorts",
+		"Description": "Escort individuals or groups on sightseeing tours or through places of interest"
+	},
+	{
+		"O*NET-SOC Code": "39-7012.00",
+		"Title": "Travel Guides",
+		"Description": "Plan"
+	},
+	{
+		"O*NET-SOC Code": "39-9011.00",
+		"Title": "Childcare Workers",
+		"Description": "Attend to children at schools"
+	},
+	{
+		"O*NET-SOC Code": "39-9011.01",
+		"Title": "Nannies",
+		"Description": "Care for children in private households and provide support and expertise to parents in satisfying children's physical"
+	},
+	{
+		"O*NET-SOC Code": "39-9031.00",
+		"Title": "Exercise Trainers and Group Fitness Instructors",
+		"Description": "Instruct or coach groups or individuals in exercise activities for the primary purpose of personal fitness. Demonstrate techniques and form"
+	},
+	{
+		"O*NET-SOC Code": "39-9032.00",
+		"Title": "Recreation Workers",
+		"Description": "Conduct recreation activities with groups in public"
+	},
+	{
+		"O*NET-SOC Code": "39-9041.00",
+		"Title": "Residential Advisors",
+		"Description": "Coordinate activities in resident facilities in secondary school and college dormitories"
+	},
+	{
+		"O*NET-SOC Code": "39-9099.00",
+		"Title": "Personal Care and Service Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "41-1011.00",
+		"Title": "First-Line Supervisors of Retail Sales Workers",
+		"Description": "Directly supervise and coordinate activities of retail sales workers in an establishment or department. Duties may include management functions"
+	},
+	{
+		"O*NET-SOC Code": "41-1012.00",
+		"Title": "First-Line Supervisors of Non-Retail Sales Workers",
+		"Description": "Directly supervise and coordinate activities of sales workers other than retail sales workers. May perform duties such as budgeting"
+	},
+	{
+		"O*NET-SOC Code": "41-2011.00",
+		"Title": "Cashiers",
+		"Description": "Receive and disburse money in establishments other than financial institutions. May use electronic scanners"
+	},
+	{
+		"O*NET-SOC Code": "41-2012.00",
+		"Title": "Gambling Change Persons and Booth Cashiers",
+		"Description": "Exchange coins"
+	},
+	{
+		"O*NET-SOC Code": "41-2021.00",
+		"Title": "Counter and Rental Clerks",
+		"Description": "Receive orders"
+	},
+	{
+		"O*NET-SOC Code": "41-2022.00",
+		"Title": "Parts Salespersons",
+		"Description": "Sell spare and replacement parts and equipment in repair shop or parts store."
+	},
+	{
+		"O*NET-SOC Code": "41-2031.00",
+		"Title": "Retail Salespersons",
+		"Description": "Sell merchandise"
+	},
+	{
+		"O*NET-SOC Code": "41-3011.00",
+		"Title": "Advertising Sales Agents",
+		"Description": "Sell or solicit advertising space"
+	},
+	{
+		"O*NET-SOC Code": "41-3021.00",
+		"Title": "Insurance Sales Agents",
+		"Description": "Sell life"
+	},
+	{
+		"O*NET-SOC Code": "41-3031.00",
+		"Title": "Securities",
+		"Description": " Commodities"
+	},
+	{
+		"O*NET-SOC Code": "41-3041.00",
+		"Title": "Travel Agents",
+		"Description": "Plan and sell transportation and accommodations for customers. Determine destination"
+	},
+	{
+		"O*NET-SOC Code": "41-3091.00",
+		"Title": "Sales Representatives of Services",
+		"Description": " Except Advertising"
+	},
+	{
+		"O*NET-SOC Code": "41-4011.00",
+		"Title": "Sales Representatives",
+		"Description": " Wholesale and Manufacturing"
+	},
+	{
+		"O*NET-SOC Code": "41-4011.07",
+		"Title": "Solar Sales Representatives and Assessors",
+		"Description": "Contact new or existing customers to determine their solar equipment needs"
+	},
+	{
+		"O*NET-SOC Code": "41-4012.00",
+		"Title": "Sales Representatives",
+		"Description": " Wholesale and Manufacturing"
+	},
+	{
+		"O*NET-SOC Code": "41-9011.00",
+		"Title": "Demonstrators and Product Promoters",
+		"Description": "Demonstrate merchandise and answer questions for the purpose of creating public interest in buying the product. May sell demonstrated merchandise."
+	},
+	{
+		"O*NET-SOC Code": "41-9012.00",
+		"Title": "Models",
+		"Description": "Model garments or other apparel and accessories for prospective buyers at fashion shows"
+	},
+	{
+		"O*NET-SOC Code": "41-9021.00",
+		"Title": "Real Estate Brokers",
+		"Description": "Operate real estate office"
+	},
+	{
+		"O*NET-SOC Code": "41-9022.00",
+		"Title": "Real Estate Sales Agents",
+		"Description": "Rent"
+	},
+	{
+		"O*NET-SOC Code": "41-9031.00",
+		"Title": "Sales Engineers",
+		"Description": "Sell business goods or services"
+	},
+	{
+		"O*NET-SOC Code": "41-9041.00",
+		"Title": "Telemarketers",
+		"Description": "Solicit donations or orders for goods or services over the telephone."
+	},
+	{
+		"O*NET-SOC Code": "41-9091.00",
+		"Title": "Door-to-Door Sales Workers",
+		"Description": " News and Street Vendors"
+	},
+	{
+		"O*NET-SOC Code": "41-9099.00",
+		"Title": "Sales and Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "43-1011.00",
+		"Title": "First-Line Supervisors of Office and Administrative Support Workers",
+		"Description": "Directly supervise and coordinate the activities of clerical and administrative support workers."
+	},
+	{
+		"O*NET-SOC Code": "43-2011.00",
+		"Title": "Switchboard Operators",
+		"Description": " Including Answering Service"
+	},
+	{
+		"O*NET-SOC Code": "43-2021.00",
+		"Title": "Telephone Operators",
+		"Description": "Provide information by accessing alphabetical"
+	},
+	{
+		"O*NET-SOC Code": "43-2099.00",
+		"Title": "Communications Equipment Operators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "43-3011.00",
+		"Title": "Bill and Account Collectors",
+		"Description": "Locate and notify customers of delinquent accounts by mail"
+	},
+	{
+		"O*NET-SOC Code": "43-3021.00",
+		"Title": "Billing and Posting Clerks",
+		"Description": "Compile"
+	},
+	{
+		"O*NET-SOC Code": "43-3031.00",
+		"Title": "Bookkeeping",
+		"Description": " Accounting"
+	},
+	{
+		"O*NET-SOC Code": "43-3041.00",
+		"Title": "Gambling Cage Workers",
+		"Description": "In a gambling establishment"
+	},
+	{
+		"O*NET-SOC Code": "43-3051.00",
+		"Title": "Payroll and Timekeeping Clerks",
+		"Description": "Compile and record employee time and payroll data. May compute employees' time worked"
+	},
+	{
+		"O*NET-SOC Code": "43-3061.00",
+		"Title": "Procurement Clerks",
+		"Description": "Compile information and records to draw up purchase orders for procurement of materials and services."
+	},
+	{
+		"O*NET-SOC Code": "43-3071.00",
+		"Title": "Tellers",
+		"Description": "Receive and pay out money. Keep records of money and negotiable instruments involved in a financial institution's various transactions."
+	},
+	{
+		"O*NET-SOC Code": "43-3099.00",
+		"Title": "Financial Clerks",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "43-4011.00",
+		"Title": "Brokerage Clerks",
+		"Description": "Perform duties related to the purchase"
+	},
+	{
+		"O*NET-SOC Code": "43-4021.00",
+		"Title": "Correspondence Clerks",
+		"Description": "Compose letters or electronic correspondence in reply to requests for merchandise"
+	},
+	{
+		"O*NET-SOC Code": "43-4031.00",
+		"Title": "Court",
+		"Description": " Municipal"
+	},
+	{
+		"O*NET-SOC Code": "43-4041.00",
+		"Title": "Credit Authorizers",
+		"Description": " Checkers"
+	},
+	{
+		"O*NET-SOC Code": "43-4051.00",
+		"Title": "Customer Service Representatives",
+		"Description": "Interact with customers to provide basic or scripted information in response to routine inquiries about products and services. May handle and resolve general complaints. Excludes individuals whose duties are primarily installation"
+	},
+	{
+		"O*NET-SOC Code": "43-4061.00",
+		"Title": "Eligibility Interviewers",
+		"Description": " Government Programs"
+	},
+	{
+		"O*NET-SOC Code": "43-4071.00",
+		"Title": "File Clerks",
+		"Description": "File correspondence"
+	},
+	{
+		"O*NET-SOC Code": "43-4081.00",
+		"Title": "Hotel",
+		"Description": " Motel"
+	},
+	{
+		"O*NET-SOC Code": "43-4111.00",
+		"Title": "Interviewers",
+		"Description": " Except Eligibility and Loan"
+	},
+	{
+		"O*NET-SOC Code": "43-4121.00",
+		"Title": "Library Assistants",
+		"Description": " Clerical"
+	},
+	{
+		"O*NET-SOC Code": "43-4131.00",
+		"Title": "Loan Interviewers and Clerks",
+		"Description": "Interview loan applicants to elicit information; investigate applicants' backgrounds and verify references; prepare loan request papers; and forward findings"
+	},
+	{
+		"O*NET-SOC Code": "43-4141.00",
+		"Title": "New Accounts Clerks",
+		"Description": "Interview persons desiring to open accounts in financial institutions. Explain account services available to prospective customers and assist them in preparing applications."
+	},
+	{
+		"O*NET-SOC Code": "43-4151.00",
+		"Title": "Order Clerks",
+		"Description": "Receive and process incoming orders for materials"
+	},
+	{
+		"O*NET-SOC Code": "43-4161.00",
+		"Title": "Human Resources Assistants",
+		"Description": " Except Payroll and Timekeeping"
+	},
+	{
+		"O*NET-SOC Code": "43-4171.00",
+		"Title": "Receptionists and Information Clerks",
+		"Description": "Answer inquiries and provide information to the general public"
+	},
+	{
+		"O*NET-SOC Code": "43-4181.00",
+		"Title": "Reservation and Transportation Ticket Agents and Travel Clerks",
+		"Description": "Make and confirm reservations for transportation or lodging"
+	},
+	{
+		"O*NET-SOC Code": "43-4199.00",
+		"Title": "Information and Record Clerks",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "43-5011.00",
+		"Title": "Cargo and Freight Agents",
+		"Description": "Expedite and route movement of incoming and outgoing cargo and freight shipments in airline"
+	},
+	{
+		"O*NET-SOC Code": "43-5011.01",
+		"Title": "Freight Forwarders",
+		"Description": "Research rates"
+	},
+	{
+		"O*NET-SOC Code": "43-5021.00",
+		"Title": "Couriers and Messengers",
+		"Description": "Pick up and deliver messages"
+	},
+	{
+		"O*NET-SOC Code": "43-5031.00",
+		"Title": "Public Safety Telecommunicators",
+		"Description": "Operate telephone"
+	},
+	{
+		"O*NET-SOC Code": "43-5032.00",
+		"Title": "Dispatchers",
+		"Description": " Except Police"
+	},
+	{
+		"O*NET-SOC Code": "43-5041.00",
+		"Title": "Meter Readers",
+		"Description": " Utilities"
+	},
+	{
+		"O*NET-SOC Code": "43-5051.00",
+		"Title": "Postal Service Clerks",
+		"Description": "Perform any combination of tasks in a United States Postal Service (USPS) post office"
+	},
+	{
+		"O*NET-SOC Code": "43-5052.00",
+		"Title": "Postal Service Mail Carriers",
+		"Description": "Sort and deliver mail for the United States Postal Service (USPS). Deliver mail on established route by vehicle or on foot. Includes postal service mail carriers employed by USPS contractors."
+	},
+	{
+		"O*NET-SOC Code": "43-5053.00",
+		"Title": "Postal Service Mail Sorters",
+		"Description": " Processors"
+	},
+	{
+		"O*NET-SOC Code": "43-5061.00",
+		"Title": "Production",
+		"Description": " Planning"
+	},
+	{
+		"O*NET-SOC Code": "43-5071.00",
+		"Title": "Shipping",
+		"Description": " Receiving"
+	},
+	{
+		"O*NET-SOC Code": "43-5111.00",
+		"Title": "Weighers",
+		"Description": " Measurers"
+	},
+	{
+		"O*NET-SOC Code": "43-6011.00",
+		"Title": "Executive Secretaries and Executive Administrative Assistants",
+		"Description": "Provide high-level administrative support by conducting research"
+	},
+	{
+		"O*NET-SOC Code": "43-6012.00",
+		"Title": "Legal Secretaries and Administrative Assistants",
+		"Description": "Perform secretarial duties using legal terminology"
+	},
+	{
+		"O*NET-SOC Code": "43-6013.00",
+		"Title": "Medical Secretaries and Administrative Assistants",
+		"Description": "Perform secretarial duties using specific knowledge of medical terminology and hospital"
+	},
+	{
+		"O*NET-SOC Code": "43-6014.00",
+		"Title": "Secretaries and Administrative Assistants",
+		"Description": " Except Legal"
+	},
+	{
+		"O*NET-SOC Code": "43-9021.00",
+		"Title": "Data Entry Keyers",
+		"Description": "Operate data entry device"
+	},
+	{
+		"O*NET-SOC Code": "43-9022.00",
+		"Title": "Word Processors and Typists",
+		"Description": "Use word processor"
+	},
+	{
+		"O*NET-SOC Code": "43-9031.00",
+		"Title": "Desktop Publishers",
+		"Description": "Format typescript and graphic elements using computer software to produce publication-ready material."
+	},
+	{
+		"O*NET-SOC Code": "43-9041.00",
+		"Title": "Insurance Claims and Policy Processing Clerks",
+		"Description": "Process new insurance policies"
+	},
+	{
+		"O*NET-SOC Code": "43-9051.00",
+		"Title": "Mail Clerks and Mail Machine Operators",
+		"Description": " Except Postal Service"
+	},
+	{
+		"O*NET-SOC Code": "43-9061.00",
+		"Title": "Office Clerks",
+		"Description": " General"
+	},
+	{
+		"O*NET-SOC Code": "43-9071.00",
+		"Title": "Office Machine Operators",
+		"Description": " Except Computer"
+	},
+	{
+		"O*NET-SOC Code": "43-9081.00",
+		"Title": "Proofreaders and Copy Markers",
+		"Description": "Read transcript or proof type setup to detect and mark for correction any grammatical"
+	},
+	{
+		"O*NET-SOC Code": "43-9111.00",
+		"Title": "Statistical Assistants",
+		"Description": "Compile and compute data according to statistical formulas for use in statistical studies. May perform actuarial computations and compile charts and graphs for use by actuaries. Includes actuarial clerks."
+	},
+	{
+		"O*NET-SOC Code": "43-9199.00",
+		"Title": "Office and Administrative Support Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "45-1011.00",
+		"Title": "First-Line Supervisors of Farming",
+		"Description": " Fishing"
+	},
+	{
+		"O*NET-SOC Code": "45-2011.00",
+		"Title": "Agricultural Inspectors",
+		"Description": "Inspect agricultural commodities"
+	},
+	{
+		"O*NET-SOC Code": "45-2021.00",
+		"Title": "Animal Breeders",
+		"Description": "Select and breed animals according to their genealogy"
+	},
+	{
+		"O*NET-SOC Code": "45-2041.00",
+		"Title": "Graders and Sorters",
+		"Description": " Agricultural Products"
+	},
+	{
+		"O*NET-SOC Code": "45-2091.00",
+		"Title": "Agricultural Equipment Operators",
+		"Description": "Drive and control equipment to support agricultural activities such as tilling soil; planting"
+	},
+	{
+		"O*NET-SOC Code": "45-2092.00",
+		"Title": "Farmworkers and Laborers",
+		"Description": " Crop"
+	},
+	{
+		"O*NET-SOC Code": "45-2093.00",
+		"Title": "Farmworkers",
+		"Description": " Farm"
+	},
+	{
+		"O*NET-SOC Code": "45-2099.00",
+		"Title": "Agricultural Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "45-3031.00",
+		"Title": "Fishing and Hunting Workers",
+		"Description": "Hunt"
+	},
+	{
+		"O*NET-SOC Code": "45-4011.00",
+		"Title": "Forest and Conservation Workers",
+		"Description": "Under supervision"
+	},
+	{
+		"O*NET-SOC Code": "45-4021.00",
+		"Title": "Fallers",
+		"Description": "Use axes or chainsaws to fell trees using knowledge of tree characteristics and cutting techniques to control direction of fall and minimize tree damage."
+	},
+	{
+		"O*NET-SOC Code": "45-4022.00",
+		"Title": "Logging Equipment Operators",
+		"Description": "Drive logging tractor or wheeled vehicle equipped with one or more accessories"
+	},
+	{
+		"O*NET-SOC Code": "45-4023.00",
+		"Title": "Log Graders and Scalers",
+		"Description": "Grade logs or estimate the marketable content or value of logs or pulpwood in sorting yards"
+	},
+	{
+		"O*NET-SOC Code": "45-4029.00",
+		"Title": "Logging Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "47-1011.00",
+		"Title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+		"Description": "Directly supervise and coordinate activities of construction or extraction workers."
+	},
+	{
+		"O*NET-SOC Code": "47-1011.03",
+		"Title": "Solar Energy Installation Managers",
+		"Description": "Direct work crews installing residential or commercial solar photovoltaic or thermal systems."
+	},
+	{
+		"O*NET-SOC Code": "47-2011.00",
+		"Title": "Boilermakers",
+		"Description": "Construct"
+	},
+	{
+		"O*NET-SOC Code": "47-2021.00",
+		"Title": "Brickmasons and Blockmasons",
+		"Description": "Lay and bind building materials"
+	},
+	{
+		"O*NET-SOC Code": "47-2022.00",
+		"Title": "Stonemasons",
+		"Description": "Build stone structures"
+	},
+	{
+		"O*NET-SOC Code": "47-2031.00",
+		"Title": "Carpenters",
+		"Description": "Construct"
+	},
+	{
+		"O*NET-SOC Code": "47-2041.00",
+		"Title": "Carpet Installers",
+		"Description": "Lay and install carpet from rolls or blocks on floors. Install padding and trim flooring materials."
+	},
+	{
+		"O*NET-SOC Code": "47-2042.00",
+		"Title": "Floor Layers",
+		"Description": " Except Carpet"
+	},
+	{
+		"O*NET-SOC Code": "47-2043.00",
+		"Title": "Floor Sanders and Finishers",
+		"Description": "Scrape and sand wooden floors to smooth surfaces using floor scraper and floor sanding machine"
+	},
+	{
+		"O*NET-SOC Code": "47-2044.00",
+		"Title": "Tile and Stone Setters",
+		"Description": "Apply hard tile"
+	},
+	{
+		"O*NET-SOC Code": "47-2051.00",
+		"Title": "Cement Masons and Concrete Finishers",
+		"Description": "Smooth and finish surfaces of poured concrete"
+	},
+	{
+		"O*NET-SOC Code": "47-2053.00",
+		"Title": "Terrazzo Workers and Finishers",
+		"Description": "Apply a mixture of cement"
+	},
+	{
+		"O*NET-SOC Code": "47-2061.00",
+		"Title": "Construction Laborers",
+		"Description": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types: air hammers"
+	},
+	{
+		"O*NET-SOC Code": "47-2071.00",
+		"Title": "Paving",
+		"Description": " Surfacing"
+	},
+	{
+		"O*NET-SOC Code": "47-2072.00",
+		"Title": "Pile Driver Operators",
+		"Description": "Operate pile drivers mounted on skids"
+	},
+	{
+		"O*NET-SOC Code": "47-2073.00",
+		"Title": "Operating Engineers and Other Construction Equipment Operators",
+		"Description": "Operate one or several types of power construction equipment"
+	},
+	{
+		"O*NET-SOC Code": "47-2081.00",
+		"Title": "Drywall and Ceiling Tile Installers",
+		"Description": "Apply plasterboard or other wallboard to ceilings or interior walls of buildings. Apply or mount acoustical tiles or blocks"
+	},
+	{
+		"O*NET-SOC Code": "47-2082.00",
+		"Title": "Tapers",
+		"Description": "Seal joints between plasterboard or other wallboard to prepare wall surface for painting or papering."
+	},
+	{
+		"O*NET-SOC Code": "47-2111.00",
+		"Title": "Electricians",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "47-2121.00",
+		"Title": "Glaziers",
+		"Description": "Install glass in windows"
+	},
+	{
+		"O*NET-SOC Code": "47-2131.00",
+		"Title": "Insulation Workers",
+		"Description": " Floor"
+	},
+	{
+		"O*NET-SOC Code": "47-2132.00",
+		"Title": "Insulation Workers",
+		"Description": " Mechanical"
+	},
+	{
+		"O*NET-SOC Code": "47-2141.00",
+		"Title": "Painters",
+		"Description": " Construction and Maintenance"
+	},
+	{
+		"O*NET-SOC Code": "47-2142.00",
+		"Title": "Paperhangers",
+		"Description": "Cover interior walls or ceilings of rooms with decorative wallpaper or fabric"
+	},
+	{
+		"O*NET-SOC Code": "47-2151.00",
+		"Title": "Pipelayers",
+		"Description": "Lay pipe for storm or sanitation sewers"
+	},
+	{
+		"O*NET-SOC Code": "47-2152.00",
+		"Title": "Plumbers",
+		"Description": " Pipefitters"
+	},
+	{
+		"O*NET-SOC Code": "47-2152.04",
+		"Title": "Solar Thermal Installers and Technicians",
+		"Description": "Install or repair solar energy systems designed to collect"
+	},
+	{
+		"O*NET-SOC Code": "47-2161.00",
+		"Title": "Plasterers and Stucco Masons",
+		"Description": "Apply interior or exterior plaster"
+	},
+	{
+		"O*NET-SOC Code": "47-2171.00",
+		"Title": "Reinforcing Iron and Rebar Workers",
+		"Description": "Position and secure steel bars or mesh in concrete forms in order to reinforce concrete. Use a variety of fasteners"
+	},
+	{
+		"O*NET-SOC Code": "47-2181.00",
+		"Title": "Roofers",
+		"Description": "Cover roofs of structures with shingles"
+	},
+	{
+		"O*NET-SOC Code": "47-2211.00",
+		"Title": "Sheet Metal Workers",
+		"Description": "Fabricate"
+	},
+	{
+		"O*NET-SOC Code": "47-2221.00",
+		"Title": "Structural Iron and Steel Workers",
+		"Description": "Raise"
+	},
+	{
+		"O*NET-SOC Code": "47-2231.00",
+		"Title": "Solar Photovoltaic Installers",
+		"Description": "Assemble"
+	},
+	{
+		"O*NET-SOC Code": "47-3011.00",
+		"Title": "Helpers--Brickmasons",
+		"Description": " Blockmasons"
+	},
+	{
+		"O*NET-SOC Code": "47-3012.00",
+		"Title": "Helpers--Carpenters",
+		"Description": "Help carpenters by performing duties requiring less skill. Duties include using"
+	},
+	{
+		"O*NET-SOC Code": "47-3013.00",
+		"Title": "Helpers--Electricians",
+		"Description": "Help electricians by performing duties requiring less skill. Duties include using"
+	},
+	{
+		"O*NET-SOC Code": "47-3014.00",
+		"Title": "Helpers--Painters",
+		"Description": " Paperhangers"
+	},
+	{
+		"O*NET-SOC Code": "47-3015.00",
+		"Title": "Helpers--Pipelayers",
+		"Description": " Plumbers"
+	},
+	{
+		"O*NET-SOC Code": "47-3016.00",
+		"Title": "Helpers--Roofers",
+		"Description": "Help roofers by performing duties requiring less skill. Duties include using"
+	},
+	{
+		"O*NET-SOC Code": "47-3019.00",
+		"Title": "Helpers",
+		"Description": " Construction Trades"
+	},
+	{
+		"O*NET-SOC Code": "47-4011.00",
+		"Title": "Construction and Building Inspectors",
+		"Description": "Inspect structures using engineering skills to determine structural soundness and compliance with specifications"
+	},
+	{
+		"O*NET-SOC Code": "47-4011.01",
+		"Title": "Energy Auditors",
+		"Description": "Conduct energy audits of buildings"
+	},
+	{
+		"O*NET-SOC Code": "47-4021.00",
+		"Title": "Elevator and Escalator Installers and Repairers",
+		"Description": "Assemble"
+	},
+	{
+		"O*NET-SOC Code": "47-4031.00",
+		"Title": "Fence Erectors",
+		"Description": "Erect and repair fences and fence gates"
+	},
+	{
+		"O*NET-SOC Code": "47-4041.00",
+		"Title": "Hazardous Materials Removal Workers",
+		"Description": "Identify"
+	},
+	{
+		"O*NET-SOC Code": "47-4051.00",
+		"Title": "Highway Maintenance Workers",
+		"Description": "Maintain highways"
+	},
+	{
+		"O*NET-SOC Code": "47-4061.00",
+		"Title": "Rail-Track Laying and Maintenance Equipment Operators",
+		"Description": "Lay"
+	},
+	{
+		"O*NET-SOC Code": "47-4071.00",
+		"Title": "Septic Tank Servicers and Sewer Pipe Cleaners",
+		"Description": "Clean and repair septic tanks"
+	},
+	{
+		"O*NET-SOC Code": "47-4091.00",
+		"Title": "Segmental Pavers",
+		"Description": "Lay out"
+	},
+	{
+		"O*NET-SOC Code": "47-4099.00",
+		"Title": "Construction and Related Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "47-4099.03",
+		"Title": "Weatherization Installers and Technicians",
+		"Description": "Perform a variety of activities to weatherize homes and make them more energy efficient. Duties include repairing windows"
+	},
+	{
+		"O*NET-SOC Code": "47-5011.00",
+		"Title": "Derrick Operators",
+		"Description": " Oil and Gas"
+	},
+	{
+		"O*NET-SOC Code": "47-5012.00",
+		"Title": "Rotary Drill Operators",
+		"Description": " Oil and Gas"
+	},
+	{
+		"O*NET-SOC Code": "47-5013.00",
+		"Title": "Service Unit Operators",
+		"Description": " Oil and Gas"
+	},
+	{
+		"O*NET-SOC Code": "47-5022.00",
+		"Title": "Excavating and Loading Machine and Dragline Operators",
+		"Description": " Surface Mining"
+	},
+	{
+		"O*NET-SOC Code": "47-5023.00",
+		"Title": "Earth Drillers",
+		"Description": " Except Oil and Gas"
+	},
+	{
+		"O*NET-SOC Code": "47-5032.00",
+		"Title": "Explosives Workers",
+		"Description": " Ordnance Handling Experts"
+	},
+	{
+		"O*NET-SOC Code": "47-5041.00",
+		"Title": "Continuous Mining Machine Operators",
+		"Description": "Operate self-propelled mining machines that rip coal"
+	},
+	{
+		"O*NET-SOC Code": "47-5043.00",
+		"Title": "Roof Bolters",
+		"Description": " Mining"
+	},
+	{
+		"O*NET-SOC Code": "47-5044.00",
+		"Title": "Loading and Moving Machine Operators",
+		"Description": " Underground Mining"
+	},
+	{
+		"O*NET-SOC Code": "47-5049.00",
+		"Title": "Underground Mining Machine Operators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "47-5051.00",
+		"Title": "Rock Splitters",
+		"Description": " Quarry"
+	},
+	{
+		"O*NET-SOC Code": "47-5071.00",
+		"Title": "Roustabouts",
+		"Description": " Oil and Gas"
+	},
+	{
+		"O*NET-SOC Code": "47-5081.00",
+		"Title": "Helpers--Extraction Workers",
+		"Description": "Help extraction craft workers"
+	},
+	{
+		"O*NET-SOC Code": "47-5099.00",
+		"Title": "Extraction Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "49-1011.00",
+		"Title": "First-Line Supervisors of Mechanics",
+		"Description": " Installers"
+	},
+	{
+		"O*NET-SOC Code": "49-2011.00",
+		"Title": "Computer",
+		"Description": " Automated Teller"
+	},
+	{
+		"O*NET-SOC Code": "49-2021.00",
+		"Title": "Radio",
+		"Description": " Cellular"
+	},
+	{
+		"O*NET-SOC Code": "49-2022.00",
+		"Title": "Telecommunications Equipment Installers and Repairers",
+		"Description": " Except Line Installers"
+	},
+	{
+		"O*NET-SOC Code": "49-2091.00",
+		"Title": "Avionics Technicians",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-2092.00",
+		"Title": "Electric Motor",
+		"Description": " Power Tool"
+	},
+	{
+		"O*NET-SOC Code": "49-2093.00",
+		"Title": "Electrical and Electronics Installers and Repairers",
+		"Description": " Transportation Equipment"
+	},
+	{
+		"O*NET-SOC Code": "49-2094.00",
+		"Title": "Electrical and Electronics Repairers",
+		"Description": " Commercial and Industrial Equipment"
+	},
+	{
+		"O*NET-SOC Code": "49-2095.00",
+		"Title": "Electrical and Electronics Repairers",
+		"Description": " Powerhouse"
+	},
+	{
+		"O*NET-SOC Code": "49-2096.00",
+		"Title": "Electronic Equipment Installers and Repairers",
+		"Description": " Motor Vehicles"
+	},
+	{
+		"O*NET-SOC Code": "49-2097.00",
+		"Title": "Audiovisual Equipment Installers and Repairers",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-2098.00",
+		"Title": "Security and Fire Alarm Systems Installers",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-3011.00",
+		"Title": "Aircraft Mechanics and Service Technicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3021.00",
+		"Title": "Automotive Body and Related Repairers",
+		"Description": "Repair and refinish automotive vehicle bodies and straighten vehicle frames."
+	},
+	{
+		"O*NET-SOC Code": "49-3022.00",
+		"Title": "Automotive Glass Installers and Repairers",
+		"Description": "Replace or repair broken windshields and window glass in motor vehicles."
+	},
+	{
+		"O*NET-SOC Code": "49-3023.00",
+		"Title": "Automotive Service Technicians and Mechanics",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3031.00",
+		"Title": "Bus and Truck Mechanics and Diesel Engine Specialists",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3041.00",
+		"Title": "Farm Equipment Mechanics and Service Technicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3042.00",
+		"Title": "Mobile Heavy Equipment Mechanics",
+		"Description": " Except Engines"
+	},
+	{
+		"O*NET-SOC Code": "49-3043.00",
+		"Title": "Rail Car Repairers",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3051.00",
+		"Title": "Motorboat Mechanics and Service Technicians",
+		"Description": "Repair and adjust electrical and mechanical equipment of inboard or inboard-outboard boat engines."
+	},
+	{
+		"O*NET-SOC Code": "49-3052.00",
+		"Title": "Motorcycle Mechanics",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3053.00",
+		"Title": "Outdoor Power Equipment and Other Small Engine Mechanics",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3091.00",
+		"Title": "Bicycle Repairers",
+		"Description": "Repair and service bicycles."
+	},
+	{
+		"O*NET-SOC Code": "49-3092.00",
+		"Title": "Recreational Vehicle Service Technicians",
+		"Description": "Diagnose"
+	},
+	{
+		"O*NET-SOC Code": "49-3093.00",
+		"Title": "Tire Repairers and Changers",
+		"Description": "Repair and replace tires."
+	},
+	{
+		"O*NET-SOC Code": "49-9011.00",
+		"Title": "Mechanical Door Repairers",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-9012.00",
+		"Title": "Control and Valve Installers and Repairers",
+		"Description": " Except Mechanical Door"
+	},
+	{
+		"O*NET-SOC Code": "49-9021.00",
+		"Title": "Heating",
+		"Description": " Air Conditioning"
+	},
+	{
+		"O*NET-SOC Code": "49-9031.00",
+		"Title": "Home Appliance Repairers",
+		"Description": "Repair"
+	},
+	{
+		"O*NET-SOC Code": "49-9041.00",
+		"Title": "Industrial Machinery Mechanics",
+		"Description": "Repair"
+	},
+	{
+		"O*NET-SOC Code": "49-9043.00",
+		"Title": "Maintenance Workers",
+		"Description": " Machinery"
+	},
+	{
+		"O*NET-SOC Code": "49-9044.00",
+		"Title": "Millwrights",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-9045.00",
+		"Title": "Refractory Materials Repairers",
+		"Description": " Except Brickmasons"
+	},
+	{
+		"O*NET-SOC Code": "49-9051.00",
+		"Title": "Electrical Power-Line Installers and Repairers",
+		"Description": "Install or repair cables or wires used in electrical power or distribution systems. May erect poles and light or heavy duty transmission towers."
+	},
+	{
+		"O*NET-SOC Code": "49-9052.00",
+		"Title": "Telecommunications Line Installers and Repairers",
+		"Description": "Install and repair telecommunications cable"
+	},
+	{
+		"O*NET-SOC Code": "49-9061.00",
+		"Title": "Camera and Photographic Equipment Repairers",
+		"Description": "Repair and adjust cameras and photographic equipment"
+	},
+	{
+		"O*NET-SOC Code": "49-9062.00",
+		"Title": "Medical Equipment Repairers",
+		"Description": "Test"
+	},
+	{
+		"O*NET-SOC Code": "49-9063.00",
+		"Title": "Musical Instrument Repairers and Tuners",
+		"Description": "Repair percussion"
+	},
+	{
+		"O*NET-SOC Code": "49-9064.00",
+		"Title": "Watch and Clock Repairers",
+		"Description": "Repair"
+	},
+	{
+		"O*NET-SOC Code": "49-9069.00",
+		"Title": "Precision Instrument and Equipment Repairers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "49-9071.00",
+		"Title": "Maintenance and Repair Workers",
+		"Description": " General"
+	},
+	{
+		"O*NET-SOC Code": "49-9081.00",
+		"Title": "Wind Turbine Service Technicians",
+		"Description": "Inspect"
+	},
+	{
+		"O*NET-SOC Code": "49-9091.00",
+		"Title": "Coin",
+		"Description": " Vending"
+	},
+	{
+		"O*NET-SOC Code": "49-9092.00",
+		"Title": "Commercial Divers",
+		"Description": "Work below surface of water"
+	},
+	{
+		"O*NET-SOC Code": "49-9094.00",
+		"Title": "Locksmiths and Safe Repairers",
+		"Description": "Repair and open locks"
+	},
+	{
+		"O*NET-SOC Code": "49-9095.00",
+		"Title": "Manufactured Building and Mobile Home Installers",
+		"Description": "Move or install mobile homes or prefabricated buildings."
+	},
+	{
+		"O*NET-SOC Code": "49-9096.00",
+		"Title": "Riggers",
+		"Description": "Set up or repair rigging for construction projects"
+	},
+	{
+		"O*NET-SOC Code": "49-9097.00",
+		"Title": "Signal and Track Switch Repairers",
+		"Description": "Install"
+	},
+	{
+		"O*NET-SOC Code": "49-9098.00",
+		"Title": "Helpers--Installation",
+		"Description": " Maintenance"
+	},
+	{
+		"O*NET-SOC Code": "49-9099.00",
+		"Title": "Installation",
+		"Description": " Maintenance"
+	},
+	{
+		"O*NET-SOC Code": "49-9099.01",
+		"Title": "Geothermal Technicians",
+		"Description": "Perform technical activities at power plants or individual installations necessary for the generation of power from geothermal energy sources. Monitor and control operating activities at geothermal power generation facilities and perform maintenance and repairs as necessary. Install"
+	},
+	{
+		"O*NET-SOC Code": "51-1011.00",
+		"Title": "First-Line Supervisors of Production and Operating Workers",
+		"Description": "Directly supervise and coordinate the activities of production and operating workers"
+	},
+	{
+		"O*NET-SOC Code": "51-2011.00",
+		"Title": "Aircraft Structure",
+		"Description": " Surfaces"
+	},
+	{
+		"O*NET-SOC Code": "51-2021.00",
+		"Title": "Coil Winders",
+		"Description": " Tapers"
+	},
+	{
+		"O*NET-SOC Code": "51-2022.00",
+		"Title": "Electrical and Electronic Equipment Assemblers",
+		"Description": "Assemble or modify electrical or electronic equipment"
+	},
+	{
+		"O*NET-SOC Code": "51-2023.00",
+		"Title": "Electromechanical Equipment Assemblers",
+		"Description": "Assemble or modify electromechanical equipment or devices"
+	},
+	{
+		"O*NET-SOC Code": "51-2031.00",
+		"Title": "Engine and Other Machine Assemblers",
+		"Description": "Construct"
+	},
+	{
+		"O*NET-SOC Code": "51-2041.00",
+		"Title": "Structural Metal Fabricators and Fitters",
+		"Description": "Fabricate"
+	},
+	{
+		"O*NET-SOC Code": "51-2051.00",
+		"Title": "Fiberglass Laminators and Fabricators",
+		"Description": "Laminate layers of fiberglass on molds to form boat decks and hulls"
+	},
+	{
+		"O*NET-SOC Code": "51-2061.00",
+		"Title": "Timing Device Assemblers and Adjusters",
+		"Description": "Perform precision assembling or adjusting"
+	},
+	{
+		"O*NET-SOC Code": "51-2092.00",
+		"Title": "Team Assemblers",
+		"Description": "Work as part of a team having responsibility for assembling an entire product or component of a product. Team assemblers can perform all tasks conducted by the team in the assembly process and rotate through all or most of them"
+	},
+	{
+		"O*NET-SOC Code": "51-2099.00",
+		"Title": "Assemblers and Fabricators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "51-3011.00",
+		"Title": "Bakers",
+		"Description": "Mix and bake ingredients to produce breads"
+	},
+	{
+		"O*NET-SOC Code": "51-3021.00",
+		"Title": "Butchers and Meat Cutters",
+		"Description": "Cut"
+	},
+	{
+		"O*NET-SOC Code": "51-3022.00",
+		"Title": "Meat",
+		"Description": " Poultry"
+	},
+	{
+		"O*NET-SOC Code": "51-3023.00",
+		"Title": "Slaughterers and Meat Packers",
+		"Description": "Perform nonroutine or precision functions involving the preparation of large portions of meat. Work may include specialized slaughtering tasks"
+	},
+	{
+		"O*NET-SOC Code": "51-3091.00",
+		"Title": "Food and Tobacco Roasting",
+		"Description": " Baking"
+	},
+	{
+		"O*NET-SOC Code": "51-3092.00",
+		"Title": "Food Batchmakers",
+		"Description": "Set up and operate equipment that mixes or blends ingredients used in the manufacturing of food products. Includes candy makers and cheese makers."
+	},
+	{
+		"O*NET-SOC Code": "51-3093.00",
+		"Title": "Food Cooking Machine Operators and Tenders",
+		"Description": "Operate or tend cooking equipment"
+	},
+	{
+		"O*NET-SOC Code": "51-3099.00",
+		"Title": "Food Processing Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "51-4021.00",
+		"Title": "Extruding and Drawing Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4022.00",
+		"Title": "Forging Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4023.00",
+		"Title": "Rolling Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4031.00",
+		"Title": "Cutting",
+		"Description": " Punching"
+	},
+	{
+		"O*NET-SOC Code": "51-4032.00",
+		"Title": "Drilling and Boring Machine Tool Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4033.00",
+		"Title": "Grinding",
+		"Description": " Lapping"
+	},
+	{
+		"O*NET-SOC Code": "51-4034.00",
+		"Title": "Lathe and Turning Machine Tool Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4035.00",
+		"Title": "Milling and Planing Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4041.00",
+		"Title": "Machinists",
+		"Description": "Set up and operate a variety of machine tools to produce precision parts and instruments out of metal. Includes precision instrument makers who fabricate"
+	},
+	{
+		"O*NET-SOC Code": "51-4051.00",
+		"Title": "Metal-Refining Furnace Operators and Tenders",
+		"Description": "Operate or tend furnaces"
+	},
+	{
+		"O*NET-SOC Code": "51-4052.00",
+		"Title": "Pourers and Casters",
+		"Description": " Metal"
+	},
+	{
+		"O*NET-SOC Code": "51-4061.00",
+		"Title": "Model Makers",
+		"Description": " Metal and Plastic"
+	},
+	{
+		"O*NET-SOC Code": "51-4062.00",
+		"Title": "Patternmakers",
+		"Description": " Metal and Plastic"
+	},
+	{
+		"O*NET-SOC Code": "51-4071.00",
+		"Title": "Foundry Mold and Coremakers",
+		"Description": "Make or form wax or sand cores or molds used in the production of metal castings in foundries."
+	},
+	{
+		"O*NET-SOC Code": "51-4072.00",
+		"Title": "Molding",
+		"Description": " Coremaking"
+	},
+	{
+		"O*NET-SOC Code": "51-4081.00",
+		"Title": "Multiple Machine Tool Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4111.00",
+		"Title": "Tool and Die Makers",
+		"Description": "Analyze specifications"
+	},
+	{
+		"O*NET-SOC Code": "51-4121.00",
+		"Title": "Welders",
+		"Description": " Cutters"
+	},
+	{
+		"O*NET-SOC Code": "51-4122.00",
+		"Title": "Welding",
+		"Description": " Soldering"
+	},
+	{
+		"O*NET-SOC Code": "51-4191.00",
+		"Title": "Heat Treating Equipment Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4192.00",
+		"Title": "Layout Workers",
+		"Description": " Metal and Plastic"
+	},
+	{
+		"O*NET-SOC Code": "51-4193.00",
+		"Title": "Plating Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-4194.00",
+		"Title": "Tool Grinders",
+		"Description": " Filers"
+	},
+	{
+		"O*NET-SOC Code": "51-4199.00",
+		"Title": "Metal Workers and Plastic Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "51-5111.00",
+		"Title": "Prepress Technicians and Workers",
+		"Description": "Format and proof text and images submitted by designers and clients into finished pages that can be printed. Includes digital and photo typesetting. May produce printing plates."
+	},
+	{
+		"O*NET-SOC Code": "51-5112.00",
+		"Title": "Printing Press Operators",
+		"Description": "Set up and operate digital"
+	},
+	{
+		"O*NET-SOC Code": "51-5113.00",
+		"Title": "Print Binding and Finishing Workers",
+		"Description": "Bind books and other publications or finish printed products by hand or machine. May set up binding and finishing machines."
+	},
+	{
+		"O*NET-SOC Code": "51-6011.00",
+		"Title": "Laundry and Dry-Cleaning Workers",
+		"Description": "Operate or tend washing or dry-cleaning machines to wash or dry-clean industrial or household articles"
+	},
+	{
+		"O*NET-SOC Code": "51-6021.00",
+		"Title": "Pressers",
+		"Description": " Textile"
+	},
+	{
+		"O*NET-SOC Code": "51-6031.00",
+		"Title": "Sewing Machine Operators",
+		"Description": "Operate or tend sewing machines to join"
+	},
+	{
+		"O*NET-SOC Code": "51-6041.00",
+		"Title": "Shoe and Leather Workers and Repairers",
+		"Description": "Construct"
+	},
+	{
+		"O*NET-SOC Code": "51-6042.00",
+		"Title": "Shoe Machine Operators and Tenders",
+		"Description": "Operate or tend a variety of machines to join"
+	},
+	{
+		"O*NET-SOC Code": "51-6051.00",
+		"Title": "Sewers",
+		"Description": " Hand"
+	},
+	{
+		"O*NET-SOC Code": "51-6052.00",
+		"Title": "Tailors",
+		"Description": " Dressmakers"
+	},
+	{
+		"O*NET-SOC Code": "51-6061.00",
+		"Title": "Textile Bleaching and Dyeing Machine Operators and Tenders",
+		"Description": "Operate or tend machines to bleach"
+	},
+	{
+		"O*NET-SOC Code": "51-6062.00",
+		"Title": "Textile Cutting Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-6063.00",
+		"Title": "Textile Knitting and Weaving Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-6064.00",
+		"Title": "Textile Winding",
+		"Description": " Twisting"
+	},
+	{
+		"O*NET-SOC Code": "51-6091.00",
+		"Title": "Extruding and Forming Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-6092.00",
+		"Title": "Fabric and Apparel Patternmakers",
+		"Description": "Draw and construct sets of precision master fabric patterns or layouts. May also mark and cut fabrics and apparel."
+	},
+	{
+		"O*NET-SOC Code": "51-6093.00",
+		"Title": "Upholsterers",
+		"Description": "Make"
+	},
+	{
+		"O*NET-SOC Code": "51-6099.00",
+		"Title": "Textile",
+		"Description": " Apparel"
+	},
+	{
+		"O*NET-SOC Code": "51-7011.00",
+		"Title": "Cabinetmakers and Bench Carpenters",
+		"Description": "Cut"
+	},
+	{
+		"O*NET-SOC Code": "51-7021.00",
+		"Title": "Furniture Finishers",
+		"Description": "Shape"
+	},
+	{
+		"O*NET-SOC Code": "51-7031.00",
+		"Title": "Model Makers",
+		"Description": " Wood"
+	},
+	{
+		"O*NET-SOC Code": "51-7032.00",
+		"Title": "Patternmakers",
+		"Description": " Wood"
+	},
+	{
+		"O*NET-SOC Code": "51-7041.00",
+		"Title": "Sawing Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-7042.00",
+		"Title": "Woodworking Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-7099.00",
+		"Title": "Woodworkers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "51-8011.00",
+		"Title": "Nuclear Power Reactor Operators",
+		"Description": "Operate or control nuclear reactors. Move control rods"
+	},
+	{
+		"O*NET-SOC Code": "51-8012.00",
+		"Title": "Power Distributors and Dispatchers",
+		"Description": "Coordinate"
+	},
+	{
+		"O*NET-SOC Code": "51-8013.00",
+		"Title": "Power Plant Operators",
+		"Description": "Control"
+	},
+	{
+		"O*NET-SOC Code": "51-8013.03",
+		"Title": "Biomass Plant Technicians",
+		"Description": "Control and monitor biomass plant activities and perform maintenance as needed."
+	},
+	{
+		"O*NET-SOC Code": "51-8013.04",
+		"Title": "Hydroelectric Plant Technicians",
+		"Description": "Monitor and control activities associated with hydropower generation. Operate plant equipment"
+	},
+	{
+		"O*NET-SOC Code": "51-8021.00",
+		"Title": "Stationary Engineers and Boiler Operators",
+		"Description": "Operate or maintain stationary engines"
+	},
+	{
+		"O*NET-SOC Code": "51-8031.00",
+		"Title": "Water and Wastewater Treatment Plant and System Operators",
+		"Description": "Operate or control an entire process or system of machines"
+	},
+	{
+		"O*NET-SOC Code": "51-8091.00",
+		"Title": "Chemical Plant and System Operators",
+		"Description": "Control or operate entire chemical processes or system of machines."
+	},
+	{
+		"O*NET-SOC Code": "51-8092.00",
+		"Title": "Gas Plant Operators",
+		"Description": "Distribute or process gas for utility companies and others by controlling compressors to maintain specified pressures on main pipelines."
+	},
+	{
+		"O*NET-SOC Code": "51-8093.00",
+		"Title": "Petroleum Pump System Operators",
+		"Description": " Refinery Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-8099.00",
+		"Title": "Plant and System Operators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "51-8099.01",
+		"Title": "Biofuels Processing Technicians",
+		"Description": "Calculate"
+	},
+	{
+		"O*NET-SOC Code": "51-9011.00",
+		"Title": "Chemical Equipment Operators and Tenders",
+		"Description": "Operate or tend equipment to control chemical changes or reactions in the processing of industrial or consumer products. Equipment used includes devulcanizers"
+	},
+	{
+		"O*NET-SOC Code": "51-9012.00",
+		"Title": "Separating",
+		"Description": " Filtering"
+	},
+	{
+		"O*NET-SOC Code": "51-9021.00",
+		"Title": "Crushing",
+		"Description": " Grinding"
+	},
+	{
+		"O*NET-SOC Code": "51-9022.00",
+		"Title": "Grinding and Polishing Workers",
+		"Description": " Hand"
+	},
+	{
+		"O*NET-SOC Code": "51-9023.00",
+		"Title": "Mixing and Blending Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-9031.00",
+		"Title": "Cutters and Trimmers",
+		"Description": " Hand"
+	},
+	{
+		"O*NET-SOC Code": "51-9032.00",
+		"Title": "Cutting and Slicing Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-9041.00",
+		"Title": "Extruding",
+		"Description": " Forming"
+	},
+	{
+		"O*NET-SOC Code": "51-9051.00",
+		"Title": "Furnace",
+		"Description": " Kiln"
+	},
+	{
+		"O*NET-SOC Code": "51-9061.00",
+		"Title": "Inspectors",
+		"Description": " Testers"
+	},
+	{
+		"O*NET-SOC Code": "51-9071.00",
+		"Title": "Jewelers and Precious Stone and Metal Workers",
+		"Description": "Design"
+	},
+	{
+		"O*NET-SOC Code": "51-9071.06",
+		"Title": "Gem and Diamond Workers",
+		"Description": "Fabricate"
+	},
+	{
+		"O*NET-SOC Code": "51-9081.00",
+		"Title": "Dental Laboratory Technicians",
+		"Description": "Construct and repair full or partial dentures or dental appliances."
+	},
+	{
+		"O*NET-SOC Code": "51-9082.00",
+		"Title": "Medical Appliance Technicians",
+		"Description": "Construct"
+	},
+	{
+		"O*NET-SOC Code": "51-9083.00",
+		"Title": "Ophthalmic Laboratory Technicians",
+		"Description": "Cut"
+	},
+	{
+		"O*NET-SOC Code": "51-9111.00",
+		"Title": "Packaging and Filling Machine Operators and Tenders",
+		"Description": "Operate or tend machines to prepare industrial or consumer products for storage or shipment. Includes cannery workers who pack food products."
+	},
+	{
+		"O*NET-SOC Code": "51-9123.00",
+		"Title": "Painting",
+		"Description": " Coating"
+	},
+	{
+		"O*NET-SOC Code": "51-9124.00",
+		"Title": "Coating",
+		"Description": " Painting"
+	},
+	{
+		"O*NET-SOC Code": "51-9141.00",
+		"Title": "Semiconductor Processing Technicians",
+		"Description": "Perform any or all of the following functions in the manufacture of electronic semiconductors: load semiconductor material into furnace; saw formed ingots into segments; load individual segment into crystal growing chamber and monitor controls; locate crystal axis in ingot using x-ray equipment and saw ingots into wafers; and clean"
+	},
+	{
+		"O*NET-SOC Code": "51-9151.00",
+		"Title": "Photographic Process Workers and Processing Machine Operators",
+		"Description": "Perform work involved in developing and processing photographic images from film or digital media. May perform precision tasks such as editing photographic negatives and prints."
+	},
+	{
+		"O*NET-SOC Code": "51-9161.00",
+		"Title": "Computer Numerically Controlled Tool Operators",
+		"Description": "Operate computer-controlled tools"
+	},
+	{
+		"O*NET-SOC Code": "51-9162.00",
+		"Title": "Computer Numerically Controlled Tool Programmers",
+		"Description": "Develop programs to control machining or processing of materials by automatic machine tools"
+	},
+	{
+		"O*NET-SOC Code": "51-9191.00",
+		"Title": "Adhesive Bonding Machine Operators and Tenders",
+		"Description": "Operate or tend bonding machines that use adhesives to join items for further processing or to form a completed product. Processes include joining veneer sheets into plywood; gluing paper; or joining rubber and rubberized fabric parts"
+	},
+	{
+		"O*NET-SOC Code": "51-9192.00",
+		"Title": "Cleaning",
+		"Description": " Washing"
+	},
+	{
+		"O*NET-SOC Code": "51-9193.00",
+		"Title": "Cooling and Freezing Equipment Operators and Tenders",
+		"Description": "Operate or tend equipment such as cooling and freezing units"
+	},
+	{
+		"O*NET-SOC Code": "51-9194.00",
+		"Title": "Etchers and Engravers",
+		"Description": "Engrave or etch metal"
+	},
+	{
+		"O*NET-SOC Code": "51-9195.00",
+		"Title": "Molders",
+		"Description": " Shapers"
+	},
+	{
+		"O*NET-SOC Code": "51-9195.03",
+		"Title": "Stone Cutters and Carvers",
+		"Description": " Manufacturing"
+	},
+	{
+		"O*NET-SOC Code": "51-9195.04",
+		"Title": "Glass Blowers",
+		"Description": " Molders"
+	},
+	{
+		"O*NET-SOC Code": "51-9195.05",
+		"Title": "Potters",
+		"Description": " Manufacturing"
+	},
+	{
+		"O*NET-SOC Code": "51-9196.00",
+		"Title": "Paper Goods Machine Setters",
+		"Description": " Operators"
+	},
+	{
+		"O*NET-SOC Code": "51-9197.00",
+		"Title": "Tire Builders",
+		"Description": "Operate machines to build tires."
+	},
+	{
+		"O*NET-SOC Code": "51-9198.00",
+		"Title": "Helpers--Production Workers",
+		"Description": "Help production workers by performing duties requiring less skill. Duties include supplying or holding materials or tools"
+	},
+	{
+		"O*NET-SOC Code": "51-9199.00",
+		"Title": "Production Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "53-1041.00",
+		"Title": "Aircraft Cargo Handling Supervisors",
+		"Description": "Supervise and coordinate the activities of ground crew in the loading"
+	},
+	{
+		"O*NET-SOC Code": "53-1042.00",
+		"Title": "First-Line Supervisors of Helpers",
+		"Description": " Laborers"
+	},
+	{
+		"O*NET-SOC Code": "53-1042.01",
+		"Title": "Recycling Coordinators",
+		"Description": "Supervise curbside and drop-off recycling programs for municipal governments or private firms."
+	},
+	{
+		"O*NET-SOC Code": "53-1043.00",
+		"Title": "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
+		"Description": "Directly supervise and coordinate activities of material-moving machine and vehicle operators and helpers."
+	},
+	{
+		"O*NET-SOC Code": "53-1044.00",
+		"Title": "First-Line Supervisors of Passenger Attendants",
+		"Description": "Supervise and coordinate activities of passenger attendants."
+	},
+	{
+		"O*NET-SOC Code": "53-1049.00",
+		"Title": "First-Line Supervisors of Transportation Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "53-2011.00",
+		"Title": "Airline Pilots",
+		"Description": " Copilots"
+	},
+	{
+		"O*NET-SOC Code": "53-2012.00",
+		"Title": "Commercial Pilots",
+		"Description": "Pilot and navigate the flight of fixed-wing aircraft on nonscheduled air carrier routes"
+	},
+	{
+		"O*NET-SOC Code": "53-2021.00",
+		"Title": "Air Traffic Controllers",
+		"Description": "Control air traffic on and within vicinity of airport"
+	},
+	{
+		"O*NET-SOC Code": "53-2022.00",
+		"Title": "Airfield Operations Specialists",
+		"Description": "Ensure the safe takeoff and landing of commercial and military aircraft. Duties include coordination between air-traffic control and maintenance personnel"
+	},
+	{
+		"O*NET-SOC Code": "53-2031.00",
+		"Title": "Flight Attendants",
+		"Description": "Monitor safety of the aircraft cabin. Provide services to airline passengers"
+	},
+	{
+		"O*NET-SOC Code": "53-3011.00",
+		"Title": "Ambulance Drivers and Attendants",
+		"Description": " Except Emergency Medical Technicians"
+	},
+	{
+		"O*NET-SOC Code": "53-3031.00",
+		"Title": "Driver/Sales Workers",
+		"Description": "Drive truck or other vehicle over established routes or within an established territory and sell or deliver goods"
+	},
+	{
+		"O*NET-SOC Code": "53-3032.00",
+		"Title": "Heavy and Tractor-Trailer Truck Drivers",
+		"Description": "Drive a tractor-trailer combination or a truck with a capacity of at least 26"
+	},
+	{
+		"O*NET-SOC Code": "53-3033.00",
+		"Title": "Light Truck Drivers",
+		"Description": "Drive a light vehicle"
+	},
+	{
+		"O*NET-SOC Code": "53-3051.00",
+		"Title": "Bus Drivers",
+		"Description": " School"
+	},
+	{
+		"O*NET-SOC Code": "53-3052.00",
+		"Title": "Bus Drivers",
+		"Description": " Transit and Intercity"
+	},
+	{
+		"O*NET-SOC Code": "53-3053.00",
+		"Title": "Shuttle Drivers and Chauffeurs",
+		"Description": "Drive a motor vehicle to transport passengers on a planned or scheduled basis. May collect a fare. Includes nonemergency medical transporters and hearse drivers."
+	},
+	{
+		"O*NET-SOC Code": "53-3054.00",
+		"Title": "Taxi Drivers",
+		"Description": "Drive a motor vehicle to transport passengers on an unplanned basis and charge a fare"
+	},
+	{
+		"O*NET-SOC Code": "53-3099.00",
+		"Title": "Motor Vehicle Operators",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "53-4011.00",
+		"Title": "Locomotive Engineers",
+		"Description": "Drive electric"
+	},
+	{
+		"O*NET-SOC Code": "53-4013.00",
+		"Title": "Rail Yard Engineers",
+		"Description": " Dinkey Operators"
+	},
+	{
+		"O*NET-SOC Code": "53-4022.00",
+		"Title": "Railroad Brake",
+		"Description": " Signal"
+	},
+	{
+		"O*NET-SOC Code": "53-4031.00",
+		"Title": "Railroad Conductors and Yardmasters",
+		"Description": "Coordinate activities of switch-engine crew within railroad yard"
+	},
+	{
+		"O*NET-SOC Code": "53-4041.00",
+		"Title": "Subway and Streetcar Operators",
+		"Description": "Operate subway or elevated suburban trains with no separate locomotive"
+	},
+	{
+		"O*NET-SOC Code": "53-4099.00",
+		"Title": "Rail Transportation Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "53-5011.00",
+		"Title": "Sailors and Marine Oilers",
+		"Description": "Stand watch to look for obstructions in path of vessel"
+	},
+	{
+		"O*NET-SOC Code": "53-5021.00",
+		"Title": "Captains",
+		"Description": " Mates"
+	},
+	{
+		"O*NET-SOC Code": "53-5022.00",
+		"Title": "Motorboat Operators",
+		"Description": "Operate small motor-driven boats. May assist in navigational activities."
+	},
+	{
+		"O*NET-SOC Code": "53-5031.00",
+		"Title": "Ship Engineers",
+		"Description": "Supervise and coordinate activities of crew engaged in operating and maintaining engines"
+	},
+	{
+		"O*NET-SOC Code": "53-6011.00",
+		"Title": "Bridge and Lock Tenders",
+		"Description": "Operate and tend bridges"
+	},
+	{
+		"O*NET-SOC Code": "53-6021.00",
+		"Title": "Parking Attendants",
+		"Description": "Park vehicles or issue tickets for customers in a parking lot or garage. May park or tend vehicles in environments such as a car dealership or rental car facility. May collect fee."
+	},
+	{
+		"O*NET-SOC Code": "53-6031.00",
+		"Title": "Automotive and Watercraft Service Attendants",
+		"Description": "Service automobiles"
+	},
+	{
+		"O*NET-SOC Code": "53-6032.00",
+		"Title": "Aircraft Service Attendants",
+		"Description": "Service aircraft with fuel. May de-ice aircraft"
+	},
+	{
+		"O*NET-SOC Code": "53-6041.00",
+		"Title": "Traffic Technicians",
+		"Description": "Conduct field studies to determine traffic volume"
+	},
+	{
+		"O*NET-SOC Code": "53-6051.00",
+		"Title": "Transportation Inspectors",
+		"Description": "Inspect equipment or goods in connection with the safe transport of cargo or people. Includes rail transportation inspectors"
+	},
+	{
+		"O*NET-SOC Code": "53-6051.01",
+		"Title": "Aviation Inspectors",
+		"Description": "Inspect aircraft"
+	},
+	{
+		"O*NET-SOC Code": "53-6051.07",
+		"Title": "Transportation Vehicle",
+		"Description": " Equipment and Systems Inspectors"
+	},
+	{
+		"O*NET-SOC Code": "53-6061.00",
+		"Title": "Passenger Attendants",
+		"Description": "Provide services to ensure the safety of passengers aboard ships"
+	},
+	{
+		"O*NET-SOC Code": "53-6099.00",
+		"Title": "Transportation Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "53-7011.00",
+		"Title": "Conveyor Operators and Tenders",
+		"Description": "Control or tend conveyors or conveyor systems that move materials or products to and from stockpiles"
+	},
+	{
+		"O*NET-SOC Code": "53-7021.00",
+		"Title": "Crane and Tower Operators",
+		"Description": "Operate mechanical boom and cable or tower and cable equipment to lift and move materials"
+	},
+	{
+		"O*NET-SOC Code": "53-7031.00",
+		"Title": "Dredge Operators",
+		"Description": "Operate dredge to remove sand"
+	},
+	{
+		"O*NET-SOC Code": "53-7041.00",
+		"Title": "Hoist and Winch Operators",
+		"Description": "Operate or tend hoists or winches to lift and pull loads using power-operated cable equipment."
+	},
+	{
+		"O*NET-SOC Code": "53-7051.00",
+		"Title": "Industrial Truck and Tractor Operators",
+		"Description": "Operate industrial trucks or tractors equipped to move materials around a warehouse"
+	},
+	{
+		"O*NET-SOC Code": "53-7061.00",
+		"Title": "Cleaners of Vehicles and Equipment",
+		"Description": "Wash or otherwise clean vehicles"
+	},
+	{
+		"O*NET-SOC Code": "53-7062.00",
+		"Title": "Laborers and Freight",
+		"Description": " Stock"
+	},
+	{
+		"O*NET-SOC Code": "53-7062.04",
+		"Title": "Recycling and Reclamation Workers",
+		"Description": "Prepare and sort materials or products for recycling. Identify and remove hazardous substances. Dismantle components of products such as appliances."
+	},
+	{
+		"O*NET-SOC Code": "53-7063.00",
+		"Title": "Machine Feeders and Offbearers",
+		"Description": "Feed materials into or remove materials from machines or equipment that is automatic or tended by other workers."
+	},
+	{
+		"O*NET-SOC Code": "53-7064.00",
+		"Title": "Packers and Packagers",
+		"Description": " Hand"
+	},
+	{
+		"O*NET-SOC Code": "53-7065.00",
+		"Title": "Stockers and Order Fillers",
+		"Description": "Receive"
+	},
+	{
+		"O*NET-SOC Code": "53-7071.00",
+		"Title": "Gas Compressor and Gas Pumping Station Operators",
+		"Description": "Operate steam-"
+	},
+	{
+		"O*NET-SOC Code": "53-7072.00",
+		"Title": "Pump Operators",
+		"Description": " Except Wellhead Pumpers"
+	},
+	{
+		"O*NET-SOC Code": "53-7073.00",
+		"Title": "Wellhead Pumpers",
+		"Description": "Operate power pumps and auxiliary equipment to produce flow of oil or gas from wells in oil field."
+	},
+	{
+		"O*NET-SOC Code": "53-7081.00",
+		"Title": "Refuse and Recyclable Material Collectors",
+		"Description": "Collect and dump refuse or recyclable materials from containers into truck. May drive truck."
+	},
+	{
+		"O*NET-SOC Code": "53-7121.00",
+		"Title": "Tank Car",
+		"Description": " Truck"
+	},
+	{
+		"O*NET-SOC Code": "53-7199.00",
+		"Title": "Material Moving Workers",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "55-1011.00",
+		"Title": "Air Crew Officers",
+		"Description": "Perform and direct in-flight duties to ensure the successful completion of combat"
+	},
+	{
+		"O*NET-SOC Code": "55-1012.00",
+		"Title": "Aircraft Launch and Recovery Officers",
+		"Description": "Plan and direct the operation and maintenance of catapults"
+	},
+	{
+		"O*NET-SOC Code": "55-1013.00",
+		"Title": "Armored Assault Vehicle Officers",
+		"Description": "Direct the operation of tanks"
+	},
+	{
+		"O*NET-SOC Code": "55-1014.00",
+		"Title": "Artillery and Missile Officers",
+		"Description": "Manage personnel and weapons operations to destroy enemy positions"
+	},
+	{
+		"O*NET-SOC Code": "55-1015.00",
+		"Title": "Command and Control Center Officers",
+		"Description": "Manage the operation of communications"
+	},
+	{
+		"O*NET-SOC Code": "55-1016.00",
+		"Title": "Infantry Officers",
+		"Description": "Direct"
+	},
+	{
+		"O*NET-SOC Code": "55-1017.00",
+		"Title": "Special Forces Officers",
+		"Description": "Lead elite teams that implement unconventional operations by air"
+	},
+	{
+		"O*NET-SOC Code": "55-1019.00",
+		"Title": "Military Officer Special and Tactical Operations Leaders",
+		"Description": " All Other"
+	},
+	{
+		"O*NET-SOC Code": "55-2011.00",
+		"Title": "First-Line Supervisors of Air Crew Members",
+		"Description": "Supervise and coordinate the activities of air crew members. Supervisors may also perform the same activities as the workers they supervise."
+	},
+	{
+		"O*NET-SOC Code": "55-2012.00",
+		"Title": "First-Line Supervisors of Weapons Specialists/Crew Members",
+		"Description": "Supervise and coordinate the activities of weapons specialists/crew members. Supervisors may also perform the same activities as the workers they supervise."
+	},
+	{
+		"O*NET-SOC Code": "55-2013.00",
+		"Title": "First-Line Supervisors of All Other Tactical Operations Specialists",
+		"Description": "Supervise and coordinate the activities of all other tactical operations specialists not classified separately above. Supervisors may also perform the same activities as the workers they supervise."
+	},
+	{
+		"O*NET-SOC Code": "55-3011.00",
+		"Title": "Air Crew Members",
+		"Description": "Perform in-flight duties to ensure the successful completion of combat"
+	},
+	{
+		"O*NET-SOC Code": "55-3012.00",
+		"Title": "Aircraft Launch and Recovery Specialists",
+		"Description": "Operate and maintain catapults"
+	},
+	{
+		"O*NET-SOC Code": "55-3013.00",
+		"Title": "Armored Assault Vehicle Crew Members",
+		"Description": "Operate tanks"
+	},
+	{
+		"O*NET-SOC Code": "55-3014.00",
+		"Title": "Artillery and Missile Crew Members",
+		"Description": "Target"
+	},
+	{
+		"O*NET-SOC Code": "55-3015.00",
+		"Title": "Command and Control Center Specialists",
+		"Description": "Operate and monitor communications"
+	},
+	{
+		"O*NET-SOC Code": "55-3016.00",
+		"Title": "Infantry",
+		"Description": "Operate weapons and equipment in ground combat operations. Duties include operating and maintaining weapons"
+	},
+	{
+		"O*NET-SOC Code": "55-3018.00",
+		"Title": "Special Forces",
+		"Description": "Implement unconventional operations by air"
+	},
+	{
+		"O*NET-SOC Code": "55-3019.00",
+		"Title": "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members",
+		"Description": " All Other"
+	}
+]
