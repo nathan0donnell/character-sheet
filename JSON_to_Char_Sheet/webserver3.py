@@ -18,13 +18,10 @@ app.config['TESTING'] = True
 
 @app.route('/', methods=['GET', 'POST'])
 def start():
-    formalise.create_form("Formalisations/Person/Person.json")
-    #formalise.create_form("page-demo.json")
-    html_form = open("Website/index.html", "r", encoding="utf-8")
+    formalise.create_form("page-demo.json") # Parameter is the filepath to the JSON that will be displayed
+    html_form = open("Website/index.html", "r", encoding="utf-8") # Getting the HTML file which was created by "formalise" method
     out = html_form.read()
     if request.method == 'POST':
-        f = open('rawdata.txt', "w")
-        f.write(str(request.form))
         formalise.parse_form(request.form)
     return out
 

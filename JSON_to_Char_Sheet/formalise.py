@@ -32,12 +32,16 @@ def type_to_elements(js, html_form, path, label):
                 number_to_element(js, html_form, path, label)
             elif js['type'] == 'Boolean':
                 bool_to_element(js, html_form, path, label)
-            elif js['type'] == 'Table':
-                table_to_element(js, html_form, path, label)
             elif js['type'] == 'Date':
                 date_to_element(js, html_form, path, label)
             elif js['type'] == 'Image':
                 image_to_element(js, html_form, path, label)
+            '''
+            # table conversion not implemented
+            elif js['type'] == 'Table':
+                table_to_element(js, html_form, path, label)
+            '''
+            
         else:
             json_to_elements(js, html_form, path, label)
 
@@ -190,7 +194,8 @@ def image_to_element(js, html_form, path, label):
                     '_type" value="Image">')
     html_form.write("\n</div>")
 
-
+'''
+# table conversion not implemented
 def table_to_element(js, html_form, path, label):
     elementId = path_to_id(path)
     html_form.write("\n<div id='"+elementId+"_div'>")
@@ -204,7 +209,7 @@ def table_to_element(js, html_form, path, label):
                     '_type" name="' + elementId +
                     '_type" value="Table">')
     html_form.write("\n</div>")
-
+'''
 
 def date_to_element(js, html_form, path, label):
     elementId = path_to_id(path)
@@ -214,7 +219,7 @@ def date_to_element(js, html_form, path, label):
 
     html_form.write('\n<input style=\"margin-left:15px;\" type="date" id="' + elementId +
                     '_value" name="' + elementId +
-                    '_value"><br>')
+                    '_value" value ="'+js['value']+'"> <br >')
     html_form.write('\n<input type="hidden" id="' + elementId +
                     '_type" name="' + elementId +
                     '_type" value="Date">')
@@ -386,6 +391,8 @@ def convert_type(jsonDict):
                     jsonDict[key] = int(jsonDict[key])
                 if is_float is True and is_int is False:
                     jsonDict[key] = float(jsonDict[key])
+                if jsonDict[key]=='':
+                    jsonDict[key]=None
     return jsonDict
 
 # parse form method with the feedback
