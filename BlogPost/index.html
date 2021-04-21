@@ -3,343 +3,592 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Real-World Character Sheet</title>
+    <title>Real-World Character Sheet</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet"  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-/>
-  <!-- Custom styles for this template -->
-  <link href="css/blog-post.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
+    <!-- Custom styles for this template -->
+    <link href="css/blog-post.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Nathan's Blog</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nathan's Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
-          </li>
-          
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+                    </li>
 
-  <!-- Page Content -->
-  <div class="container">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="row">
+    <!-- Page Content -->
+    <div class="container">
 
-      <!-- Post Content Column -->
-      <div class="col-lg-8">
+        <div class="row">
 
-        <!-- Title -->
-        <h1 class="mt-4">A Real-World Character Sheet Based on First Impressions</h1>
+            <!-- Post Content Column -->
+            <div class="col-lg-8">
 
-        <!-- Author -->
-        <p class="lead">
-          by
-          <a href="#">Nathan O'Donnell</a>
-        </p>
+                <!-- Title -->
+                <h1 class="mt-4">A Real-World Character Sheet Based on First Impressions</h1>
 
-        <hr>
+                <!-- Author -->
+                <p class="lead">
+                    by
+                    <a href="#">Nathan O'Donnell</a>
+                </p>
 
-        <!-- Date/Time -->
-        <p>Posted on March 6, 2021 at 12:00 PM</p>
+                <hr>
 
-        <hr>
+                <!-- Date/Time -->
+                <p>Posted on March 6, 2021 at 12:00 PM</p>
 
-        <!-- Preview Image -->
-        <img style="padding-left: 20px;" class="img-fluid rounded" src="assets/character_sheet.png" alt="">
+                <hr>
 
-        <hr>
+                <!-- Preview Image -->
+                <img style="padding-left: 20px;" class="img-fluid rounded" src="assets/character_sheet.png" alt="">
 
-        <!-- Post Content -->
-        <h4>Introduction</h4>
-        <p>
-          When you first meet a person, you make assumptions based on their appearance, from very basic characteristics, such as their age or gender, to more advanced personality
-          characteristics like their favourite colour, the car they might drive, a friend of yours who would be perfect for them. We can make assumptions about anything really. Just
-          from one look at a person, we can imagine how they would act in certain situations or what their life has been like up to this point. This is what this project is really all
-          about, <b>testing how strong our human intuition really is</b>.
-        </p>
-        
-        <p>
-          The aim of this project is to build a detailed character sheet when given a photo of a random person. As to how we get the details, we survey many
-          people and ask them for the attributes of the people we show them. From here, by employing machine learning algorithms, we can gauge a common answer and compare it to other
-          images that received the same answer and find the similarities in the person’s features. For example, if a woman with red hair is shown and many people say her hair is
-          “ginger”. Then another 100 people with red hair are shown and all receive the same answer of “ginger” hair. If we then show the computer a person with red hair, it should
-          say that the person has “ginger” hair.
-        </p>
-        
-        <p>
-          I got the chance to take on this project through a module at Queen’s University Belfast called <b>“Computer Science Challenges”</b>. The module gives first-year students the
-          chance to try their hand at a final-year-style project. It’s been a great experience so far and a brilliant way to learn. The main aim of the module is to create something
-          of lasting value. To help understand this project, I was given this description:
-        </p>
+                <hr>
 
-        <p>
-          <i>
-            “People often make consistent superficial judgements of a strangers’ personality and life from their appearance. While these judgements can often be very inaccurate,
-            the fact that many people can feel a similar way is interesting and can be used to reveal cultural bias and measure the limits of human intuition. The goal of this
-            project is to create a realistic ‘character sheet’ as a JSON data structure that defines a person and their appearance in an image. By getting crowd workers to label
-            fictional and real people we can analyse how people make judgements about others and how accurate and consistent such judgements can be.”
-          </i>
-        </p>
-        <h4>WikiData</h4>
-        <p>
-          To start, I was given a few resources to research, one of which was WikiData, the largest collection of formalised data about people, places, things etc.
-          I started learning how to query with the WikiData API and getting some useful information back. The formalised data about people and fictional characters proved
-          very useful as test data when creating the JSON editor. The structure of the JSON files also helped in understanding the file format. 
-        </p>
-         <img style="padding-left: 110px;padding-bottom: 30px;"src="assets/filesnippet.png" alt="Code Snippet from WikiData JSON data for 'Abed Nadir'">
-        <h4>Flask</h4>
-        <p>
-          My next task was to run a web server which displays a form. To do this, I used Flask as it is easy to learn and debug. Flask is a <b>micro web framework</b> written in Python.
-          A web framework is something that makes developing web applications easy, the micro part just refers to the minimalistic simplicity of the framework. The process of
-          installing Flask was relatively simple using pip. In no time, I had “Hello World” on the web server. This meant I could get started on building the JSON editor. Flask
-          allows you to get form feedback through the “Request” object which proved very useful in the Editor.
-          Any problem or difficulty I had was fixed quickly by the <a href="https://flask.palletsprojects.com/en/1.1.x/#user-s-guide">user guide</a>.
-        </p>
-        <h4>JSON Editor</h4>
-        <p>
-          To edit the character sheet easier, I created a JSON editor which does what it says in the title basically. It is a web application written in Python which lets you read JSON
-          file data and edit it. This will be of use later in the project when we want to change parts of our character sheet quick, or when we want to get feedback from surveys. Eventually we will be able to add in more
-          complex UI features but at the moment, the web app is a working model.
-        </p>
-        <h5>Form Creation</h5>
-        <p>
-          To start creating the form, I used the <i>load() function</i> of the json library to get the JSON file as a dictionary. To parse the dictionary, I wrote a recursive method
-          which <b>identifies the instance</b> of the current element of the JSON dict and calls the appropriate method which turns the element into HTML form code.
-        </p>
-        <img style="padding-left: 180px;padding-bottom: 30px;"src="assets/json_to_elements.png" alt="Code Snippet detecting the instance of the element">
-        <p>
-          So far, the method can handle <i>list, dict, str and int</i>, each having the appropriate conversion method. Dictionaries and lists are separated by divs to separate them in
-          the form. Strings and numbers are shown with labels and text boxes/areas. As we may be dealing with large amounts of data, we need to have <b>distinct unique names</b>
-          for the HTML elements. This is where I employed a naming convention where the ID of elements was the path to the value in the dictionary e.g.:
-          <center>path = dict[“parent”][0] <br>ID = dict_parent_0 </center>
-        </p>
-        <img style="padding-left: 130px;padding-bottom: 30px;"src="assets/str_to_element.png" alt="Code Snippet converting a string variable into a form element">          
-        <p>
-          Once the form was created, it needed to be displayed. This was done through Flask because it makes getting form feedback very easy.
-        </p>
-        <h5>Getting Feedback</h5>
-        <p>
-          To get feedback, I used the <i>“request” object</i> included in Flask. This gave me access to the form elements after hitting submit. I set the “methods” parameter of app
-          to <i>“[‘GET’,’POST’]</i> . By doing this, the form could return information in either GET-mode or POST-mode (<a href="https://www.w3schools.com/html/html_forms_attributes.asp">For more info</a>).
-          After having set all these parameters, “request.form” is passed as a parameter to the parse form method. 
-        </p>
-        <img style="padding-left: 155px;padding-bottom: 30px;"src="assets/webserver.png" alt="Code Snippet using Flask">          
-        <h5>Parsing Feedback</h5>
-        <p>
-          Since the request.form object had been passed as a parameter, the parse form method can now turn it back into JSON syntax. The instance of “request.form” is
-          <i>ImmutableMultiDict</i>, which is a type of dictionary used in Python where mapping multiple values to a single key is possible. As it is a type of dictionary,
-          each key can be retrieved. In the parse method, a new empty dictionary is created to hold the JSON data. Then it starts to iterate through each key in request.form,
-          getting the ID, converting the ID to a path, and splitting the path into “pathParts”.
-        </p>
-        <img style="padding-left: 255px;padding-bottom: 30px;"src="assets/pathParts.png" alt="Code Snippet of separating path parts">                  
-        <p>
-          After this, a parent variable is created, and the value is the empty dictionary made earlier. This parent variable serves as the direct parent of the element the
-          iteration is currently parsing. From here, the method iterates through each “part” in “pathParts”, checking if it is the either the first, last or if the part is
-          already in the parent dictionary. <br>
-        </p>
-        <img style="padding-left: 230px;"src="assets/parsing_parts.png" alt="Code Snippet iterating through parts">          
-        <p>
-          <center>
-            First part = part is the top-level dictionary<br>
-            Last part = part is the element we are currently parsing<br>
-            If part is in dictionary = parent variable is set to this part<br>
-          </center>
-        </p>
-          If the part is the first part, the method continues as it is the top-level dictionary. If it is the last part, the value is set to the key's value
-          (“feedback[key]”). If the part is already in the parent dictionary, the parent is set to this new part. In any other case, the part is set to an empty
-          dictionary and the parent is set to this part. All that is needed after this is to use the <i>dump</i>() function of the json library, passing the dictionary
-          containing the updated JSON data and the file it is written to.
-        </p>
-        <img style="padding-left: 185px;padding-bottom: 25px;"src="assets/saving_json.png" alt="Code Snippet saving JSON data">                  
-        <h5>Type Implementation</h5>
-        <p>
-          Something I have not yet implemented is type handling, e.g., different methods for converting date, money, etc. to HTML elements. This would allow the
-          form to have a more attractive layout and gives the JSON file more detail. Adding type information for each value is considered good practice, a good
-          way to do it is shown here:
-        </p>
-        <img style="padding-left: 290px;padding-bottom: 25px;"src="assets/type_information.png" alt="Code Snippet of good type information">              
-        <h4>StyleGAN2-ada</h4>
-        <p>
-          Another student, Dean Mulholland, is also working on this project. His focus was on StyleGAN2-ada. In his work so far, he has been able to use StyleGAN2-ada
-          to generate an image of something based on a dataset of examples and a pretrained network. The technology is very interesting, and you can find more about it
-          <a href="https://github.com/deanodeano11/my-work-on-StyleGAN2-ada">here</a>. In the project, the end goal is to use it to analyse an image of a person and return the character with all values filled.
-          It will be able to look at someone and hopefully return accurate descriptions of their personality.
-        </p>
-        <img style="padding-left: 20px;padding-bottom: 25px;"src="assets/stylegan.png" alt="StyleGAN Sample Image">              
-        <h4>Future Plans</h4>
-        <h5>Formalisations of Things</h5>
-        <p>
-          As we want to make predictions about many things about people, we will have to store them in a file. There are many ways we can formalise data such as
-          grouping together visible traits like hair colour, eye colour, hair style and grouping invisible traits like personality, net worth, their favourite food.
-          As we can formalise anything, the characteristics we choose are important. If our aim is to make predictions about people and the actions they would make,
-          we should formalise the data we can get the most analysis value out of. 
-        </p>
-        <img style="padding-left: 100px;padding-bottom: 25px;"src="assets/sims.png" alt="The Sims 4 Personality Traits">              
-        <p>
-          In regard to personality traits, the sheer number of possible formalisations is insane. For instance, take The Sims 4, pictured above, they allow a player to choose their
-          character’s traits thus leading to a specific path of life. If we can find similarities in people’s personality and their career, romantic life, etc. we can find the
-          <i>defining factors of a person’s character which lead them down a specific path of life</i>. This can be shown in our character sheet and I, for one, am very excited
-          to see the results of this.
-        </p>
-        <h5>Surveying and Machine Learning </h5>
-        <p>
-          To gather our data for recognising characteristics, we will use <i>Amazon Mechanical Turk</i> which is a crowdsourcing website which uses humans to perform tasks that
-          computers cannot. To gather reliable data, we will have to get quite a lot of data ranging from asking participants to rate a person’s personality traits, whether they
-          think the person is more introverted than extroverted, what career industry they might work in, what car they might drive. The survey will take the form of a web
-          application where, given an image of a person, the user can speculate the values of this person’s character. 
-        </p>
-        <p>
-          Once we have sufficient values so that we can have an educated guess at a person’s characteristics, given their face, and we can do this for enough images of people,
-          we can use the StyleGAN2-ada code to convert the image to a form where we can build machine learning models to predict how people infer characteristics about a person
-          from their appearance. An example being the connection between what they assume of the person’s personality and what industry they work in. We can also work off derived
-          values, these being values we get from primary values like <i>hairstyle, hair colour</i> and making the link between those and a person’s <i>music taste</i>. With the amount of ways
-          we can describe and formalise a person, the possibilities with where we can take this project are <b>endless</b> .
-        </p>
-        <h4>Useful Links</h4>
-        <p>
-          To continue this project, you will need:
-        </p>
-        <div style="padding-left: 20px;">
-          <ul>
-          <li>
-            Python 3 Installed:
-              <a href="https://www.python.org/downloads/">
+                <!-- Post Content -->
+                <h4>Introduction</h4>
+                <p>
+                    When you first meet a person, you make assumptions based on their appearance, from very basic characteristics, such as their age or gender, to more advanced personality
+                    characteristics like their favourite colour, the car they might drive, a friend of yours who would be perfect for them. We can make assumptions about anything really.
+                    Just from one look at a person, we can imagine how they would act in certain situations or what their life has been like up to this point. This is what this project is
+                    really all about, <b>testing how strong our human intuition really is</b>.
+                </p>
+
+                <p>
+                    The aim of this project is to build a detailed character sheet when given a photo of a random person. As to how we get the details, we survey many people and ask them
+                    for the attributes of the people we show them. From here, by employing machine learning algorithms, we can gauge a common answer and compare it to other images that
+                    received the same answer and find the similarities in the person’s features. For example, if a woman with red hair is shown and many people say her hair is “ginger”.
+                    Then another 100 people with red hair are shown and all receive the same answer of “ginger” hair. If we then show the computer a person with red hair, it should say
+                    that the person has “ginger” hair.
+                </p>
+
+                <p>
+                    I got the chance to take on this project through a module at Queen’s University Belfast called <b>“Computer Science Challenges”</b>. The module gives first-year students
+                    the chance to try their hand at a final-year-style project. It’s been a great experience so far and a brilliant way to learn. The main aim of the module is to create something
+                    of lasting value. To help understand this project, I was given this description:
+                </p>
+
+                <p>
+                    <i>
+                     “People often make consistent superficial judgements of a strangers’ personality and life from their appearance. While these judgements can often be very inaccurate,
+                     the fact that many people can feel a similar way is interesting and can be used to reveal cultural bias and measure the limits of human intuition. The goal of this
+                     project is to create a realistic ‘character sheet’ as a JSON data structure that defines a person and their appearance in an image. By getting crowd workers to label
+                     fictional and real people we can analyse how people make judgements about others and how accurate and consistent such judgements can be.”
+                    </i>
+                </p>
+                <h4>WikiData</h4>
+                <p>
+                    WikiData is where I started this project. It is the largest collection of formalised data about people, places, things, etc. The site provides great sample
+                    data, the data I used came from a collection of fictional characters’ information, which can be found <a href="https://drive.google.com/drive/folders/1i4fx1M6kr-h-6FNbNImppxVaRuWHTle4">here</a>.
+                    This collection proved useful when testing the JSON editor. If you are unfamiliar with the JSON structure, I would recommend looking at the example below and
+                    getting to grips with the format:
+                </p>
+                <div class="codebox">
+                  <code>   
+                     "entities": {<br>
+                      <p style="padding-left: 10px;">"Q96282709": {</p>
+                      <p style="padding-left: 20px;">"modified": "2020-06-14T21:54:24Z",<br>
+                      "id": "Q96282709",<br>
+                      "labels": { "en": { "language": "en", "value": "Abed Nadir" } },<br>
+                      "descriptions": {</p>
+                        <p style="padding-left: 30px;">"en": {</p>
+                        <p style="padding-left: 40px;"> "language": "en",<br>
+                        "value": "fictional character on the NBC/Yahoo! Screen sitcom series Community"</p>
+                        <p style="padding-left: 30px;">}</p>
+                        <p style="padding-left: 20px;">}</p>
+                        <p style="padding-left: 10px;">}</p>
+                  </code>
+                </div>
+                <h4>Flask</h4>
+                <p>
+                    The character sheet is displayed as a HTML form, which needs a web server to run on. To do this, I used Flask as it is easy to learn, just by reading the
+                    <a href="https://flask.palletsprojects.com/en/1.1.x/#user-s-guide">user guide</a>, and provides debugging features that help tweak parts of the web
+                    application without hassle. Flask is a micro web framework written in Python. A web framework is something that makes developing web applications easy,
+                    the micro part just refers to the minimalistic simplicity of the framework. To install Flask, use the command prompt in your virtual environment and run:
+                     <center>pip install Flask</center>
+                </p>
+                <p>
+                    When Flask is running, the JSON Editor can be displayed and modified however you like. The files for the JSON Editor can be found
+                    <a href="https://github.com/nathan0donnell/character-sheet/tree/main/JSON_to_Char_Sheet">here</a>. Flask offers many features such as allowing you to
+                    get form feedback through the “request” object. To use this in your project, import request from the flask library and from there you can use the
+                    request object. Some uses of request are:
+                </p>
+                <ul>
+                    <li>
+                        <i>request.method</i> which gets the HTTP method of form submission
+                    </li>
+                    <li>
+                        <i>request.form</i> which retrieves form data
+                    </li>
+                </ul>
+                
+                <h4>Character Sheet Editor</h4>
+                <p>
+                   To ease editing on the character sheet, I created an Editor web application which navigates through a JSON file, detects the type/instance of the value, a
+                   nd creates HTML form elements based on that type. It is written in Python, as the “json” library allows you to read JSON file data and edit it. If no
+                   specific type, such as date/image/table, is specified the program gets the base instance of the value e.g., string, int, etc. and converts it to a HTML
+                   form element based on that. As of right now, the Character Sheet Editor is not extremely pretty however it functions well and allows us to move forward.
+                </p>
+                <h5>Form Creation</h5>
+                <p>
+                  To start form creation, the JSON file must be “loaded” into the program. This is done by using the  <i>load()</i> function of the json library. This turns
+                  the file into a dictionary which can then be further parsed through using a recursive method which iterates through the dictionary.
+                  <br><br>
+                  First the program checks if a type is specified for the value, if it is then the type is compared to the types the program can currently handle -
+                   <i>Text, Number, Boolean, Date, Image </i>. If the type is equal to any of the aforementioned sort, then the appropriate method is called.
+                  <br><br>
+                  Otherwise, if a type is not specified, the instance of the current dictionary element is checked. The program can handle all possible instances
+                  of the dictionary element – <i> dict, list, str, int, complex, float, bool, and “None” values </i>. Whichever instance the element satisfies, then the appropriate
+                  method is called, and the dictionary element is converted to a HTML form element.
+                </p>
+                <div class="codebox">
+                  <code>   
+                    def json_to_elements(js, html_form, path, label):<br>
+                      <p style="padding-left: 10px;">
+                        if isinstance(js, dict):<br>
+                            return dict_to_element(js, html_form, path, label)<br>
+                        elif isinstance(js, list):<br>
+                            return list_to_element(js, html_form, path, label)<br>
+                        elif js is None:<br>
+                            return none_to_element(js, html_form, path, label)<br>
+                        elif js is True or js is False:<br>
+                            return bool_to_element(js, html_form, path, label)<br>
+                        elif isinstance(js, str):<br>
+                            return str_to_element(js, html_form, path, label)<br>
+                        elif isinstance(js, int) or isinstance(js, float) or isinstance(js, complex):<br>
+                            return number_to_element(js, html_form, path, label)<br>
+                        else:<br>
+                            return -1<br>
+                      </p>
+                  </code>
+                </div>
+                <p>
+                   As we may be dealing with large amounts of data, it is important to have distinct unique names for HTML elements. To accommodate this, a naming convention
+                   was employed where the ID of the element is the path to the value in the dictionary, e.g.:
+                    <center>path = dict[“parent”][0] <br>ID = dict_parent_0 </center>
+                </p>
+                <div class="codebox" style="width:700px;margin-left: 0px;">
+                  <code>   
+                    <div>
+                        def str_to_element(js, html_form, path, label):
+                    </div>
+                    <div style="padding-left: 10px;">
+                        elementId = path_to_id(path)
+                    </div>
+                    <br><div style="padding-left: 10px;">
+                        # adding html code
+                    </div>
+                    <div style="padding-left: 10px;">
+                        html_form.write("\n&lt;div id='"+elementId+"'&gt;")
+                    </div>
+                    <div style="padding-left: 10px;">
+                        if isinstance(js, dict):
+                    </div>
+                    <div style="padding-left: 20px;">
+                        html_form.write('\n&lt;br&gt;&lt;label for="' + elementId +
+                    </div>
+                    <div style="padding-left: 20px;">
+                        '_value"&gt;' + label.capitalize() + ":&lt;/label&gt;")
+                    </div>
+                    <div style="padding-left: 20px;">
+                        if len(js['value']) &gt; 15:
+                    </div>
+                    <div style="padding-left: 30px;">
+                        html_form.write('\n&lt;textarea style=\"margin-left:15px;\" id="' +
+                        elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_value" name="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_value" rows = "3" cols = "40"&gt;' + js['value'] +
+                        "&lt;/textarea&gt;&lt;br&gt;")
+                    </div>
+                    <div style="padding-left: 20px;">
+                        else:
+                    </div>
+                	<div style="padding-left: 30px;">
+                        html_form.write('\n&lt;input style=\"margin-left:15px;\" type="text"
+                        id="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_value" name="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_value" value="' + js['value'] + '"&gt;&lt;br&gt;')
+                    </div>
+                    <div style="padding-left: 30px;">
+                        html_form.write('\n&lt;input type="hidden" id="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_type" name="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '_type" value="Text"&gt;')
+                    </div>
+                    <div style="padding-left: 10px;">
+                        else:
+                    </div>
+                    <div style="padding-left: 20px;">
+                        html_form.write('\n&lt;br&gt;&lt;label for="' + elementId +
+                    </div>
+                    <div style="padding-left: 20px;">
+                        '"&gt;' + label.capitalize() + ":&lt;/label&gt;")
+                    </div>
+                    <div style="padding-left: 20px;">
+                        if len(js) &gt; 15:
+                    </div>
+                    <div style="padding-left: 30px;">
+                        html_form.write('\n&lt;textarea style=\"margin-left:15px;\" id="' +
+                        elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '" name="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '" rows = "3" cols = "40"&gt;' + js + "&lt;/textarea&gt;&lt;br&gt;")
+                    </div>
+                    <div style="padding-left: 20px;">
+                        else:
+                    </div>
+                    <div style="padding-left: 30px;">
+                        html_form.write('\n&lt;input style=\"margin-left:15px;\" type="text"
+                        id="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '" name="' + elementId +
+                    </div>
+                    <div style="padding-left: 30px;">
+                        '" value="' + js + '"&gt;&lt;br&gt;')
+                    </div>
+                    <div style="padding-left: 10px;">
+                        html_form.write("\n&lt;/div&gt;")
+                    </div>
+                  </code>
+                </div>
+                <p>
+                    Once the form was created, it needed to be displayed. This was done through Flask because it makes getting form feedback very easy.
+                </p>
+                <h5>Getting Feedback</h5>
+                <p>
+                    To get feedback from the form, we use the <i>“request” object </i>from Flask. This gives access to form elements after hitting submit. The “methods” parameter of
+                    the app must also be set to “[‘GET’,’POST’]”. By doing this, the form can return information in either GET-mode or POST-mode, <a href="https://www.w3schools.com/html/html_forms_attributes.asp">for more information</a>.
+                    After having set all these parameters, “request.form” is passed as a parameter to the parse form method of the “formalise” Python program.
+                </p>
+                <div class="codebox" style="width:550px;margin-left: 80px;">
+                  <code>   
+                    <div>
+                      <div>
+                          @app.route("/", methods=['GET', 'POST'])
+                      </div>
+                      <div style="padding-left: 10px;">
+                          def start():
+                      </div>
+                      <div style="padding-left: 10px;">
+                          formalise.create_form("Formalisations\Person\Person.json")
+                      </div>
+                      <div style="padding-left: 10px;">
+                          html_form = open("Website/index.html", "r", encoding="utf-8")
+                      </div>
+                      <div style="padding-left: 10px;">
+                          out = html_form.read()
+                      </div>
+                      <div style="padding-left: 10px;">
+                          if request.method == 'POST':
+                      </div>
+                      <div style="padding-left: 20px;">
+                          formalise.parse_form(request.form)
+                      </div>
+                      <div style="padding-left: 10px;">
+                          return out
+                      </div>
+                  </div>
+                  </code>
+                </div>
+                <h5>Parsing Feedback</h5>
+                <p>
+                    Since the request.form object had been passed as a parameter, the parse form method can now turn it back into JSON syntax. The instance of “request.form” is
+                    <i>ImmutableMultiDict</i>, which is a type of dictionary used in Python where mapping multiple values to a single key is possible. As it is a type of
+                    dictionary, each key can be retrieved. In the parse method, a new empty dictionary is created to hold the JSON data. Then it starts to iterate through
+                    each key in request.form, getting the ID, converting the ID to a path, and splitting the path into “pathParts”.
+                </p>
+                <div class="codebox" style="width:500px;margin-left: 100px;">
+                  <code>   
+                    <div>
+                        <div>
+                            for key in feedback:
+                        </div>
+                        <div style="padding-left: 10px;">
+                            value = feedback[key]
+                        </div>
+                        <div style="padding-left: 10px;">
+                            path = id_to_path(key)
+                        </div>
+                        <div style="padding-left: 10px;">
+                            pathParts = path.split('/') # create path parts list
+                        </div>
+                    </div>
+
+                  </code>
+                </div>
+                <p>
+                    After this, a parent variable is created, and the value is the empty dictionary made earlier. This parent variable serves as the direct parent of the
+                    element the iteration is currently parsing. From here, the method iterates through each “part” in “pathParts”, checking if it is the either the first,
+                    last or if the part is already in the parent dictionary. <br>
+                </p>
+                <div class="codebox" style="width:550px;margin-left: 100px;">
+                  <code>   
+                    <div>
+                      <div>
+                          parent = jsonDict
+                      </div>
+                      <div>
+                          for ind, val in enumerate(pathParts): # iterate through path parts
+                      </div>
+                        <div style="padding-left: 10px;">
+                          if(ind == 0):
+                      </div>
+                        <div style="padding-left: 20px;">
+                          continue
+                      </div>
+                        <div style="padding-left: 10px;">
+                          elif(ind == (len(pathParts)-1)):
+                      </div>
+                        <div style="padding-left: 20px;">
+                          parent[pathParts[ind]] = str(value)
+                      </div>
+                        <div style="padding-left: 10px;">
+                          elif(pathParts[ind] in parent):
+                      </div>
+                        <div style="padding-left: 20px;">
+                          parent = parent[pathParts[ind]]
+                      </div>
+                        <div style="padding-left: 10px;">
+                          else:
+                      </div>
+                        <div style="padding-left: 20px;">
+                          parent[pathParts[ind]] = {}
+                      </div>
+                        <div style="padding-left: 20px;">
+                          parent = parent[pathParts[ind]]
+                      </div>
+                        <div>
+                          jsonDict = convert_type(jsonDict)
+                      </div>
+                  </div>
+                  </code>
+                </div>
+                <p>
+                    <center>
+                        First part = part is the top-level dictionary<br> Last part = part is the element we are currently parsing<br> If part is in dictionary = parent
+                        variable is set to this part<br>
+                    </center>
+                </p>
+                If the part is the first part, the method continues as it is the top-level dictionary. If it is the last part, the value is set to the key's value
+                (“feedback[key]”). If the part is already in the parent dictionary, the parent is set to this new part. In any other case, the part is set to an empty
+                dictionary and the parent is set to this part. All that is needed after this is to use the <i>dump</i>() function of the json library, passing the
+                dictionary containing the updated JSON data and the file it is written to.
+                </p>
+                <div class="codebox" style="width:550px;margin-left: 100px;">
+                  <code>   
+                    <div>
+                      <div>
+                          # opening a new JSON file and writing the dictionary to it
+                      </div>
+                      <div>
+                          jfile = open('feedback.json', "w")
+                      </div>
+                      <div>
+                          json.dump(jsonDict, jfile)
+                      </div>
+                  </div>
+                  </code>
+                </div>
+                <h4>Formalisations of Things</h4>
+                <p>
+                    In the GitHub Repository for this project, there is a<a href="https://github.com/nathan0donnell/character-sheet/tree/main/Sample%20Data"> “Sample Data” directory</a>. In this directory, there are subfolders – Clothing, Career, and Person.
+                    <br><br>Clothing contains JSON files of different articles of clothing, with each file having the variations of that article of clothing, e.g., Shirt.json will
+                    have polo shirt, rugby top, crop top, etc.
+                    <br><br>Career contains the OStarNet.json which is a file containing about 1000 Job Titles and their associated
+                    O*NET-SOC Code and Description.<br><br> Then we have the Person folder, which contains the blank Person.json, which is the template for the character sheet so far,
+                    along with 13 instances of the template using fictional character data. All of these can be extended further and improved upon, but this is just a start for
+                    formalising a person. 
+                    <br><br>The Person.json file is separated into two sub-dicts – “visible”, concerning visible traits of a person, e.g., hairstyle, eye colour, age, etc. and “invisible”,
+                    concerning the invisible traits, such as personality, net worth, romantic life, etc. This is where the most work can be done, adding new traits and ways of formalising a person.
+                </p>
+                <h4>StyleGAN2-ada</h4>
+                <p>
+                    Another student, Dean Mulholland, is also working on this project. His focus was on StyleGAN2-ada. In his work so far, he has been able to use StyleGAN2-ada
+                    to generate an image of something based on a dataset of examples and a pretrained network. The technology is very interesting, and you can find more about it
+                    <a href="https://github.com/deanodeano11/my-work-on-StyleGAN2-ada">here</a>. In the project, the end goal is to use it to analyse an image of a person and
+                    return the character with all values filled. It will be able to look at someone and hopefully return accurate descriptions of their personality.
+                </p>
+                <img style="padding-left: 20px;padding-bottom: 25px;" src="assets/stylegan.png" alt="StyleGAN Sample Image">
+                <h4>Future Plans</h4>
+                <h5>Surveying and Machine Learning </h5>
+                <p>
+                    To gather our data for recognising characteristics, we will use <i>Amazon Mechanical Turk</i> which is a crowdsourcing website which uses humans to
+                    perform tasks that computers cannot. To gather reliable data, we will have to get quite a lot of data ranging from asking participants to rate a person’s
+                    personality traits, whether they think the person is more introverted than extroverted, what career industry they might work in, what car they might drive.
+                    The survey will take the form of a web application where, given an image of a person, the user can speculate the values of this person’s character.
+                </p>
+                <p>
+                    Once we have sufficient values so that we can have an educated guess at a person’s characteristics, given their face, and we can do this for enough images
+                    of people, we can use the StyleGAN2-ada code to convert the image to a form where we can build machine learning models to predict how people infer
+                    characteristics about a person from their appearance. An example being the connection between what they assume of the person’s personality and what
+                    industry they work in. We can also work off derived values, these being values we get from primary values like <i>hairstyle, hair colour</i> and making
+                    the link between those and a person’s <i>music taste</i>. With the amount of ways we can describe and formalise a person, it will be very interesting to see the
+                    formative factors that go into shaping a person's life and how small things may affect their lives in huge ways.
+                </p>
+                <h4>Useful Links</h4>
+                <p>
+                    To continue this project, you will need:
+                </p>
+                <div style="padding-left: 20px;">
+                    <ul>
+                        <li>
+                            Python 3 Installed:
+                            <a href="https://www.python.org/downloads/">
                   https://www.python.org/downloads/
               </a>
-          </li>
-          <li>
-            A suitable code-editor, e.g., Visual Studio Code:
-              <a href="https://code.visualstudio.com/">
+                        </li>
+                        <li>
+                            A suitable code-editor, e.g., Visual Studio Code:
+                            <a href="https://code.visualstudio.com/">
                 https://code.visualstudio.com/
               </a>
-          </li>
-          <li>
-           GitHub Repository containing JSON editor, Sample Character JSON data, Person Template, etc.:
-              <a href="https://github.com/nathan0donnell/character-sheet">
+                        </li>
+                        <li>
+                            GitHub Repository containing JSON editor, Sample Character JSON data, Person Template, etc.:
+                            <a href="https://github.com/nathan0donnell/character-sheet">
                   https://github.com/nathan0donnell/character-sheet
               </a>
-          </li>
-        </ul>
-      </div>
-        <p>
-            Some helpful links which you may find useful:
-        </p>
-      <div style="padding-left: 20px;">
-        <ul>
-          <li>
-            Flask User Guide:
-              <a href="https://flask.palletsprojects.com/en/1.1.x/#user-s-guide">
+                        </li>
+                    </ul>
+                </div>
+                <p>
+                    Some helpful links which you may find useful:
+                </p>
+                <div style="padding-left: 20px;">
+                    <ul>
+                        <li>
+                            Flask User Guide:
+                            <a href="https://flask.palletsprojects.com/en/1.1.x/#user-s-guide">
                 https://flask.palletsprojects.com/en/1.1.x/#user-s-guide
             </a>
-          </li>
-          <li>
-            WikiData:
-              <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+                        </li>
+                        <li>
+                            WikiData:
+                            <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">
                 https://www.wikidata.org/wiki/Wikidata:Main_Page
             </a>
-          </li>
-          <li>
-            Existing Formalisations of personality traits:
-          </li>
-            <ul>             
-              <li>
-                Open Psychometrics:
-                  <a href="https://openpsychometrics.org/tests/characters/">
+                        </li>
+                        <li>
+                            Existing Formalisations of personality traits:
+                        </li>
+                        <ul>
+                            <li>
+                                Open Psychometrics:
+                                <a href="https://openpsychometrics.org/tests/characters/">
                     https://openpsychometrics.org/tests/characters/
                   </a>
-              </li>
-              <li>
-                 WordNet adjectives which can be applied to people:
-                <a href="https://wordnet.princeton.edu/download">
+                            </li>
+                            <li>
+                                WordNet adjectives which can be applied to people:
+                                <a href="https://wordnet.princeton.edu/download">
                     https://wordnet.princeton.edu/download
                 </a>
-              </li>
-            </ul>
-            <li>
-              Papers with Code physical formalisations:
-            </li>
-              <ul>
-                <li>
-                  Fashion:
-                    <a href="https://paperswithcode.com/search?q_meta=&amp;q=fashion">
+                            </li>
+                        </ul>
+                        <li>
+                            Papers with Code physical formalisations:
+                        </li>
+                        <ul>
+                            <li>
+                                Fashion:
+                                <a href="https://paperswithcode.com/search?q_meta=&amp;q=fashion">
                     https://paperswithcode.com/search?q_meta=&amp;q=fashion
                     </a>
-                </li>
-                <li>
-                   Hair:
-                    <a href="https://paperswithcode.com/search?q_meta=&amp;q=hair">
+                            </li>
+                            <li>
+                                Hair:
+                                <a href="https://paperswithcode.com/search?q_meta=&amp;q=hair">
                        https://paperswithcode.com/search?q_meta=&amp;q=hair
                     </a>
-                </li>
-              </ul>
-            <li>
-              Building a JSON Editor Guide: [insert link to my how-to guide]
-            </li>
-            <li>
-              Training a GAN Guide: [insert link to Dean’s how-to guide]
-            </li>
-        </ul>
-      </div>
-        <hr>
-      </div>
-
-      <!-- Sidebar Widgets Column -->
-      <div class="col-md-4">
-        <!-- Categories Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Contact Me</h5>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://twitter.com/nathan0donnell">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/nathan0donnell">GitHub</a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/nathan-odonnell/">LinkedIn</a>
-                  </li>
-                </ul>
-              </div>
+                            </li>
+                        </ul>
+                        <li>
+                            Building a JSON Editor Guide: <a href="https://nathan0donnell.github.io/JSON-How-To-Guide/index.html">https://nathan0donnell.github.io/JSON-How-To-Guide/index.html</a>
+                        </li>
+                        <li>
+                            Training a GAN Guide: [insert link to Dean’s how-to guide]
+                        </li>
+                    </ul>
+                </div>
+                <hr>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy;  2020</p>
+            <!-- Sidebar Widgets Column -->
+            <div class="col-md-4">
+                <!-- Categories Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header">Contact Me</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="https://twitter.com/nathan0donnell">Twitter</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/nathan0donnell">GitHub</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/nathan-odonnell/">LinkedIn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; 2020</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
