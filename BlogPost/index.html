@@ -61,7 +61,7 @@
                 <hr>
 
                 <!-- Date/Time -->
-                <p>Posted on March 6, 2021 at 12:00 PM</p>
+                <p>Posted on April 20th, 2021 at 12:00 PM</p>
 
                 <hr>
 
@@ -73,10 +73,10 @@
                 <!-- Post Content -->
                 <h4>Introduction</h4>
                 <p>
-                    When you first meet a person, you make assumptions based on their appearance, from very basic characteristics, such as their age or gender, to more advanced personality
-                    characteristics like their favourite colour, the car they might drive, a friend of yours who would be perfect for them. We can make assumptions about anything really.
-                    Just from one look at a person, we can imagine how they would act in certain situations or what their life has been like up to this point. This is what this project is
-                    really all about, <b>testing how strong our human intuition really is</b>.
+                   When you first meet a person, you make assumptions based on their appearance, from very basic characteristics, such as their age or gender,
+                   to more advanced personality characteristics like their favourite colour, the car they might drive, a friend of yours who you could set them up with.
+                   We can make assumptions about anything really. Just from one look at a person, we can imagine how they would act in certain situations or what their
+                   life has been like up to this point. This is what this project is really all about, <b>testing how strong our human intuition really is</b>.
                 </p>
 
                 <p>
@@ -149,8 +149,8 @@
                 
                 <h4>Character Sheet Editor</h4>
                 <p>
-                   To ease editing on the character sheet, I created an Editor web application which navigates through a JSON file, detects the type/instance of the value, a
-                   nd creates HTML form elements based on that type. It is written in Python, as the “json” library allows you to read JSON file data and edit it. If no
+                   To ease editing on the character sheet, I created an Editor web application which navigates through a JSON file, detects the type/instance of the value,
+                   and creates HTML form elements based on that type. It is written in Python, as the “json” library allows you to read JSON file data and edit it. If no
                    specific type, such as date/image/table, is specified the program gets the base instance of the value e.g., string, int, etc. and converts it to a HTML
                    form element based on that. As of right now, the Character Sheet Editor is not extremely pretty however it functions well and allows us to move forward.
                 </p>
@@ -159,7 +159,7 @@
                   To start form creation, the JSON file must be “loaded” into the program. This is done by using the  <i>load()</i> function of the json library. This turns
                   the file into a dictionary which can then be further parsed through using a recursive method which iterates through the dictionary.
                   <br><br>
-                  First the program checks if a type is specified for the value, if it is then the type is compared to the types the program can currently handle -
+                  First, the program checks if a type is specified for the value, if it is then the type is compared to the types the program can currently handle -
                    <i>Text, Number, Boolean, Date, Image </i>. If the type is equal to any of the aforementioned sort, then the appropriate method is called.
                   <br><br>
                   Otherwise, if a type is not specified, the instance of the current dictionary element is checked. The program can handle all possible instances
@@ -306,7 +306,7 @@
                       <div>
                           @app.route("/", methods=['GET', 'POST'])
                       </div>
-                      <div style="padding-left: 10px;">
+                      <div style="padding-left: 0px;">
                           def start():
                       </div>
                       <div style="padding-left: 10px;">
@@ -544,9 +544,6 @@
                         </ul>
                         <li>
                             Building a JSON Editor Guide: <a href="https://nathan0donnell.github.io/JSON-How-To-Guide/index.html">https://nathan0donnell.github.io/JSON-How-To-Guide/index.html</a>
-                        </li>
-                        <li>
-                            Training a GAN Guide: [insert link to Dean’s how-to guide]
                         </li>
                     </ul>
                 </div>

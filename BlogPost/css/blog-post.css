@@ -1,0 +1,24 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template/blog-post)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.codebox {
+        /* Below are styles for the codebox (not the code itself) */
+        border:1px solid black;
+        background-color:#131117;
+        width:650px;
+        overflow:auto;    
+        padding:10px;
+        margin-left: 20px;
+        margin-bottom: 15px
+    }
+.codebox code {
+        /* Styles in here affect the text of the codebox */
+        font-size:0.9em;
+        color: #EA7D1E
+        /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
